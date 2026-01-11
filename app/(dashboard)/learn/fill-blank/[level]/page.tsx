@@ -6,6 +6,12 @@ import prisma from '@/lib/prisma'
 import { ArrowLeft, PenTool } from 'lucide-react'
 import FillBlankContainer from '@/components/learn/fill-blank/FillBlankContainer'
 
+type Phrase = {
+  id: number
+  english: string
+  georgian: string
+}
+
 const levelNames: Record<string, string> = {
   A1: 'A1', A2: 'A2', B1: 'B1', B2: 'B2', C1: 'C1', C2: 'C2',
 }
@@ -43,7 +49,7 @@ export default async function FillBlankPage({ params, searchParams }: PageProps)
   })
 
   // Filter to phrases with at least 3 words
-  const validPhrases = allPhrases.filter(p => p.english.split(' ').length >= 3)
+  const validPhrases = allPhrases.filter((p: Phrase) => p.english.split(' ').length >= 3)
 
   if (validPhrases.length < 4) {
     notFound()
