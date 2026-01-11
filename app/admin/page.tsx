@@ -39,7 +39,7 @@ export default async function AdminDashboard() {
     where: { lastActiveAt: { gte: sevenDaysAgo } },
   })
 
-  const levelCounts = phrasesByLevel.reduce((acc, item) => {
+  const levelCounts = phrasesByLevel.reduce((acc: Record<string, number>, item: { level: string; _count: { id: number } }) => {
     acc[item.level] = item._count.id
     return acc
   }, {} as Record<string, number>)
