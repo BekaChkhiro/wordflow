@@ -184,15 +184,16 @@ export default function MatchingGame({ phrases, onComplete }: MatchingGameProps)
               <div className="flex items-center gap-1 shrink-0">
                 {matchedPairs.includes(item.id) && <Check className="text-green-500" size={18} />}
                 {showingResult?.english === item.id && !showingResult.correct && <X className="text-red-500" size={18} />}
-                <button
+                <span
+                  role="button"
                   onClick={(e) => {
                     e.stopPropagation()
                     speak(item.text)
                   }}
-                  className="p-1 hover:bg-gray-200 rounded"
+                  className="p-1 hover:bg-gray-200 rounded cursor-pointer"
                 >
                   <Volume2 size={16} className="text-gray-400" />
-                </button>
+                </span>
               </div>
             </motion.button>
           ))}

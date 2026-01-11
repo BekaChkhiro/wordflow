@@ -11,12 +11,14 @@ import {
   Settings,
   AlertCircle,
   LogOut,
+  FileText,
 } from 'lucide-react'
 import { signOut } from 'next-auth/react'
 
 const menuItems = [
   { href: '/dashboard', label: 'მთავარი', icon: Home },
   { href: '/courses', label: 'კურსები', icon: BookOpen },
+  { href: '/files', label: 'ჩემი ფაილები', icon: FileText },
   { href: '/achievements', label: 'მიღწევები', icon: Trophy },
   { href: '/leaderboard', label: 'რეიტინგი', icon: Users },
   { href: '/mistakes', label: 'შეცდომები', icon: AlertCircle },

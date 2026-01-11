@@ -36,6 +36,7 @@ model User {
   mistakes      UserMistake[]
   achievements  UserAchievement[]
   sessions      Session[]
+  files         UserFile[]
 
   createdAt     DateTime  @default(now())
   updatedAt     DateTime  @updatedAt
@@ -130,4 +131,62 @@ model PasswordResetToken {
   expires   DateTime
 
   @@unique([email, token])
+}
+
+// მომხმარებლის ატვირთული ფაილები
+model UserFile {
+  id          String   @id @default(cuid())
+  userId      String
+  name        String
+  r2Key       String   @unique
+  mimeType    String
+  size        Int
+  textContent String   @db.Text
+
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  words       FileWord[]
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([userId])
+}
+
+// ფაილიდან მონიშნული სიტყვები
+model FileWord {
+  id            String    @id @default(cuid())
+  fileId        String
+  userId        String
+  english       String
+  georgian      String
+  context       String    @db.Text
+  learned       Boolean   @default(false)
+  correctCount  Int       @default(0)
+  wrongCount    Int       @default(0)
+  lastPracticed DateTime?
+
+  file          UserFile  @relation(fields: [fileId], references: [id], onDelete: Cascade)
+  mistakes      FileWordMistake[]
+
+  createdAt     DateTime  @default(now())
+
+  @@index([fileId])
+  @@index([userId])
+  @@unique([fileId, english])
+}
+
+// ფაილის სიტყვების შეცდომები
+model FileWordMistake {
+  id          String   @id @default(cuid())
+  userId      String
+  fileWordId  String
+  mistakeType String
+  userAnswer  String?
+
+  fileWord    FileWord @relation(fields: [fileWordId], references: [id], onDelete: Cascade)
+
+  createdAt   DateTime @default(now())
+
+  @@index([userId])
+  @@index([fileWordId])
 }
