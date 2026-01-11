@@ -3,7 +3,16 @@ import { authOptions } from '@/lib/auth'
 import { redirect } from 'next/navigation'
 import prisma from '@/lib/prisma'
 import { Trophy, Lock } from 'lucide-react'
-import { Achievement } from '@prisma/client'
+
+type Achievement = {
+  id: string
+  name: string
+  description: string
+  icon: string
+  requirement: number
+  type: string
+  createdAt: Date
+}
 
 export default async function AchievementsPage() {
   const session = await getServerSession(authOptions)
