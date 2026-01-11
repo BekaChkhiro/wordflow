@@ -4,6 +4,14 @@ import { redirect } from 'next/navigation'
 import prisma from '@/lib/prisma'
 import { User, Zap, Flame, Trophy, BookOpen, Calendar, Target } from 'lucide-react'
 
+type UserAchievement = {
+  id: string
+  achievement: {
+    icon: string
+    name: string
+  }
+}
+
 export default async function ProfilePage() {
   const session = await getServerSession(authOptions)
 
@@ -223,7 +231,7 @@ export default async function ProfilePage() {
             </a>
           </div>
           <div className="grid grid-cols-3 md:grid-cols-6 gap-3">
-            {user.achievements.map((ua) => (
+            {user.achievements.map((ua: UserAchievement) => (
               <div
                 key={ua.id}
                 className="text-center"
