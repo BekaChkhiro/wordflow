@@ -5,6 +5,12 @@ import Link from 'next/link'
 import prisma from '@/lib/prisma'
 import { ArrowLeft, Layers, HelpCircle, PenTool, GripHorizontal, Link2, Keyboard, CheckCircle } from 'lucide-react'
 
+type Phrase = {
+  id: number
+  english: string
+  georgian: string
+}
+
 const levelNames: Record<string, string> = {
   A1: 'A1', A2: 'A2', B1: 'B1', B2: 'B2', C1: 'C1', C2: 'C2',
 }
@@ -124,7 +130,7 @@ export default async function CategoryPage({ params }: PageProps) {
           <h2 className="font-semibold text-gray-900">ფრაზების სია</h2>
         </div>
         <div className="divide-y divide-gray-100">
-          {phrases.map((phrase, index) => {
+          {phrases.map((phrase: Phrase, index: number) => {
             const isLearned = progressMap.get(phrase.id)
 
             return (
