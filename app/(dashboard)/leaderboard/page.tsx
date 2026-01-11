@@ -4,6 +4,16 @@ import { redirect } from 'next/navigation'
 import prisma from '@/lib/prisma'
 import { Trophy, Medal, Flame, Zap } from 'lucide-react'
 
+type LeaderboardUser = {
+  id: string
+  name: string | null
+  email: string | null
+  image: string | null
+  totalXp: number
+  streak: number
+  currentLevel: string
+}
+
 export default async function LeaderboardPage() {
   const session = await getServerSession(authOptions)
 
@@ -159,7 +169,7 @@ export default async function LeaderboardPage() {
       {rest.length > 0 && (
         <div className="bg-white rounded-xl border border-gray-100">
           <div className="divide-y divide-gray-100">
-            {rest.map((user, index) => {
+            {rest.map((user: LeaderboardUser, index: number) => {
               const rank = index + 4
               const isCurrentUser = user.id === currentUser?.id
 
