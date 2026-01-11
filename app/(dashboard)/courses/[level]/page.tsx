@@ -82,14 +82,14 @@ export default async function LevelPage({ params }: PageProps) {
   // Group by category
   const categories: Record<string, { total: number; learned: number }> = {}
 
-  phrases.forEach((phrase) => {
+  phrases.forEach((phrase: { category: string; id: number }) => {
     if (!categories[phrase.category]) {
       categories[phrase.category] = { total: 0, learned: 0 }
     }
     categories[phrase.category].total++
   })
 
-  user?.progress.forEach((p) => {
+  user?.progress.forEach((p: { phrase: { category: string } }) => {
     if (categories[p.phrase.category]) {
       categories[p.phrase.category].learned++
     }
