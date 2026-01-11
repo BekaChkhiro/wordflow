@@ -3,6 +3,7 @@ import { authOptions } from '@/lib/auth'
 import { redirect } from 'next/navigation'
 import prisma from '@/lib/prisma'
 import { Trophy, Lock } from 'lucide-react'
+import { Achievement } from '@prisma/client'
 
 export default async function AchievementsPage() {
   const session = await getServerSession(authOptions)
@@ -33,7 +34,7 @@ export default async function AchievementsPage() {
   const earnedIds = new Set(user?.achievements.map((a: { achievementId: string }) => a.achievementId))
 
   // Group achievements by type
-  const achievementsByType: Record<string, typeof allAchievements> = {}
+  const achievementsByType: Record<string, Achievement[]> = {}
   for (const achievement of allAchievements) {
     if (!achievementsByType[achievement.type]) {
       achievementsByType[achievement.type] = []
