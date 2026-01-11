@@ -102,7 +102,7 @@ export default async function AdminDashboard() {
         <div className="bg-white rounded-xl p-6 shadow-sm">
           <h2 className="text-lg font-semibold text-gray-900 mb-4">ბოლო რეგისტრაციები</h2>
           <div className="space-y-3">
-            {recentUsers.map((user) => (
+            {recentUsers.map((user: { id: string; name: string | null; email: string | null; totalXp: number; createdAt: Date }) => (
               <div key={user.id} className="flex items-center justify-between py-2 border-b border-gray-100 last:border-0">
                 <div>
                   <p className="font-medium text-gray-900">
