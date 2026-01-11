@@ -1,0 +1,5384 @@
+{
+  "1": {
+    "english": "Hello",
+    "georgian": "გამარჯობა",
+    "level": "A1",
+    "category": "Greetings"
+  },
+  "2": {
+    "english": "Hi",
+    "georgian": "სალამი",
+    "level": "A1",
+    "category": "Greetings"
+  },
+  "3": {
+    "english": "Good morning",
+    "georgian": "დილა მშვიდობის",
+    "level": "A1",
+    "category": "Greetings"
+  },
+  "4": {
+    "english": "Good afternoon",
+    "georgian": "შუადღე მშვიდობის",
+    "level": "A1",
+    "category": "Greetings"
+  },
+  "5": {
+    "english": "Good evening",
+    "georgian": "საღამო მშვიდობის",
+    "level": "A1",
+    "category": "Greetings"
+  },
+  "6": {
+    "english": "How are you?",
+    "georgian": "როგორ ხართ?",
+    "level": "A1",
+    "category": "Greetings"
+  },
+  "7": {
+    "english": "I’m fine, thank you",
+    "georgian": "კარგად ვარ, მადლობა",
+    "level": "A1",
+    "category": "Politeness"
+  },
+  "8": {
+    "english": "Nice to meet you",
+    "georgian": "სასიამოვნოა თქვენი გაცნობა",
+    "level": "A1",
+    "category": "Greetings"
+  },
+  "9": {
+    "english": "My name is ...",
+    "georgian": "ჩემი სახელია ...",
+    "level": "A1",
+    "category": "Introductions"
+  },
+  "10": {
+    "english": "What is your name?",
+    "georgian": "რა გქვიათ?",
+    "level": "A1",
+    "category": "Introductions"
+  },
+  "11": {
+    "english": "I work here",
+    "georgian": "მე აქ ვმუშაობ",
+    "level": "A1",
+    "category": "Introductions"
+  },
+  "12": {
+    "english": "I am new here",
+    "georgian": "მე აქ ახალი ვარ",
+    "level": "A1",
+    "category": "Introductions"
+  },
+  "13": {
+    "english": "This is my first day",
+    "georgian": "დღეს ჩემი პირველი დღეა",
+    "level": "A1",
+    "category": "Greetings"
+  },
+  "14": {
+    "english": "Please",
+    "georgian": "გთხოვთ",
+    "level": "A1",
+    "category": "Politeness"
+  },
+  "15": {
+    "english": "Thank you",
+    "georgian": "მადლობა",
+    "level": "A1",
+    "category": "Politeness"
+  },
+  "16": {
+    "english": "You’re welcome",
+    "georgian": "გიჟაყვას / არაფრის",
+    "level": "A1",
+    "category": "General"
+  },
+  "17": {
+    "english": "Excuse me",
+    "georgian": "უკაცრავად",
+    "level": "A1",
+    "category": "Politeness"
+  },
+  "18": {
+    "english": "I’m sorry",
+    "georgian": "ბოდიში",
+    "level": "A1",
+    "category": "Politeness"
+  },
+  "19": {
+    "english": "Yes",
+    "georgian": "დიახ",
+    "level": "A1",
+    "category": "Basic Responses"
+  },
+  "20": {
+    "english": "No",
+    "georgian": "არა",
+    "level": "A1",
+    "category": "Basic Responses"
+  },
+  "21": {
+    "english": "Maybe",
+    "georgian": "შესაძლოა",
+    "level": "A1",
+    "category": "Basic Responses"
+  },
+  "22": {
+    "english": "I understand",
+    "georgian": "მესმის",
+    "level": "A1",
+    "category": "Basic Responses"
+  },
+  "23": {
+    "english": "I don’t understand",
+    "georgian": "არ მესმის",
+    "level": "A1",
+    "category": "Basic Responses"
+  },
+  "24": {
+    "english": "Can you help me?",
+    "georgian": "შეგიძლიათ დამეხმაროთ?",
+    "level": "A1",
+    "category": "Teamwork"
+  },
+  "25": {
+    "english": "Can you repeat, please?",
+    "georgian": "შეგიძლიათ გაიმეოროთ, გთხოვთ?",
+    "level": "A1",
+    "category": "Politeness"
+  },
+  "26": {
+    "english": "Speak slowly, please",
+    "georgian": "ნელა ისაუბრეთ, გთხოვთ",
+    "level": "A1",
+    "category": "Politeness"
+  },
+  "27": {
+    "english": "One moment, please",
+    "georgian": "ერთი წამით, გთხოვთ",
+    "level": "A1",
+    "category": "Politeness"
+  },
+  "28": {
+    "english": "Please wait",
+    "georgian": "გთხოვთ, დაელოდოთ/დაიცადოთ",
+    "level": "A1",
+    "category": "Politeness"
+  },
+  "29": {
+    "english": "I will be back",
+    "georgian": "დავბრუნდები",
+    "level": "A1",
+    "category": "General"
+  },
+  "30": {
+    "english": "See you later",
+    "georgian": "მოგვიანებით შეგხვდებით",
+    "level": "A1",
+    "category": "Greetings"
+  },
+  "31": {
+    "english": "Goodbye",
+    "georgian": "ნახვამდის",
+    "level": "A1",
+    "category": "Greetings"
+  },
+  "32": {
+    "english": "This is my desk",
+    "georgian": "ეს ჩემი სამუშაო მაგიდაა",
+    "level": "A1",
+    "category": "Greetings"
+  },
+  "33": {
+    "english": "This is my computer",
+    "georgian": "ეს ჩემი კომპიუტერია",
+    "level": "A1",
+    "category": "Greetings"
+  },
+  "34": {
+    "english": "I need help",
+    "georgian": "დახმარება მჭირდება",
+    "level": "A1",
+    "category": "Teamwork"
+  },
+  "35": {
+    "english": "I need time",
+    "georgian": "დრო მჭირდება",
+    "level": "A1",
+    "category": "Time & Deadlines"
+  },
+  "36": {
+    "english": "I’m busy now",
+    "georgian": "ახლა დაკავებული ვარ",
+    "level": "A1",
+    "category": "Time & Deadlines"
+  },
+  "37": {
+    "english": "I’m free now",
+    "georgian": "ახლა თავისუფალი ვარ",
+    "level": "A1",
+    "category": "Time & Deadlines"
+  },
+  "38": {
+    "english": "I’m working",
+    "georgian": "ვმუშაობ",
+    "level": "A1",
+    "category": "General"
+  },
+  "39": {
+    "english": "I’m finished",
+    "georgian": "დავასრულე",
+    "level": "A1",
+    "category": "Tasks & Projects"
+  },
+  "40": {
+    "english": "It’s ready",
+    "georgian": "მზად არის",
+    "level": "A1",
+    "category": "General"
+  },
+  "41": {
+    "english": "It’s not ready",
+    "georgian": "მზად არ არის",
+    "level": "A1",
+    "category": "Basic Responses"
+  },
+  "42": {
+    "english": "I agree",
+    "georgian": "ვეთანხმები",
+    "level": "A1",
+    "category": "Feedback & Opinions"
+  },
+  "43": {
+    "english": "I don’t agree",
+    "georgian": "არ ვეთანხმები",
+    "level": "A1",
+    "category": "Feedback & Opinions"
+  },
+  "44": {
+    "english": "That’s okay",
+    "georgian": "კარგია / არ არის პრობლემა",
+    "level": "A1",
+    "category": "Basic Responses"
+  },
+  "45": {
+    "english": "No problem",
+    "georgian": "არ არის პრობლემა",
+    "level": "A1",
+    "category": "Problems & Solutions"
+  },
+  "46": {
+    "english": "Of course",
+    "georgian": "რა თქმა უნდა",
+    "level": "A1",
+    "category": "Basic Responses"
+  },
+  "47": {
+    "english": "Not now",
+    "georgian": "ახლა არა",
+    "level": "A1",
+    "category": "Time & Deadlines"
+  },
+  "48": {
+    "english": "Right now",
+    "georgian": "ახლავე",
+    "level": "A1",
+    "category": "Time & Deadlines"
+  },
+  "49": {
+    "english": "Today",
+    "georgian": "დღეს",
+    "level": "A1",
+    "category": "Time & Deadlines"
+  },
+  "50": {
+    "english": "Tomorrow",
+    "georgian": "ხვალ",
+    "level": "A1",
+    "category": "Time & Deadlines"
+  },
+  "51": {
+    "english": "Yesterday",
+    "georgian": "გუშინ",
+    "level": "A1",
+    "category": "Time & Deadlines"
+  },
+  "52": {
+    "english": "This morning",
+    "georgian": "დღეს დილით",
+    "level": "A1",
+    "category": "Greetings"
+  },
+  "53": {
+    "english": "This afternoon",
+    "georgian": "დღეს შუადღეს",
+    "level": "A1",
+    "category": "Greetings"
+  },
+  "54": {
+    "english": "This evening",
+    "georgian": "დღეს საღამოს",
+    "level": "A1",
+    "category": "Greetings"
+  },
+  "55": {
+    "english": "I’m tired",
+    "georgian": "დაღლილი ვარ",
+    "level": "A1",
+    "category": "General"
+  },
+  "56": {
+    "english": "I’m late",
+    "georgian": "დავაგვიანე",
+    "level": "A1",
+    "category": "General"
+  },
+  "57": {
+    "english": "I’m early",
+    "georgian": "ადრე მოვედი",
+    "level": "A1",
+    "category": "General"
+  },
+  "58": {
+    "english": "I’m on time",
+    "georgian": "დროულად მოვედი",
+    "level": "A1",
+    "category": "Time & Deadlines"
+  },
+  "59": {
+    "english": "I need a break",
+    "georgian": "შესვენება მჭირდება",
+    "level": "A1",
+    "category": "General"
+  },
+  "60": {
+    "english": "Let’s start",
+    "georgian": "დავიწყოთ",
+    "level": "A1",
+    "category": "General"
+  },
+  "61": {
+    "english": "Let’s stop",
+    "georgian": "გავჩერდეთ",
+    "level": "A1",
+    "category": "General"
+  },
+  "62": {
+    "english": "Let’s go",
+    "georgian": "წავიდეთ",
+    "level": "A1",
+    "category": "General"
+  },
+  "63": {
+    "english": "Sit down, please",
+    "georgian": "დაჯექით, გთხოვთ",
+    "level": "A1",
+    "category": "Politeness"
+  },
+  "64": {
+    "english": "Stand up, please",
+    "georgian": "ადექით, გთხოვთ",
+    "level": "A1",
+    "category": "Politeness"
+  },
+  "65": {
+    "english": "Come here, please",
+    "georgian": "აქ მოდით, გთხოვთ",
+    "level": "A1",
+    "category": "Politeness"
+  },
+  "66": {
+    "english": "Go there, please",
+    "georgian": "იქ წადით, გთხოვთ",
+    "level": "A1",
+    "category": "Politeness"
+  },
+  "67": {
+    "english": "Follow me",
+    "georgian": "გამომყევით",
+    "level": "A1",
+    "category": "General"
+  },
+  "68": {
+    "english": "Please check this",
+    "georgian": "გთხოვთ, შეამოწმეთ ეს",
+    "level": "A1",
+    "category": "Greetings"
+  },
+  "69": {
+    "english": "Please look here",
+    "georgian": "აქ შეხედეთ, გთხოვთ",
+    "level": "A1",
+    "category": "Politeness"
+  },
+  "70": {
+    "english": "Please sign here",
+    "georgian": "აქ მოაწერეთ ხელი, გთხოვთ",
+    "level": "A1",
+    "category": "Politeness"
+  },
+  "71": {
+    "english": "Write it down",
+    "georgian": "ჩაიწერეთ",
+    "level": "A1",
+    "category": "General"
+  },
+  "72": {
+    "english": "Open the file",
+    "georgian": "გახსენით ფაილი",
+    "level": "A1",
+    "category": "General"
+  },
+  "73": {
+    "english": "Close the file",
+    "georgian": "დახურეთ ფაილი",
+    "level": "A1",
+    "category": "General"
+  },
+  "74": {
+    "english": "Send the email",
+    "georgian": "გაგზავნეთ ელფოსტა",
+    "level": "A1",
+    "category": "Communication"
+  },
+  "75": {
+    "english": "Read this message",
+    "georgian": "წაიკითხეთ ეს შეტყობინება",
+    "level": "A1",
+    "category": "Greetings"
+  },
+  "76": {
+    "english": "Call me, please",
+    "georgian": "დამირეკეთ, გთხოვთ",
+    "level": "A1",
+    "category": "Politeness"
+  },
+  "77": {
+    "english": "I will call you",
+    "georgian": "დაგირეკავთ",
+    "level": "A1",
+    "category": "Communication"
+  },
+  "78": {
+    "english": "I will email you",
+    "georgian": "ელფოსტას გამოგიგზავნით",
+    "level": "A1",
+    "category": "Communication"
+  },
+  "79": {
+    "english": "Please wait for me",
+    "georgian": "დამელოდეთ, გთხოვთ",
+    "level": "A1",
+    "category": "Politeness"
+  },
+  "80": {
+    "english": "I will be late",
+    "georgian": "დავაგვიანებ",
+    "level": "A1",
+    "category": "General"
+  },
+  "81": {
+    "english": "I will be early",
+    "georgian": "ადრე მოვალ",
+    "level": "A1",
+    "category": "General"
+  },
+  "82": {
+    "english": "I am ready",
+    "georgian": "მზად ვარ",
+    "level": "A1",
+    "category": "General"
+  },
+  "83": {
+    "english": "I am not ready",
+    "georgian": "მზად არ ვარ",
+    "level": "A1",
+    "category": "Basic Responses"
+  },
+  "84": {
+    "english": "It’s correct",
+    "georgian": "სწორია",
+    "level": "A1",
+    "category": "Feedback & Opinions"
+  },
+  "85": {
+    "english": "It’s wrong",
+    "georgian": "არასწორია",
+    "level": "A1",
+    "category": "Problems & Solutions"
+  },
+  "86": {
+    "english": "It’s good",
+    "georgian": "კარგია",
+    "level": "A1",
+    "category": "General"
+  },
+  "87": {
+    "english": "It’s bad",
+    "georgian": "ცუდია",
+    "level": "A1",
+    "category": "General"
+  },
+  "88": {
+    "english": "It’s easy",
+    "georgian": "მარტივია",
+    "level": "A1",
+    "category": "General"
+  },
+  "89": {
+    "english": "It’s difficult",
+    "georgian": "რთულია",
+    "level": "A1",
+    "category": "General"
+  },
+  "90": {
+    "english": "It’s important",
+    "georgian": "მნიშვნელოვანია",
+    "level": "A1",
+    "category": "General"
+  },
+  "91": {
+    "english": "It’s urgent",
+    "georgian": "გადაუდებელია/სასწრაფო",
+    "level": "A1",
+    "category": "Time & Deadlines"
+  },
+  "92": {
+    "english": "It’s not urgent",
+    "georgian": "გადაუდებელი/სასწრაფო არ არის",
+    "level": "A1",
+    "category": "Time & Deadlines"
+  },
+  "93": {
+    "english": "I like it",
+    "georgian": "მომწონს",
+    "level": "A1",
+    "category": "General"
+  },
+  "94": {
+    "english": "I don’t like it",
+    "georgian": "არ მომწონს",
+    "level": "A1",
+    "category": "General"
+  },
+  "95": {
+    "english": "I need this",
+    "georgian": "ეს მჭირდება",
+    "level": "A1",
+    "category": "Greetings"
+  },
+  "96": {
+    "english": "I don’t need this",
+    "georgian": "ეს არ მჭირდება",
+    "level": "A1",
+    "category": "Greetings"
+  },
+  "97": {
+    "english": "Please help me",
+    "georgian": "გთხოვთ, დამეხმარეთ",
+    "level": "A1",
+    "category": "Politeness"
+  },
+  "98": {
+    "english": "Please explain",
+    "georgian": "გთხოვთ, ამიხსენით",
+    "level": "A1",
+    "category": "Politeness"
+  },
+  "99": {
+    "english": "Please show me",
+    "georgian": "გთხოვთ, მაჩვენეთ",
+    "level": "A1",
+    "category": "Politeness"
+  },
+  "100": {
+    "english": "Please tell me",
+    "georgian": "გთხოვთ, მითხარით",
+    "level": "A1",
+    "category": "Politeness"
+  },
+  "101": {
+    "english": "I have a question",
+    "georgian": "კითხვა მაქვს",
+    "level": "A1",
+    "category": "General"
+  },
+  "102": {
+    "english": "I have no questions",
+    "georgian": "კითხვები არ მაქვს",
+    "level": "A1",
+    "category": "Basic Responses"
+  },
+  "103": {
+    "english": "I’m listening",
+    "georgian": "გისმენთ",
+    "level": "A1",
+    "category": "General"
+  },
+  "104": {
+    "english": "I’m ready to work",
+    "georgian": "სამუშაოდ მზად ვარ",
+    "level": "A1",
+    "category": "General"
+  },
+  "105": {
+    "english": "I finished my work",
+    "georgian": "სამუშაო დავასრულე",
+    "level": "A1",
+    "category": "Tasks & Projects"
+  },
+  "106": {
+    "english": "I need more time",
+    "georgian": "მეტი დრო მჭირდება",
+    "level": "A1",
+    "category": "Time & Deadlines"
+  },
+  "107": {
+    "english": "Please wait a minute",
+    "georgian": "ერთი წუთით მოითმინეთ, გთხოვთ",
+    "level": "A1",
+    "category": "Politeness"
+  },
+  "108": {
+    "english": "Just a second",
+    "georgian": "ერთი წამით",
+    "level": "A1",
+    "category": "General"
+  },
+  "109": {
+    "english": "I’m here",
+    "georgian": "აქ ვარ",
+    "level": "A1",
+    "category": "General"
+  },
+  "110": {
+    "english": "I’m not here today",
+    "georgian": "დღეს აქ არ ვარ/ნები",
+    "level": "A1",
+    "category": "Time & Deadlines"
+  },
+  "111": {
+    "english": "I’m at work",
+    "georgian": "სამსახურში ვარ",
+    "level": "A1",
+    "category": "General"
+  },
+  "112": {
+    "english": "I’m at the office",
+    "georgian": "ოფისში ვარ",
+    "level": "A1",
+    "category": "General"
+  },
+  "113": {
+    "english": "I’m at home",
+    "georgian": "სახლში ვარ",
+    "level": "A1",
+    "category": "General"
+  },
+  "114": {
+    "english": "I’m on a break",
+    "georgian": "შესვენებაზე ვარ",
+    "level": "A1",
+    "category": "General"
+  },
+  "115": {
+    "english": "I’m in a meeting",
+    "georgian": "შეხვედრაზე ვარ",
+    "level": "A1",
+    "category": "Meetings"
+  },
+  "116": {
+    "english": "I’m free later",
+    "georgian": "მოგვიანებით თავისუფალი ვიქნები",
+    "level": "A1",
+    "category": "Time & Deadlines"
+  },
+  "117": {
+    "english": "Let’s talk later",
+    "georgian": "მოგვიანებით ვისაუბროთ",
+    "level": "A1",
+    "category": "Time & Deadlines"
+  },
+  "118": {
+    "english": "Please, be careful",
+    "georgian": "ფრთხილად იყავით, გთხოვთ",
+    "level": "A1",
+    "category": "Politeness"
+  },
+  "119": {
+    "english": "That’s clear",
+    "georgian": "გასაგებია",
+    "level": "A1",
+    "category": "Basic Responses"
+  },
+  "120": {
+    "english": "That’s not clear",
+    "georgian": "არ არის გასაგები",
+    "level": "A1",
+    "category": "Basic Responses"
+  },
+  "121": {
+    "english": "Everything is fine",
+    "georgian": "ყველაფერი კარგად არის",
+    "level": "A1",
+    "category": "Greetings"
+  },
+  "122": {
+    "english": "Everything is okay",
+    "georgian": "ყველაფერი წესრიგშია",
+    "level": "A1",
+    "category": "Greetings"
+  },
+  "123": {
+    "english": "Everything is ready",
+    "georgian": "ყველაფერი მზად არის",
+    "level": "A1",
+    "category": "Greetings"
+  },
+  "124": {
+    "english": "Everything is done",
+    "georgian": "ყველაფერი დასრულებულია/შესრულებულია",
+    "level": "A1",
+    "category": "Greetings"
+  },
+  "125": {
+    "english": "Nothing is ready",
+    "georgian": "არაფერი არის მზად",
+    "level": "A1",
+    "category": "Greetings"
+  },
+  "126": {
+    "english": "I will try",
+    "georgian": "ვეცდები",
+    "level": "A1",
+    "category": "General"
+  },
+  "127": {
+    "english": "I can do it",
+    "georgian": "შემიძლია ამის გაკეთება",
+    "level": "A1",
+    "category": "General"
+  },
+  "128": {
+    "english": "I can’t do it",
+    "georgian": "ვერ შევძლებ",
+    "level": "A1",
+    "category": "General"
+  },
+  "129": {
+    "english": "I need support",
+    "georgian": "მხარდაჭერა მჭირდება",
+    "level": "A1",
+    "category": "Teamwork"
+  },
+  "130": {
+    "english": "Please support me",
+    "georgian": "გთხოვთ, დამიჭირეთ მხარი",
+    "level": "A1",
+    "category": "Politeness"
+  },
+  "131": {
+    "english": "I’m learning",
+    "georgian": "ვსწავლობ",
+    "level": "A1",
+    "category": "General"
+  },
+  "132": {
+    "english": "I’m improving",
+    "georgian": "ვუმჯობესდები/ვვითარდები",
+    "level": "A1",
+    "category": "General"
+  },
+  "133": {
+    "english": "I need practice",
+    "georgian": "პრაქტიკა მჭირდება",
+    "level": "A1",
+    "category": "General"
+  },
+  "134": {
+    "english": "Please correct me",
+    "georgian": "გთხოვთ, შემისწორეთ",
+    "level": "A1",
+    "category": "Politeness"
+  },
+  "135": {
+    "english": "Is this correct?",
+    "georgian": "ეს სწორია?",
+    "level": "A1",
+    "category": "Greetings"
+  },
+  "136": {
+    "english": "Is this okay?",
+    "georgian": "ეს მისაღებია?",
+    "level": "A1",
+    "category": "Greetings"
+  },
+  "137": {
+    "english": "Can I start?",
+    "georgian": "შემიძლია დავიწყო?",
+    "level": "A1",
+    "category": "General"
+  },
+  "138": {
+    "english": "Can I stop?",
+    "georgian": "შემიძლია შევწყვიტო?",
+    "level": "A1",
+    "category": "General"
+  },
+  "139": {
+    "english": "Can I help?",
+    "georgian": "შემიძლია დაგეხმაროთ?",
+    "level": "A1",
+    "category": "Teamwork"
+  },
+  "140": {
+    "english": "Can you wait?",
+    "georgian": "შეგიძლიათ მოითმინოთ?",
+    "level": "A1",
+    "category": "Time & Deadlines"
+  },
+  "141": {
+    "english": "Can you help?",
+    "georgian": "შეგიძლიათ დამეხმაროთ?",
+    "level": "A1",
+    "category": "Teamwork"
+  },
+  "142": {
+    "english": "Can you check?",
+    "georgian": "შეგიძლიათ შეამოწმოთ?",
+    "level": "A1",
+    "category": "Quality & Standards"
+  },
+  "143": {
+    "english": "Can you explain?",
+    "georgian": "შეგიძლიათ ამიხსნათ?",
+    "level": "A1",
+    "category": "Communication"
+  },
+  "144": {
+    "english": "Can you show me?",
+    "georgian": "შეგიძლიათ მაჩვენოთ?",
+    "level": "A1",
+    "category": "General"
+  },
+  "145": {
+    "english": "Thank you for your help",
+    "georgian": "მადლობა დახმარებისთვის",
+    "level": "A1",
+    "category": "Politeness"
+  },
+  "146": {
+    "english": "Sorry for the delay",
+    "georgian": "ბოდიში დაგვიანებისთვის",
+    "level": "A1",
+    "category": "Politeness"
+  },
+  "147": {
+    "english": "Sorry, I’m late",
+    "georgian": "ბოდიში, დავაგვიანე",
+    "level": "A1",
+    "category": "Politeness"
+  },
+  "148": {
+    "english": "No worries",
+    "georgian": "არ არის პრობლემა",
+    "level": "A1",
+    "category": "Politeness"
+  },
+  "149": {
+    "english": "Take your time",
+    "georgian": "არ არის საჭირო იჩქაროთ",
+    "level": "A1",
+    "category": "Time & Deadlines"
+  },
+  "150": {
+    "english": "Let’s work",
+    "georgian": "მოდი, ვიმუშაოთ",
+    "level": "A1",
+    "category": "General"
+  },
+  "151": {
+    "english": "I work in this department",
+    "georgian": "ამ განყოფილებაში ვმუშაობ",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "152": {
+    "english": "I'm responsible for this task",
+    "georgian": "ამ დავალებაზე პასუხისმგებელი ვარ",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "153": {
+    "english": "I'm working on a project",
+    "georgian": "პროექტზე ვმუშაობ",
+    "level": "A2",
+    "category": "Tasks & Projects"
+  },
+  "154": {
+    "english": "I need more information",
+    "georgian": "მეტი ინფორმაცია მჭირდება",
+    "level": "A2",
+    "category": "Communication"
+  },
+  "155": {
+    "english": "Can we discuss this?",
+    "georgian": "შეგვიძლია ეს განვიხილოთ?",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "156": {
+    "english": "I have a question about this",
+    "georgian": "ამასთან დაკავშირებით კითხვა მაქვს",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "157": {
+    "english": "I'll check and let you know",
+    "georgian": "შევამოწმებ და გაგებინებთ",
+    "level": "A2",
+    "category": "Time & Deadlines"
+  },
+  "158": {
+    "english": "I'll get back to you",
+    "georgian": "მოგვიანებით დაგიბრუნდებით პასუხით",
+    "level": "A2",
+    "category": "General"
+  },
+  "159": {
+    "english": "I'll finish it today",
+    "georgian": "დღეს დავასრულებ",
+    "level": "A2",
+    "category": "Tasks & Projects"
+  },
+  "160": {
+    "english": "I'll finish it tomorrow",
+    "georgian": "ხვალ დავასრულებ",
+    "level": "A2",
+    "category": "Tasks & Projects"
+  },
+  "161": {
+    "english": "I need more time to finish",
+    "georgian": "დასასრულებლად მეტი დრო მჭირდება",
+    "level": "A2",
+    "category": "Tasks & Projects"
+  },
+  "162": {
+    "english": "The task is almost done",
+    "georgian": "დავალება თითქმის დასრულებულია",
+    "level": "A2",
+    "category": "Tasks & Projects"
+  },
+  "163": {
+    "english": "I've completed the task",
+    "georgian": "დავალება შევასრულე",
+    "level": "A2",
+    "category": "Tasks & Projects"
+  },
+  "164": {
+    "english": "There is a small problem",
+    "georgian": "მცირე პრობლემა არსებობს",
+    "level": "A2",
+    "category": "Problems & Solutions"
+  },
+  "165": {
+    "english": "There is an issue",
+    "georgian": "პრობლემა არსებობს",
+    "level": "A2",
+    "category": "Problems & Solutions"
+  },
+  "166": {
+    "english": "We need to fix this",
+    "georgian": "ამის გამოსწორება გვჭირდება",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "167": {
+    "english": "This needs improvement",
+    "georgian": "ეს გაუმჯობესებას საჭიროებს",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "168": {
+    "english": "This looks good",
+    "georgian": "კარგად გამოიყურება",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "169": {
+    "english": "This doesn't work",
+    "georgian": "ეს არ მუშაობს",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "170": {
+    "english": "Can you review this?",
+    "georgian": "შეგიძლიათ გადახედოთ?",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "171": {
+    "english": "Please, give me feedback",
+    "georgian": "გთხოვთ, მომეცით უკუკავშირი",
+    "level": "A2",
+    "category": "Politeness"
+  },
+  "172": {
+    "english": "I agree with this idea",
+    "georgian": "ამ იდეას ვეთანხმები",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "173": {
+    "english": "I don't agree with this idea",
+    "georgian": "ამ იდეას არ ვეთანხმები",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "174": {
+    "english": "In my opinion, this is better",
+    "georgian": "ჩემი აზრით, ეს უკეთესია",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "175": {
+    "english": "I think this is correct",
+    "georgian": "ვფიქრობ, ეს სწორია",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "176": {
+    "english": "I think this is wrong",
+    "georgian": "ვფიქრობ, ეს არასწორია",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "177": {
+    "english": "Let's talk about it",
+    "georgian": "ამაზე ვისაუბროთ",
+    "level": "A2",
+    "category": "General"
+  },
+  "178": {
+    "english": "Let's meet today",
+    "georgian": "დღეს შევხვდეთ",
+    "level": "A2",
+    "category": "Meetings"
+  },
+  "179": {
+    "english": "Let's meet tomorrow",
+    "georgian": "ხვალ შევხვდეთ",
+    "level": "A2",
+    "category": "Meetings"
+  },
+  "180": {
+    "english": "Can we schedule a meeting?",
+    "georgian": "შეგვიძლია შეხვედრის დაგეგმვა?",
+    "level": "A2",
+    "category": "Meetings"
+  },
+  "181": {
+    "english": "I'm available now",
+    "georgian": "ახლა ხელმისაწვდომი ვარ",
+    "level": "A2",
+    "category": "Meetings"
+  },
+  "182": {
+    "english": "I'm not available now",
+    "georgian": "ახლა ხელმისაწვდომი არ ვარ",
+    "level": "A2",
+    "category": "Meetings"
+  },
+  "183": {
+    "english": "I'm available later",
+    "georgian": "მოგვიანებით ვიქნები ხელმისაწვდომი",
+    "level": "A2",
+    "category": "Meetings"
+  },
+  "184": {
+    "english": "Please confirm",
+    "georgian": "გთხოვთ, დაადასტუროთ",
+    "level": "A2",
+    "category": "Politeness"
+  },
+  "185": {
+    "english": "Please update me",
+    "georgian": "გთხოვთ, შემეხმიანეთ",
+    "level": "A2",
+    "category": "Politeness"
+  },
+  "186": {
+    "english": "Please let me know",
+    "georgian": "გთხოვთ, შემატყობინეთ",
+    "level": "A2",
+    "category": "Politeness"
+  },
+  "187": {
+    "english": "I'll send an email",
+    "georgian": "ელფოსტას გავგზავნი",
+    "level": "A2",
+    "category": "Communication"
+  },
+  "188": {
+    "english": "I've sent the email",
+    "georgian": "ელფოსტა უკვე გავგზავნე",
+    "level": "A2",
+    "category": "Communication"
+  },
+  "189": {
+    "english": "Did you receive my message?",
+    "georgian": "მიიღეთ ჩემი შეტყობინება?",
+    "level": "A2",
+    "category": "Communication"
+  },
+  "190": {
+    "english": "Please check your email",
+    "georgian": "გთხოვთ, შეამოწმეთ ელფოსტა",
+    "level": "A2",
+    "category": "Politeness"
+  },
+  "191": {
+    "english": "I'll share the file",
+    "georgian": "ფაილს გავაზიარებ",
+    "level": "A2",
+    "category": "General"
+  },
+  "192": {
+    "english": "The file is attached",
+    "georgian": "ფაილი მიმაგრებულია",
+    "level": "A2",
+    "category": "General"
+  },
+  "193": {
+    "english": "Please find the file attached",
+    "georgian": "გთხოვთ, იხილოთ მიმაგრებული ფაილი",
+    "level": "A2",
+    "category": "Politeness"
+  },
+  "194": {
+    "english": "I need approval",
+    "georgian": "დამტკიცება/თანხმობა მჭირდება",
+    "level": "A2",
+    "category": "Decisions"
+  },
+  "195": {
+    "english": "It needs approval",
+    "georgian": "დამტკიცებას/თანხმობას საჭიროებს",
+    "level": "A2",
+    "category": "Decisions"
+  },
+  "196": {
+    "english": "The deadline is today",
+    "georgian": "ბოლო ვადა დღეს არის",
+    "level": "A2",
+    "category": "Time & Deadlines"
+  },
+  "197": {
+    "english": "The deadline is tomorrow",
+    "georgian": "ბოლო ვადა ხვალ არის",
+    "level": "A2",
+    "category": "Time & Deadlines"
+  },
+  "198": {
+    "english": "We're running out of time",
+    "georgian": "დრო გვეწურება",
+    "level": "A2",
+    "category": "Time & Deadlines"
+  },
+  "199": {
+    "english": "This is a priority",
+    "georgian": "ეს პრიორიტეტულია",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "200": {
+    "english": "This is not a priority",
+    "georgian": "ეს პრიორიტეტული არ არის",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "201": {
+    "english": "We need to hurry",
+    "georgian": "უნდა ვიჩქაროთ",
+    "level": "A2",
+    "category": "Time & Deadlines"
+  },
+  "202": {
+    "english": "Take your time",
+    "georgian": "არ არის საჭირო იჩქაროთ",
+    "level": "A2",
+    "category": "Time & Deadlines"
+  },
+  "203": {
+    "english": "Let's continue",
+    "georgian": "გავაგრძელოთ",
+    "level": "A2",
+    "category": "General"
+  },
+  "204": {
+    "english": "Let's move forward",
+    "georgian": "წინ წავიწიოთ",
+    "level": "A2",
+    "category": "General"
+  },
+  "205": {
+    "english": "Let's stop here",
+    "georgian": "აქ შევჩერდეთ",
+    "level": "A2",
+    "category": "General"
+  },
+  "206": {
+    "english": "We'll discuss this later",
+    "georgian": "ამას მოგვიანებით განვიხილავთ",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "207": {
+    "english": "This requires attention",
+    "georgian": "ეს ყურადღებას საჭიროებს",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "208": {
+    "english": "This is important",
+    "georgian": "ეს მნიშვნელოვანია",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "209": {
+    "english": "This is urgent",
+    "georgian": "ეს გადაუდებელია",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "210": {
+    "english": "This can wait",
+    "georgian": "ეს (რამე საკითხი) მოიცდის",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "211": {
+    "english": "I'll handle this",
+    "georgian": "ამას მე მოვაგვარებ",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "212": {
+    "english": "I can take care of it",
+    "georgian": "მე ვიზრუნებ ამაზე",
+    "level": "A2",
+    "category": "General"
+  },
+  "213": {
+    "english": "I need assistance",
+    "georgian": "დახმარება მჭირდება",
+    "level": "A2",
+    "category": "Teamwork"
+  },
+  "214": {
+    "english": "Can you assist me?",
+    "georgian": "შეგიძლიათ დამეხმაროთ?",
+    "level": "A2",
+    "category": "Teamwork"
+  },
+  "215": {
+    "english": "Thanks for your update",
+    "georgian": "მადლობა განახლებისთვის",
+    "level": "A2",
+    "category": "Politeness"
+  },
+  "216": {
+    "english": "Thanks for letting me know",
+    "georgian": "მადლობა ინფორმაციისთვის",
+    "level": "A2",
+    "category": "Politeness"
+  },
+  "217": {
+    "english": "I appreciate your help",
+    "georgian": "ვაფასებ თქვენს დახმარებას",
+    "level": "A2",
+    "category": "Politeness"
+  },
+  "218": {
+    "english": "That makes sense",
+    "georgian": "აზრი აქვს",
+    "level": "A2",
+    "category": "General"
+  },
+  "219": {
+    "english": "That doesn't make sense",
+    "georgian": "აზრი არ აქვს",
+    "level": "A2",
+    "category": "General"
+  },
+  "220": {
+    "english": "I'm not sure about this",
+    "georgian": "ამაში დარწმუნებული არ ვარ",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "221": {
+    "english": "I need clarification",
+    "georgian": "განმარტება მჭირდება",
+    "level": "A2",
+    "category": "General"
+  },
+  "222": {
+    "english": "Can you clarify this?",
+    "georgian": "შეგიძლიათ გაარკვიოთ?",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "223": {
+    "english": "Let's clarify the details",
+    "georgian": "მოდით, დეტალები გავარკვიოთ",
+    "level": "A2",
+    "category": "General"
+  },
+  "224": {
+    "english": "We need more details",
+    "georgian": "მეტი დეტალი გვჭირდება",
+    "level": "A2",
+    "category": "General"
+  },
+  "225": {
+    "english": "I missed the meeting",
+    "georgian": "შეხვედრა გამომრჩა",
+    "level": "A2",
+    "category": "Meetings"
+  },
+  "226": {
+    "english": "I'll join the meeting",
+    "georgian": "შეხვედრას შევუერთდები",
+    "level": "A2",
+    "category": "Meetings"
+  },
+  "227": {
+    "english": "I'm in a meeting right now",
+    "georgian": "ახლა შეხვედრაზე ვარ",
+    "level": "A2",
+    "category": "Meetings"
+  },
+  "228": {
+    "english": "I'll call you later",
+    "georgian": "მოგვიანებით დაგირეკავ",
+    "level": "A2",
+    "category": "Communication"
+  },
+  "229": {
+    "english": "Let's discuss by phone",
+    "georgian": "ტელეფონით განვიხილოთ",
+    "level": "A2",
+    "category": "Communication"
+  },
+  "230": {
+    "english": "I prefer email",
+    "georgian": "ელფოსტას ვამჯობინებ",
+    "level": "A2",
+    "category": "Communication"
+  },
+  "231": {
+    "english": "I prefer a meeting",
+    "georgian": "შეხვედრას ვამჯობინებ",
+    "level": "A2",
+    "category": "Meetings"
+  },
+  "232": {
+    "english": "This is a good idea",
+    "georgian": "ეს კარგი იდეაა",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "233": {
+    "english": "This is not a good idea",
+    "georgian": "ეს ცუდი იდეაა",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "234": {
+    "english": "We should change this",
+    "georgian": "ეს უნდა შევცვალოთ",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "235": {
+    "english": "We should keep this",
+    "georgian": "ეს უნდა დავიტოვოთ",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "236": {
+    "english": "This will take time",
+    "georgian": "ამას დრო დასჭირდება",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "237": {
+    "english": "This is possible",
+    "georgian": "ეს შესაძლებელია",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "238": {
+    "english": "This is not possible",
+    "georgian": "ეს შეუძლებელია",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "239": {
+    "english": "We need a solution",
+    "georgian": "გამოსავალი გვჭირდება",
+    "level": "A2",
+    "category": "Problems & Solutions"
+  },
+  "240": {
+    "english": "Let's find a solution",
+    "georgian": "მოდი, გამოსავალი ვიპოვოთ",
+    "level": "A2",
+    "category": "Problems & Solutions"
+  },
+  "241": {
+    "english": "I'll think about it",
+    "georgian": "ამაზე ვიფიქრებ",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "242": {
+    "english": "I need to think",
+    "georgian": "დაფიქრება მჭირდება",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "243": {
+    "english": "Please give me time",
+    "georgian": "გთხოვთ, დრო მომეცით",
+    "level": "A2",
+    "category": "Politeness"
+  },
+  "244": {
+    "english": "I'll decide later",
+    "georgian": "მოგვიანებით გადავწყვეტ",
+    "level": "A2",
+    "category": "Time & Deadlines"
+  },
+  "245": {
+    "english": "The result looks good",
+    "georgian": "შედეგი კარგად გამოიყურება",
+    "level": "A2",
+    "category": "Performance"
+  },
+  "246": {
+    "english": "The result is not good",
+    "georgian": "შედეგი კარგი არ არის",
+    "level": "A2",
+    "category": "Performance"
+  },
+  "247": {
+    "english": "We need improvement",
+    "georgian": "გაუმჯობესება გვჭირდება",
+    "level": "A2",
+    "category": "Performance"
+  },
+  "248": {
+    "english": "This meets the requirements",
+    "georgian": "ეს აკმაყოფილებს მოთხოვნებს",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "249": {
+    "english": "This doesn't meet the requirements",
+    "georgian": "ეს მოთხოვნებს არ აკმაყოფილებს",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "250": {
+    "english": "Let's check again",
+    "georgian": "მოდი, კიდევ ერთხელ შევამოწმოთ",
+    "level": "A2",
+    "category": "Quality & Standards"
+  },
+  "251": {
+    "english": "Please double-check",
+    "georgian": "გთხოვთ, ხელახლა გადაამოწმეთ",
+    "level": "A2",
+    "category": "Politeness"
+  },
+  "252": {
+    "english": "I'll fix this",
+    "georgian": "ამას გამოვასწორებ",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "253": {
+    "english": "I'm working on it now",
+    "georgian": "ახლა ვმუშაობ ამაზე",
+    "level": "A2",
+    "category": "Tasks & Projects"
+  },
+  "254": {
+    "english": "I'll update you soon",
+    "georgian": "მალე შეგატყობინებთ",
+    "level": "A2",
+    "category": "Status & Updates"
+  },
+  "255": {
+    "english": "Thanks for your patience",
+    "georgian": "მადლობა მოთმინებისთვის",
+    "level": "A2",
+    "category": "Politeness"
+  },
+  "256": {
+    "english": "Sorry for the delay",
+    "georgian": "ბოდიში დაგვიანებისთვის",
+    "level": "A2",
+    "category": "Politeness"
+  },
+  "257": {
+    "english": "This caused a delay",
+    "georgian": "ამან დაგვიანება/შეფერხება გამოიწვია",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "258": {
+    "english": "We're behind schedule",
+    "georgian": "გრაფიკს ჩამოვრჩებით",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "259": {
+    "english": "We're on schedule",
+    "georgian": "გრაფიკში ვართ",
+    "level": "A2",
+    "category": "Meetings"
+  },
+  "260": {
+    "english": "The work is in progress",
+    "georgian": "სამუშაო/საქმე პროცესშია",
+    "level": "A2",
+    "category": "Tasks & Projects"
+  },
+  "261": {
+    "english": "The work is completed",
+    "georgian": "სამუშაო დასრულებულია",
+    "level": "A2",
+    "category": "Tasks & Projects"
+  },
+  "262": {
+    "english": "The task is pending",
+    "georgian": "დავალება ჯერ არ დასრულებულა",
+    "level": "A2",
+    "category": "Tasks & Projects"
+  },
+  "263": {
+    "english": "This is my responsibility",
+    "georgian": "ეს ჩემი პასუხისმგებლობაა",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "264": {
+    "english": "This is not my responsibility",
+    "georgian": "ეს ჩემი პასუხისმგებლობა არ არის",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "265": {
+    "english": "I'll take responsibility",
+    "georgian": "პასუხისმგებლობას ავიღებ",
+    "level": "A2",
+    "category": "Leadership"
+  },
+  "266": {
+    "english": "I need confirmation",
+    "georgian": "დადასტურება მჭირდება",
+    "level": "A2",
+    "category": "General"
+  },
+  "267": {
+    "english": "Once confirmed, we'll proceed",
+    "georgian": "დადასტურების შემდეგ გავაგრძელებთ",
+    "level": "A2",
+    "category": "General"
+  },
+  "268": {
+    "english": "Let's proceed",
+    "georgian": "გავაგრძელოთ",
+    "level": "A2",
+    "category": "General"
+  },
+  "269": {
+    "english": "Please proceed",
+    "georgian": "გთხოვთ, გააგრძელეთ",
+    "level": "A2",
+    "category": "Politeness"
+  },
+  "270": {
+    "english": "This is acceptable",
+    "georgian": "ეს მისაღებია",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "271": {
+    "english": "This is unacceptable",
+    "georgian": "ეს მიუღებელია",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "272": {
+    "english": "I'll make changes",
+    "georgian": "ცვლილებებს შევიტან",
+    "level": "A2",
+    "category": "Change & Innovation"
+  },
+  "273": {
+    "english": "Changes are required",
+    "georgian": "ცვლილებები საჭიროა",
+    "level": "A2",
+    "category": "Change & Innovation"
+  },
+  "274": {
+    "english": "I've made the changes",
+    "georgian": "ცვლილებები შევიტანე",
+    "level": "A2",
+    "category": "Change & Innovation"
+  },
+  "275": {
+    "english": "Please review the changes",
+    "georgian": "გთხოვთ, ცვლილებებს გადახედოთ",
+    "level": "A2",
+    "category": "Politeness"
+  },
+  "276": {
+    "english": "This version is better",
+    "georgian": "ეს ვერსია უკეთესია",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "277": {
+    "english": "This version is final",
+    "georgian": "ეს საბოლოო ვერსიაა",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "278": {
+    "english": "This is a draft",
+    "georgian": "ეს შავი ვერსიაა",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "279": {
+    "english": "This is the final version",
+    "georgian": "ეს საბოლოო ვერსიაა",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "280": {
+    "english": "Let's finalize this",
+    "georgian": "დავასრულოთ საბოლოოდ",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "281": {
+    "english": "We're almost done",
+    "georgian": "თითქმის დავასრულეთ",
+    "level": "A2",
+    "category": "Tasks & Projects"
+  },
+  "282": {
+    "english": "We're done",
+    "georgian": "დავასრულეთ",
+    "level": "A2",
+    "category": "Tasks & Projects"
+  },
+  "283": {
+    "english": "Thank you for your time",
+    "georgian": "მადლობა თქვენი დროისთვის",
+    "level": "A2",
+    "category": "Politeness"
+  },
+  "284": {
+    "english": "Thanks for the meeting",
+    "georgian": "მადლობა შეხვედრისთვის",
+    "level": "A2",
+    "category": "Politeness"
+  },
+  "285": {
+    "english": "It was a productive meeting",
+    "georgian": "პროდუქტიული შეხვედრა იყო",
+    "level": "A2",
+    "category": "Meetings"
+  },
+  "286": {
+    "english": "Let's summarize",
+    "georgian": "შევაჯამოთ",
+    "level": "A2",
+    "category": "General"
+  },
+  "287": {
+    "english": "I'll send a summary",
+    "georgian": "შეჯამებას გავაგზავნი",
+    "level": "A2",
+    "category": "General"
+  },
+  "288": {
+    "english": "Let's confirm the next steps",
+    "georgian": "შემდეგი ნაბიჯები დავადასტუროთ",
+    "level": "A2",
+    "category": "General"
+  },
+  "289": {
+    "english": "The next step is clear",
+    "georgian": "შემდეგი ნაბიჯი ნათელია",
+    "level": "A2",
+    "category": "Basic Responses"
+  },
+  "290": {
+    "english": "We'll move forward",
+    "georgian": "წინ წავალთ",
+    "level": "A2",
+    "category": "General"
+  },
+  "291": {
+    "english": "Let's keep in touch",
+    "georgian": "კონტაქტზე დავრჩეთ",
+    "level": "A2",
+    "category": "General"
+  },
+  "292": {
+    "english": "Please contact me",
+    "georgian": "გთხოვთ, დამიკავშირდით",
+    "level": "A2",
+    "category": "Politeness"
+  },
+  "293": {
+    "english": "I'll contact you",
+    "georgian": "დაგიკავშირდები",
+    "level": "A2",
+    "category": "Communication"
+  },
+  "294": {
+    "english": "This helps a lot",
+    "georgian": "ეს ძალიან მეხმარება",
+    "level": "A2",
+    "category": "Greetings"
+  },
+  "295": {
+    "english": "That's helpful",
+    "georgian": "სასარგებლოა",
+    "level": "A2",
+    "category": "Teamwork"
+  },
+  "296": {
+    "english": "I'm glad to hear that",
+    "georgian": "მიხარია ამის მოსმენა",
+    "level": "A2",
+    "category": "General"
+  },
+  "297": {
+    "english": "That's good news",
+    "georgian": "ეს კარგი ამბავია",
+    "level": "A2",
+    "category": "General"
+  },
+  "298": {
+    "english": "That's bad news",
+    "georgian": "ეს ცუდი ამბავია",
+    "level": "A2",
+    "category": "General"
+  },
+  "299": {
+    "english": "Let's stay focused",
+    "georgian": "კონცენტრირებულები დავრჩეთ",
+    "level": "A2",
+    "category": "Strategy & Planning"
+  },
+  "300": {
+    "english": "Let's get back to work",
+    "georgian": "საქმეს დავუბრუნდეთ",
+    "level": "A2",
+    "category": "General"
+  },
+  "301": {
+    "english": "Let's schedule a meeting",
+    "georgian": "დავგეგმოთ შეხვედრა",
+    "level": "B1",
+    "category": "Meetings"
+  },
+  "302": {
+    "english": "We need to discuss this in detail",
+    "georgian": "ეს დეტალურად უნდა განვიხილოთ",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "303": {
+    "english": "I'd like to share my thoughts",
+    "georgian": "მსურს ჩემი მოსაზრება გაგიზიაროთ",
+    "level": "B1",
+    "category": "General"
+  },
+  "304": {
+    "english": "From my point of view, this works",
+    "georgian": "ჩემი გადმოსახედიდან, ეს მუშაობს",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "305": {
+    "english": "I partially agree with you",
+    "georgian": "ნაწილობრივ გეთანხმებით",
+    "level": "B1",
+    "category": "Feedback & Opinions"
+  },
+  "306": {
+    "english": "I completely agree with this approach",
+    "georgian": "სრულად ვეთანხმები ამ მიდგომას",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "307": {
+    "english": "I see your point",
+    "georgian": "ვხვდები რასაც გულისხმობ",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "308": {
+    "english": "I have some concerns",
+    "georgian": "გარკვეული შეშფოთება მაქვს",
+    "level": "B1",
+    "category": "General"
+  },
+  "309": {
+    "english": "This may cause complications",
+    "georgian": "ამას შესაძლოა გაართულებები მოჰყვეს",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "310": {
+    "english": "We need to address this issue",
+    "georgian": "ამ საკითხს უნდა მივუდგეთ",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "311": {
+    "english": "This requires immediate attention",
+    "georgian": "ეს დაუყოვნებლივ ყურადღებას საჭიროებს",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "312": {
+    "english": "Let's prioritize this task",
+    "georgian": "ეს დავალება პრიორიტეტად დავადგინოთ",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "313": {
+    "english": "We should focus on the main goal",
+    "georgian": "მთავარ მიზანზე უნდა გავამახვილოთ ყურადღება",
+    "level": "B1",
+    "category": "Strategy & Planning"
+  },
+  "314": {
+    "english": "This aligns with our objectives",
+    "georgian": "ეს ჩვენს მიზნებთან შესაბამისობაშია",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "315": {
+    "english": "This doesn't align with our strategy",
+    "georgian": "ეს ჩვენს სტრატეგიას არ შეესაბამება",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "316": {
+    "english": "Let's review the plan",
+    "georgian": "გეგმას გადავხედოთ",
+    "level": "B1",
+    "category": "Feedback & Opinions"
+  },
+  "317": {
+    "english": "We need to revise this",
+    "georgian": "ამის გადახედვა/შესწორება გვჭირდება",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "318": {
+    "english": "I suggest an alternative solution",
+    "georgian": "ალტერნატიულ გადაწყვეტას ვთავაზობ",
+    "level": "B1",
+    "category": "Problems & Solutions"
+  },
+  "319": {
+    "english": "Let's consider other options",
+    "georgian": "სხვა ვარიანტებიც განვიხილოთ",
+    "level": "B1",
+    "category": "Decisions"
+  },
+  "320": {
+    "english": "We should evaluate the risks",
+    "georgian": "რისკები უნდა შევაფასოთ",
+    "level": "B1",
+    "category": "Risk & Compliance"
+  },
+  "321": {
+    "english": "The risks are manageable",
+    "georgian": "რისკები მართვადია",
+    "level": "B1",
+    "category": "Leadership"
+  },
+  "322": {
+    "english": "This could impact the timeline",
+    "georgian": "ამან შესაძლოა გრაფიკზე იმოქმედოს",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "323": {
+    "english": "We might face delays",
+    "georgian": "შესაძლოა დაგვიანების/შეფერხებების შევხვდეთ",
+    "level": "B1",
+    "category": "Time & Deadlines"
+  },
+  "324": {
+    "english": "Let's set a realistic deadline",
+    "georgian": "მოდი, რეალისტური ვადა დავადგინოთ",
+    "level": "B1",
+    "category": "Time & Deadlines"
+  },
+  "325": {
+    "english": "The deadline has been extended",
+    "georgian": "ვადა გაგრძელდა",
+    "level": "B1",
+    "category": "Time & Deadlines"
+  },
+  "326": {
+    "english": "We need an update on this",
+    "georgian": "ამ საკითხზე განახლება გვჭირდება",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "327": {
+    "english": "Please provide a status update",
+    "georgian": "გთხოვთ, სტატუსის განახლება მოგვაწოდოთ",
+    "level": "B1",
+    "category": "Politeness"
+  },
+  "328": {
+    "english": "The project is progressing well",
+    "georgian": "პროექტი კარგად ვითარდება",
+    "level": "B1",
+    "category": "Tasks & Projects"
+  },
+  "329": {
+    "english": "The project is behind schedule",
+    "georgian": "პროექტი გრაფიკს ჩამორჩება",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "330": {
+    "english": "We are ahead of schedule",
+    "georgian": "გრაფიკზე წინ ვართ",
+    "level": "B1",
+    "category": "Meetings"
+  },
+  "331": {
+    "english": "Let's allocate resources accordingly",
+    "georgian": "რესურსები შესაბამისად გავანაწილოთ",
+    "level": "B1",
+    "category": "Resources & Budget"
+  },
+  "332": {
+    "english": "We need additional resources",
+    "georgian": "დამატებითი რესურსები გვჭირდება",
+    "level": "B1",
+    "category": "Resources & Budget"
+  },
+  "333": {
+    "english": "This task requires collaboration",
+    "georgian": "ეს დავალება თანამშრომლობას საჭიროებს",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "334": {
+    "english": "Let's work together on this",
+    "georgian": "ამაზე ერთად ვიმუშაოთ",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "335": {
+    "english": "I'll coordinate with the team",
+    "georgian": "გუნდთან კოორდინაციას გავუწევ",
+    "level": "B1",
+    "category": "Teamwork"
+  },
+  "336": {
+    "english": "We need team alignment",
+    "georgian": "გუნდის შეთანხმებულობა გვჭირდება",
+    "level": "B1",
+    "category": "Teamwork"
+  },
+  "337": {
+    "english": "Let's ensure everyone is aligned",
+    "georgian": "დავრწმუნდეთ, რომ ყველა შეთანხმებულია",
+    "level": "B1",
+    "category": "Teamwork"
+  },
+  "338": {
+    "english": "I'll delegate this task",
+    "georgian": "ამ დავალებას გადავაბარებ",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "339": {
+    "english": "This falls under my responsibility",
+    "georgian": "ეს ჩემი პასუხისმგებლობის ფარგლებშია",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "340": {
+    "english": "This is outside my scope",
+    "georgian": "ეს ჩემი კომპეტენციის ფარგლებს სცდება",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "341": {
+    "english": "I'll escalate this issue",
+    "georgian": "ამ საკითხს უფრო მაღალ დონეზე ავწევ",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "342": {
+    "english": "Let's resolve this internally",
+    "georgian": "შიდა დონეზე მოვაგვაროთ",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "343": {
+    "english": "We need management approval",
+    "georgian": "მენეჯმენტის თანხმობა/დასტური გვჭირდება",
+    "level": "B1",
+    "category": "Decisions"
+  },
+  "344": {
+    "english": "This has been approved",
+    "georgian": "ეს უკვე დამტკიცებულია",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "345": {
+    "english": "Approval is still pending",
+    "georgian": "ჯერ კიდევ არ არის დამტკიცებული",
+    "level": "B1",
+    "category": "Decisions"
+  },
+  "346": {
+    "english": "We need to comply with the rules",
+    "georgian": "წესებს უნდა დავემორჩილოთ",
+    "level": "B1",
+    "category": "Risk & Compliance"
+  },
+  "347": {
+    "english": "This meets company standards",
+    "georgian": "ეს კომპანიის სტანდარტებს აკმაყოფილებს",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "348": {
+    "english": "This does not meet expectations",
+    "georgian": "ეს მოლოდინებს არ აკმაყოფილებს",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "349": {
+    "english": "We need to improve performance",
+    "georgian": "შეფასებისთვის გაუმჯობესება გვჭირდება",
+    "level": "B1",
+    "category": "Performance"
+  },
+  "350": {
+    "english": "Let's optimize the process",
+    "georgian": "პროცესი გავაუმჯობესოთ",
+    "level": "B1",
+    "category": "General"
+  },
+  "351": {
+    "english": "This will increase efficiency",
+    "georgian": "ეს ეფექტურობას გაზრდის",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "352": {
+    "english": "This will save time",
+    "georgian": "ეს დროს დაზოგავს",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "353": {
+    "english": "This will reduce costs",
+    "georgian": "ეს ხარჯებს შეამცირებს",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "354": {
+    "english": "We need a cost-effective solution",
+    "georgian": "ეკონომიურად ეფექტური გადაწყვეტა გვჭირდება",
+    "level": "B1",
+    "category": "Problems & Solutions"
+  },
+  "355": {
+    "english": "The budget is limited",
+    "georgian": "ბიუჯეტი შეზღუდულია",
+    "level": "B1",
+    "category": "Resources & Budget"
+  },
+  "356": {
+    "english": "We are within budget",
+    "georgian": "ბიუჯეტის ფარგლებში ვართ",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "357": {
+    "english": "We exceeded the budget",
+    "georgian": "ბიუჯეტს გადავაჭარბეთ",
+    "level": "B1",
+    "category": "Resources & Budget"
+  },
+  "358": {
+    "english": "Let's analyze the data",
+    "georgian": "მონაცემები გავაანალიზოთ",
+    "level": "B1",
+    "category": "General"
+  },
+  "359": {
+    "english": "The data supports this decision",
+    "georgian": "მონაცემები ამ გადაწყვეტილებას ამყარებს",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "360": {
+    "english": "The results are promising",
+    "georgian": "შედეგები დამაიმედებელია",
+    "level": "B1",
+    "category": "Performance"
+  },
+  "361": {
+    "english": "The results are inconclusive",
+    "georgian": "შედეგები ერთმნიშვნელოვანი არ არის",
+    "level": "B1",
+    "category": "Performance"
+  },
+  "362": {
+    "english": "We need more data",
+    "georgian": "მეტი მონაცემი გვჭირდება",
+    "level": "B1",
+    "category": "General"
+  },
+  "363": {
+    "english": "Let's draw a conclusion",
+    "georgian": "დასკვნა გამოვიტანოთ",
+    "level": "B1",
+    "category": "General"
+  },
+  "364": {
+    "english": "Based on our analysis...",
+    "georgian": "ჩვენი ანალიზის საფუძველზე...",
+    "level": "B1",
+    "category": "General"
+  },
+  "365": {
+    "english": "This is a reasonable assumption",
+    "georgian": "ეს გონივრული დაშვებაა",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "366": {
+    "english": "This assumption may be incorrect",
+    "georgian": "ეს დაშვება შესაძლოა არასწორი იყოს",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "367": {
+    "english": "Let's verify the information",
+    "georgian": "ინფორმაცია გადავამოწმოთ",
+    "level": "B1",
+    "category": "Communication"
+  },
+  "368": {
+    "english": "The information is accurate",
+    "georgian": "ინფორმაცია ზუსტია",
+    "level": "B1",
+    "category": "Communication"
+  },
+  "369": {
+    "english": "The information is outdated",
+    "georgian": "ინფორმაცია მოძველებულია",
+    "level": "B1",
+    "category": "Communication"
+  },
+  "370": {
+    "english": "We need the latest version",
+    "georgian": "უახლესი ვერსია გვჭირდება",
+    "level": "B1",
+    "category": "Quality & Standards"
+  },
+  "371": {
+    "english": "This version is outdated",
+    "georgian": "ეს ვერსია მოძველებულია",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "372": {
+    "english": "Let’s update the document",
+    "georgian": "დოკუმენტი განვაახლოთ",
+    "level": "B1",
+    "category": "Status & Updates"
+  },
+  "373": {
+    "english": "Please review the document",
+    "georgian": "გთხოვთ, დოკუმენტს გადახედოთ",
+    "level": "B1",
+    "category": "Politeness"
+  },
+  "374": {
+    "english": "I’ve reviewed the document",
+    "georgian": "დოკუმენტს გადავხედე",
+    "level": "B1",
+    "category": "Feedback & Opinions"
+  },
+  "375": {
+    "english": "I have some suggestions",
+    "georgian": "რამდენიმე შემოთავაზება მაქვს",
+    "level": "B1",
+    "category": "Feedback & Opinions"
+  },
+  "376": {
+    "english": "I recommend making changes",
+    "georgian": "ცვლილებების შეტანას ვურჩევ",
+    "level": "B1",
+    "category": "Feedback & Opinions"
+  },
+  "377": {
+    "english": "The changes are minor",
+    "georgian": "ცვლილებები უმნიშვნელოა",
+    "level": "B1",
+    "category": "Change & Innovation"
+  },
+  "378": {
+    "english": "The changes are significant",
+    "georgian": "ცვლილებები მნიშვნელოვანია",
+    "level": "B1",
+    "category": "Change & Innovation"
+  },
+  "379": {
+    "english": "Let’s finalize the document",
+    "georgian": "დოკუმენტი საბოლოოდ დავამტკიცოთ",
+    "level": "B1",
+    "category": "General"
+  },
+  "380": {
+    "english": "This is ready for release",
+    "georgian": "ეს გამოშვებისთვის მზადაა",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "381": {
+    "english": "We are ready to proceed",
+    "georgian": "მზად ვართ გავაგრძელოთ",
+    "level": "B1",
+    "category": "General"
+  },
+  "382": {
+    "english": "Let’s move forward with this",
+    "georgian": "ამ მიმართულებით წინ წავიწიოთ",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "383": {
+    "english": "We should postpone this",
+    "georgian": "ეს უნდა გადავდოთ",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "384": {
+    "english": "Let’s put this on hold",
+    "georgian": "დროებით შევაჩეროთ",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "385": {
+    "english": "We’ll revisit this later",
+    "georgian": "მოგვიანებით დავუბრუნდებით",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "386": {
+    "english": "This requires further discussion",
+    "georgian": "დამატებით განხილვას საჭიროებს",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "387": {
+    "english": "Let’s discuss this offline",
+    "georgian": "ეს შეხვედრის გარეთ განვიხილოთ",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "388": {
+    "english": "We need a follow-up meeting",
+    "georgian": "დამატებითი შეხვედრა გვჭირდება",
+    "level": "B1",
+    "category": "Meetings"
+  },
+  "389": {
+    "english": "I’ll follow up on this",
+    "georgian": "ამ საკითხს გავყვები",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "390": {
+    "english": "Please keep me informed",
+    "georgian": "გთხოვთ, საქმის კურსში მაიმყოფეთ",
+    "level": "B1",
+    "category": "Politeness"
+  },
+  "391": {
+    "english": "I’ll keep you updated",
+    "georgian": "განახლებებს მოგაწვდით",
+    "level": "B1",
+    "category": "Status & Updates"
+  },
+  "392": {
+    "english": "Let’s maintain clear communication",
+    "georgian": "მკაფიო კომუნიკაცია შევინარჩუნოთ",
+    "level": "B1",
+    "category": "Basic Responses"
+  },
+  "393": {
+    "english": "Communication is key here",
+    "georgian": "აქ კომუნიკაცია გადამწყვეტია",
+    "level": "B1",
+    "category": "General"
+  },
+  "394": {
+    "english": "There seems to be a misunderstanding",
+    "georgian": "როგორც ჩანს, გაუგებრობაა",
+    "level": "B1",
+    "category": "Basic Responses"
+  },
+  "395": {
+    "english": "Let’s clarify the misunderstanding",
+    "georgian": "გაუგებრობა დავაზუსტოთ",
+    "level": "B1",
+    "category": "Basic Responses"
+  },
+  "396": {
+    "english": "Thanks for clarifying",
+    "georgian": "მადლობა განმარტებისთვის",
+    "level": "B1",
+    "category": "Politeness"
+  },
+  "397": {
+    "english": "I really appreciate the clarification",
+    "georgian": "ნამდვილად ვაფასებ განმარტებას",
+    "level": "B1",
+    "category": "Politeness"
+  },
+  "398": {
+    "english": "That clears things up",
+    "georgian": "ახლა ყველაფერი გასაგებია",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "399": {
+    "english": "Let’s avoid confusion",
+    "georgian": "გაუგებრობის თავიდანოთ",
+    "level": "B1",
+    "category": "General"
+  },
+  "400": {
+    "english": "We need transparency",
+    "georgian": "გამჭვირვალობა გვჭირდება",
+    "level": "B1",
+    "category": "General"
+  },
+  "401": {
+    "english": "This should be clearly communicated",
+    "georgian": "ეს მკაფიოდ უნდა იქნას განხილული",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "402": {
+    "english": "Let’s document this decision",
+    "georgian": "ეს გადაწყვეტილება დავაფიქსიროთ",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "403": {
+    "english": "This decision is final",
+    "georgian": "ეს გადაწყვეტილება საბოლოოა",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "404": {
+    "english": "This decision is not final yet",
+    "georgian": "ეს გადაწყვეტილება ჯერ საბოლოო არ არის",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "405": {
+    "english": "We need consensus",
+    "georgian": "კონსენსუსი გვჭირდება",
+    "level": "B1",
+    "category": "Decisions"
+  },
+  "406": {
+    "english": "We’ve reached a consensus",
+    "georgian": "კონსენსუსს მივაღწიეთ",
+    "level": "B1",
+    "category": "Decisions"
+  },
+  "407": {
+    "english": "We couldn’t reach an agreement",
+    "georgian": "შეთანხმებას ვერ მივაღწიეთ",
+    "level": "B1",
+    "category": "Feedback & Opinions"
+  },
+  "408": {
+    "english": "Let’s find common ground",
+    "georgian": "საერთო პოზიცია ვიპოვოთ",
+    "level": "B1",
+    "category": "General"
+  },
+  "409": {
+    "english": "We need a compromise",
+    "georgian": "კომპრომისი გვჭირდება",
+    "level": "B1",
+    "category": "General"
+  },
+  "410": {
+    "english": "This is acceptable to all parties",
+    "georgian": "ეს ყველა მხარისთვის მისაღებია",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "411": {
+    "english": "This may cause disagreement",
+    "georgian": "ამას შესაძლოა უთანხმოება მოყვეს",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "412": {
+    "english": "Let’s handle this professionally",
+    "georgian": "ამას პროფესიონალურად მივუდგეთ",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "413": {
+    "english": "Please remain professional",
+    "georgian": "გთხოვთ, პროფესიონალურ ჩარჩოში დარჩეთ",
+    "level": "B1",
+    "category": "Politeness"
+  },
+  "414": {
+    "english": "I value your input",
+    "georgian": "ვაფასებ თქვენს აზრს",
+    "level": "B1",
+    "category": "General"
+  },
+  "415": {
+    "english": "Your feedback is valuable",
+    "georgian": "თქვენი უკუკავშირი მნიშვნელოვანია",
+    "level": "B1",
+    "category": "Feedback & Opinions"
+  },
+  "416": {
+    "english": "Thank you for your input",
+    "georgian": "მადლობა თქვენი წვლილისთვის",
+    "level": "B1",
+    "category": "Politeness"
+  },
+  "417": {
+    "english": "I welcome constructive feedback",
+    "georgian": "კონსტრუქციულ უკუკავშირს მივესალმები",
+    "level": "B1",
+    "category": "Feedback & Opinions"
+  },
+  "418": {
+    "english": "Let’s focus on solutions",
+    "georgian": "გადაწყვეტილებებზე გავამახვილოთ ყურადღება",
+    "level": "B1",
+    "category": "Problems & Solutions"
+  },
+  "419": {
+    "english": "Let’s avoid blame",
+    "georgian": "ბრალდებების მოვერიდოთ",
+    "level": "B1",
+    "category": "General"
+  },
+  "420": {
+    "english": "We need accountability",
+    "georgian": "პასუხისმგებლობა გვჭირდება",
+    "level": "B1",
+    "category": "Leadership"
+  },
+  "421": {
+    "english": "I take full responsibility",
+    "georgian": "სრულ პასუხისმგებლობას ვიღებ",
+    "level": "B1",
+    "category": "Leadership"
+  },
+  "422": {
+    "english": "This was a learning experience",
+    "georgian": "ეს სასწავლო გამოცდილება იყო",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "423": {
+    "english": "We can improve next time",
+    "georgian": "მომავალში უკეთესად შეგვიძლია",
+    "level": "B1",
+    "category": "Time & Deadlines"
+  },
+  "424": {
+    "english": "Let’s implement best practices",
+    "georgian": "საუკეთესო პრაქტიკები დავნერგოთ",
+    "level": "B1",
+    "category": "General"
+  },
+  "425": {
+    "english": "This follows best practices",
+    "georgian": "ეს საუკეთესო პრაქტიკებს შეესაბამება",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "426": {
+    "english": "This deviates from standard procedure",
+    "georgian": "ეს სტანდარტულ პროცედურას სცდება",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "427": {
+    "english": "We need to follow procedure",
+    "georgian": "პროცედურას უნდა მივყვეთ",
+    "level": "B1",
+    "category": "Risk & Compliance"
+  },
+  "428": {
+    "english": "Let’s ensure compliance",
+    "georgian": "შესაბამისობა დავიცვათ",
+    "level": "B1",
+    "category": "Quality & Standards"
+  },
+  "429": {
+    "english": "This complies with regulations",
+    "georgian": "ეს რეგულაციებს შეესაბამება",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "430": {
+    "english": "This violates policy",
+    "georgian": "ეს პოლიტიკას არღვევს",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "431": {
+    "english": "We need to address compliance issues",
+    "georgian": "შესაბამისობის საკითხებს უნდა მივხედოთ",
+    "level": "B1",
+    "category": "Problems & Solutions"
+  },
+  "432": {
+    "english": "Let’s mitigate potential risks",
+    "georgian": "პოტენციური რისკები შევამციროთ",
+    "level": "B1",
+    "category": "Risk & Compliance"
+  },
+  "433": {
+    "english": "This reduces potential risk",
+    "georgian": "ეს ამცირებს რისკის ალბათობას",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "434": {
+    "english": "We need a contingency plan",
+    "georgian": "სარეზერვო გეგმა გვჭირდება",
+    "level": "B1",
+    "category": "Strategy & Planning"
+  },
+  "435": {
+    "english": "Let’s prepare a backup plan",
+    "georgian": "სარეზერვო გეგმა მოვამზადოთ",
+    "level": "B1",
+    "category": "Strategy & Planning"
+  },
+  "436": {
+    "english": "This is a critical task",
+    "georgian": "ეს კრიტიკული დავალებაა",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "437": {
+    "english": "This is not critical",
+    "georgian": "ეს კრიტიკული არ არის",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "438": {
+    "english": "Let’s allocate priorities",
+    "georgian": "პრიორიტეტები განვსაზღვროთ",
+    "level": "B1",
+    "category": "General"
+  },
+  "439": {
+    "english": "We need to focus on quality",
+    "georgian": "ხარისხზე უნდა გავამახვილოთ ყურადღება",
+    "level": "B1",
+    "category": "Quality & Standards"
+  },
+  "440": {
+    "english": "Quality is our priority",
+    "georgian": "ხარისხი ჩვენი პრიორიტეტია",
+    "level": "B1",
+    "category": "Time & Deadlines"
+  },
+  "441": {
+    "english": "This supports our strategy",
+    "georgian": "ეს ჩვენს სტრატეგიას მხარს უჭერს",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "442": {
+    "english": "This contradicts our strategy",
+    "georgian": "ეს ჩვენს სტრატეგიას ეწინააღმდეგება",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "443": {
+    "english": "Let’s reassess our strategy",
+    "georgian": "სტრატეგია ხელახლა შევაფასოთ",
+    "level": "B1",
+    "category": "Strategy & Planning"
+  },
+  "444": {
+    "english": "We need a long-term plan",
+    "georgian": "გრძელვადიანი გეგმა გვჭირდება",
+    "level": "B1",
+    "category": "Strategy & Planning"
+  },
+  "445": {
+    "english": "Let’s focus on long-term impact",
+    "georgian": "გრძელვადიან გავლენაზე გავამახვილოთ ყურადღება",
+    "level": "B1",
+    "category": "Strategy & Planning"
+  },
+  "446": {
+    "english": "Short-term gains are not enough",
+    "georgian": "მოკლევადიანი სარგებელი საკმარისი არ არის",
+    "level": "B1",
+    "category": "Strategy & Planning"
+  },
+  "447": {
+    "english": "We need sustainable solutions",
+    "georgian": "მდგრადი გადაწყვეტილებები გვჭირდება",
+    "level": "B1",
+    "category": "Problems & Solutions"
+  },
+  "448": {
+    "english": "This solution is sustainable",
+    "georgian": "ეს გადაწყვეტილება მდგრადია",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "449": {
+    "english": "This is a temporary fix",
+    "georgian": "ეს დროებითი გამოსავალია",
+    "level": "B1",
+    "category": "Greetings"
+  },
+  "450": {
+    "english": "Let’s avoid short-term fixes",
+    "georgian": "დროებითი გადაწყვეტილებების მოვერიდოთ",
+    "level": "B1",
+    "category": "Problems & Solutions"
+  },
+  "451": {
+    "english": "We need scalability",
+    "georgian": "მასშტაბურობა გვჭირდება",
+    "level": "B2",
+    "category": "General"
+  },
+  "452": {
+    "english": "This solution is scalable",
+    "georgian": "ეს გადაწყვეტილება მასშტაბირებადია",
+    "level": "B2",
+    "category": "Greetings"
+  },
+  "453": {
+    "english": "This won’t scale well",
+    "georgian": "ეს კარგად ვერ მასშტაბირდება",
+    "level": "B2",
+    "category": "Greetings"
+  },
+  "454": {
+    "english": "Let’s plan for growth",
+    "georgian": "ზრდისთვის დავგეგმოთ",
+    "level": "B2",
+    "category": "Strategy & Planning"
+  },
+  "455": {
+    "english": "Growth is a priority",
+    "georgian": "ზრდა პრიორიტეტია",
+    "level": "B2",
+    "category": "Time & Deadlines"
+  },
+  "456": {
+    "english": "We need to manage growth",
+    "georgian": "ზრდის მართვა გვჭირდება",
+    "level": "B2",
+    "category": "Leadership"
+  },
+  "457": {
+    "english": "Growth brings challenges",
+    "georgian": "ზრდას სირთულეები ახლავს",
+    "level": "B2",
+    "category": "Performance"
+  },
+  "458": {
+    "english": "Let’s prepare for challenges",
+    "georgian": "გამოწვევებისთვის მოვემზადოთ",
+    "level": "B2",
+    "category": "General"
+  },
+  "459": {
+    "english": "We need flexibility",
+    "georgian": "მოქნილობა გვჭირდება",
+    "level": "B2",
+    "category": "General"
+  },
+  "460": {
+    "english": "This requires adaptability",
+    "georgian": "ეს ადაპტირებას საჭიროებს",
+    "level": "B2",
+    "category": "Greetings"
+  },
+  "461": {
+    "english": "Let’s stay agile",
+    "georgian": "მოქნილები დავრჩეთ",
+    "level": "B2",
+    "category": "General"
+  },
+  "462": {
+    "english": "We need to adapt quickly",
+    "georgian": "სწრაფად უნდა მოვერგოთ",
+    "level": "B2",
+    "category": "Change & Innovation"
+  },
+  "463": {
+    "english": "This environment is changing",
+    "georgian": "გარემო იცვლება",
+    "level": "B2",
+    "category": "Greetings"
+  },
+  "464": {
+    "english": "Let’s respond proactively",
+    "georgian": "პროაქტიულად ვუპასუხოთ",
+    "level": "B2",
+    "category": "General"
+  },
+  "465": {
+    "english": "We need innovation",
+    "georgian": "ინოვაცია გვჭირდება",
+    "level": "B2",
+    "category": "Change & Innovation"
+  },
+  "466": {
+    "english": "Innovation drives success",
+    "georgian": "ინოვაცია წარმატებას განაპირობებს",
+    "level": "B2",
+    "category": "Performance"
+  },
+  "467": {
+    "english": "Let’s explore new ideas",
+    "georgian": "ახალი იდეები გამოვიკვლიოთ",
+    "level": "B2",
+    "category": "Change & Innovation"
+  },
+  "468": {
+    "english": "This idea has potential",
+    "georgian": "ამ იდეას პოტენციალი აქვს",
+    "level": "B2",
+    "category": "Greetings"
+  },
+  "469": {
+    "english": "This idea needs refinement",
+    "georgian": "ამ იდეას დახვეწა სჭირდება",
+    "level": "B2",
+    "category": "Greetings"
+  },
+  "470": {
+    "english": "Let’s validate this idea",
+    "georgian": "ეს იდეა დავადასტუროთ",
+    "level": "B2",
+    "category": "Greetings"
+  },
+  "471": {
+    "english": "Validation is required",
+    "georgian": "დადასტურება საჭიროა",
+    "level": "B2",
+    "category": "General"
+  },
+  "472": {
+    "english": "Let’s move to implementation",
+    "georgian": "განხორციელებაზე გადავიდეთ",
+    "level": "B2",
+    "category": "General"
+  },
+  "473": {
+    "english": "Implementation is underway",
+    "georgian": "განხორციელება მიმდინარეობს",
+    "level": "B2",
+    "category": "General"
+  },
+  "474": {
+    "english": "Implementation was successful",
+    "georgian": "განხორციელება წარმატებული იყო",
+    "level": "B2",
+    "category": "Performance"
+  },
+  "475": {
+    "english": "Implementation faced issues",
+    "georgian": "განხორციელებას პრობლემები შეექმნა",
+    "level": "B2",
+    "category": "Problems & Solutions"
+  },
+  "476": {
+    "english": "Let’s optimize implementation",
+    "georgian": "განხორციელება გავაუმჯობესოთ",
+    "level": "B2",
+    "category": "General"
+  },
+  "477": {
+    "english": "We need cross-team collaboration",
+    "georgian": "გუნდებს შორის თანამშრომლობა გვჭირდება",
+    "level": "B2",
+    "category": "Teamwork"
+  },
+  "478": {
+    "english": "Collaboration is essential",
+    "georgian": "თანამშრომლობა აუცილებელია",
+    "level": "B2",
+    "category": "Teamwork"
+  },
+  "479": {
+    "english": "Let’s break down silos",
+    "georgian": "ბარიერები დავანგრიოთ",
+    "level": "B2",
+    "category": "General"
+  },
+  "480": {
+    "english": "We need alignment across teams",
+    "georgian": "გუნდებს შორის შეთანხმება გვჭირდება",
+    "level": "B2",
+    "category": "Teamwork"
+  },
+  "481": {
+    "english": "Let’s synchronize efforts",
+    "georgian": "ძალისხმევა შევაერთოთ",
+    "level": "B2",
+    "category": "General"
+  },
+  "482": {
+    "english": "We need clear ownership",
+    "georgian": "მკაფიო პასუხისმგებლობა გვჭირდება",
+    "level": "B2",
+    "category": "Greetings"
+  },
+  "483": {
+    "english": "Ownership has been assigned",
+    "georgian": "პასუხისმგებლობა განაწილებულია",
+    "level": "B2",
+    "category": "Greetings"
+  },
+  "484": {
+    "english": "Accountability is clear",
+    "georgian": "პასუხისმგებლობა მკაფიოა",
+    "level": "B2",
+    "category": "Leadership"
+  },
+  "485": {
+    "english": "Let’s ensure accountability",
+    "georgian": "პასუხისმგებლობა უზრუნველვყოთ",
+    "level": "B2",
+    "category": "Leadership"
+  },
+  "486": {
+    "english": "We need regular check-ins",
+    "georgian": "რეგულარული შემოწმებები გვჭირდება",
+    "level": "B2",
+    "category": "Quality & Standards"
+  },
+  "487": {
+    "english": "Let’s have weekly updates",
+    "georgian": "ყოველკვირეული განახლებები დავგეგმოთ",
+    "level": "B2",
+    "category": "Status & Updates"
+  },
+  "488": {
+    "english": "Communication cadence is set",
+    "georgian": "კომუნიკაციის სიხშირე დაწესებულია",
+    "level": "B2",
+    "category": "General"
+  },
+  "489": {
+    "english": "Let’s keep momentum",
+    "georgian": "ტემპი შევინარჩუნოთ",
+    "level": "B2",
+    "category": "General"
+  },
+  "490": {
+    "english": "Momentum is building",
+    "georgian": "დინამიკა იზრდება",
+    "level": "B2",
+    "category": "General"
+  },
+  "491": {
+    "english": "We’re losing momentum",
+    "georgian": "ტემპს ვკარგავთ",
+    "level": "B2",
+    "category": "General"
+  },
+  "492": {
+    "english": "Let’s refocus the team",
+    "georgian": "მოდი, გუნდს ხელახლა მივაქციოთ ყურადღება",
+    "level": "B2",
+    "category": "Teamwork"
+  },
+  "493": {
+    "english": "Team morale is high",
+    "georgian": "გუნდის მოტივაცია მაღალია",
+    "level": "B2",
+    "category": "Greetings"
+  },
+  "494": {
+    "english": "Team morale needs attention",
+    "georgian": "გუნდის მოტივაციას ყურადღება სჭირდება",
+    "level": "B2",
+    "category": "Teamwork"
+  },
+  "495": {
+    "english": "Let’s support the team",
+    "georgian": "გუნდს მხარი დავუჭიროთ",
+    "level": "B2",
+    "category": "Teamwork"
+  },
+  "496": {
+    "english": "We need to motivate the team",
+    "georgian": "გუნდის მოტივირება გვჭირდება",
+    "level": "B2",
+    "category": "Teamwork"
+  },
+  "497": {
+    "english": "Motivation drives performance",
+    "georgian": "მოტივაცია შედეგიანობას განაპირობებს",
+    "level": "B2",
+    "category": "Performance"
+  },
+  "498": {
+    "english": "Let’s recognize achievements",
+    "georgian": "მიღწევები აღვნიშნოთ",
+    "level": "B2",
+    "category": "Greetings"
+  },
+  "499": {
+    "english": "Achievements should be acknowledged",
+    "georgian": "მიღწევები უნდა დადასტურდეს",
+    "level": "B2",
+    "category": "Greetings"
+  },
+  "500": {
+    "english": "Let’s celebrate success",
+    "georgian": "წარმატება აღვნიშნოთ",
+    "level": "B2",
+    "category": "Performance"
+  },
+  "501": {
+    "english": "Success was a team effort",
+    "georgian": "წარმატება გუნდური მუშაობის შედეგია",
+    "level": "B2",
+    "category": "Teamwork"
+  },
+  "502": {
+    "english": "Challenges were overcome",
+    "georgian": "სირთულეები დაძლეულია",
+    "level": "B2",
+    "category": "General"
+  },
+  "503": {
+    "english": "We handled this well",
+    "georgian": "ამას კარგად გავუმკლავდით",
+    "level": "B2",
+    "category": "Greetings"
+  },
+  "504": {
+    "english": "This was challenging but manageable",
+    "georgian": "რთული იყო, მაგრამ მართვადი",
+    "level": "B2",
+    "category": "Greetings"
+  },
+  "505": {
+    "english": "Let’s reflect on this",
+    "georgian": "ამაზე დავფიქრდეთ",
+    "level": "B2",
+    "category": "Greetings"
+  },
+  "506": {
+    "english": "Reflection helps improvement",
+    "georgian": "ანარეკლი გაუმჯობესებას უწყობს ხელს",
+    "level": "B2",
+    "category": "Teamwork"
+  },
+  "507": {
+    "english": "Let’s gather feedback",
+    "georgian": "მოდი, უკუკავშირი შევაგროვოთ",
+    "level": "B2",
+    "category": "Feedback & Opinions"
+  },
+  "508": {
+    "english": "Feedback will help us improve",
+    "georgian": "უკუკავშირი გაუმჯობესებაში დაგვეხმარება",
+    "level": "B2",
+    "category": "Feedback & Opinions"
+  },
+  "509": {
+    "english": "We need honest feedback",
+    "georgian": "გულწრფელი უკუკავშირი გვჭირდება",
+    "level": "B2",
+    "category": "Feedback & Opinions"
+  },
+  "510": {
+    "english": "Let’s act on feedback",
+    "georgian": "უკუკავშირის საფუძველზე ვიმოქმედოთ",
+    "level": "B2",
+    "category": "Feedback & Opinions"
+  },
+  "511": {
+    "english": "Feedback has been implemented",
+    "georgian": "უკუკავშირი გათვალისწინებულია",
+    "level": "B2",
+    "category": "Feedback & Opinions"
+  },
+  "512": {
+    "english": "This improved collaboration",
+    "georgian": "ამან თანამშრომლობა გააუმჯობესა",
+    "level": "B2",
+    "category": "Greetings"
+  },
+  "513": {
+    "english": "Let’s strengthen collaboration",
+    "georgian": "თანამშრომლობა გავაძლიეროთ",
+    "level": "B2",
+    "category": "Teamwork"
+  },
+  "514": {
+    "english": "Trust is essential",
+    "georgian": "ნდობა აუცილებელია",
+    "level": "B2",
+    "category": "Leadership"
+  },
+  "515": {
+    "english": "Let’s build trust",
+    "georgian": "ნდობა ავაშენოთ",
+    "level": "B2",
+    "category": "Leadership"
+  },
+  "516": {
+    "english": "Transparency builds trust",
+    "georgian": "გამჭვირვალობა ნდობას ქმნის",
+    "level": "B2",
+    "category": "Leadership"
+  },
+  "517": {
+    "english": "Let’s maintain professionalism",
+    "georgian": "პროფესიონალიზმი შევინარჩუნოთ",
+    "level": "B2",
+    "category": "General"
+  },
+  "518": {
+    "english": "Professionalism is expected",
+    "georgian": "პროფესიონალიზმი მოითხოვება",
+    "level": "B2",
+    "category": "General"
+  },
+  "519": {
+    "english": "Let’s uphold standards",
+    "georgian": "სტანდარტები დავიცვათ",
+    "level": "B2",
+    "category": "Quality & Standards"
+  },
+  "520": {
+    "english": "Standards must be maintained",
+    "georgian": "სტანდარტები უნდა შენარჩუნდეს",
+    "level": "B2",
+    "category": "Quality & Standards"
+  },
+  "521": {
+    "english": "Let’s ensure consistency",
+    "georgian": "თანმიმდევრულობა უზრუნველვყოთ",
+    "level": "B2",
+    "category": "Basic Responses"
+  },
+  "522": {
+    "english": "Consistency is important",
+    "georgian": "თანმიმდევრულობა მნიშვნელოვანია",
+    "level": "B2",
+    "category": "General"
+  },
+  "523": {
+    "english": "Let’s standardize this process",
+    "georgian": "მოდი, ეს პროცესი სტანდარტიზებული გავხადოთ",
+    "level": "B2",
+    "category": "Greetings"
+  },
+  "524": {
+    "english": "This process is standardized",
+    "georgian": "ეს პროცესი სტანდარტიზებულია",
+    "level": "B2",
+    "category": "Greetings"
+  },
+  "525": {
+    "english": "We need process improvement",
+    "georgian": "პროცესის გაუმჯობესება გვჭირდება",
+    "level": "B2",
+    "category": "Performance"
+  },
+  "526": {
+    "english": "Let’s streamline workflows",
+    "georgian": "სამუშაო ნაკადები გავამარტივოთ",
+    "level": "B2",
+    "category": "General"
+  },
+  "527": {
+    "english": "Workflow efficiency improved",
+    "georgian": "სამუშაო პროცესის ეფექტიანობა გაიზარდა",
+    "level": "B2",
+    "category": "Performance"
+  },
+  "528": {
+    "english": "Let’s conclude this discussion",
+    "georgian": "ეს განხილვა დავასრულოთ",
+    "level": "B2",
+    "category": "Greetings"
+  },
+  "529": {
+    "english": "This meets quality standards",
+    "georgian": "ეს ხარისხის სტანდარტებს აკმაყოფილებს",
+    "level": "B2",
+    "category": "Greetings"
+  },
+  "530": {
+    "english": "This fails quality checks",
+    "georgian": "ეს ხარისხის შემოწმებას ვერ გადის",
+    "level": "B2",
+    "category": "Greetings"
+  },
+  "531": {
+    "english": "We need quality assurance",
+    "georgian": "ხარისხის კონტროლი გვჭირდება",
+    "level": "B2",
+    "category": "Quality & Standards"
+  },
+  "532": {
+    "english": "Let’s test this thoroughly",
+    "georgian": "საფუძვლიანად შევამოწმოთ",
+    "level": "B2",
+    "category": "Greetings"
+  },
+  "533": {
+    "english": "The testing phase is complete",
+    "georgian": "ტესტირების ფაზა დასრულებულია",
+    "level": "B2",
+    "category": "Tasks & Projects"
+  },
+  "534": {
+    "english": "Issues were identified during testing",
+    "georgian": "ტესტირებისას პრობლემები გამოვლინდა",
+    "level": "B2",
+    "category": "Problems & Solutions"
+  },
+  "535": {
+    "english": "The issues have been resolved",
+    "georgian": "პრობლემები მოგვარებულია",
+    "level": "B2",
+    "category": "Problems & Solutions"
+  },
+  "536": {
+    "english": "We’re ready for deployment",
+    "georgian": "დეპლოიმენტისთვის მზად ვართ",
+    "level": "B2",
+    "category": "General"
+  },
+  "537": {
+    "english": "Let’s deploy the solution",
+    "georgian": "მოდი, გადაწყვეტილება გავუშვათ/მოვა",
+    "level": "B2",
+    "category": "Problems & Solutions"
+  },
+  "538": {
+    "english": "Deployment was successful",
+    "georgian": "დანერგვა წარმატებული იყო",
+    "level": "B2",
+    "category": "Performance"
+  },
+  "539": {
+    "english": "Deployment failed",
+    "georgian": "დანერგვა ვერ მოხერხდა",
+    "level": "B2",
+    "category": "General"
+  },
+  "540": {
+    "english": "We need to troubleshoot",
+    "georgian": "ხარვეზების გამოსწორება გვჭირდება",
+    "level": "B2",
+    "category": "Problems & Solutions"
+  },
+  "541": {
+    "english": "Let’s identify the root cause",
+    "georgian": "ძირეული მიზეზი გამოვავლინოთ",
+    "level": "B2",
+    "category": "Problems & Solutions"
+  },
+  "542": {
+    "english": "The root cause has been identified",
+    "georgian": "ძირეული მიზეზი გამოვლენილია",
+    "level": "B2",
+    "category": "Problems & Solutions"
+  },
+  "543": {
+    "english": "We’ve fixed the issue",
+    "georgian": "პრობლემა გამოვასწორეთ",
+    "level": "B2",
+    "category": "Problems & Solutions"
+  },
+  "544": {
+    "english": "The issue persists",
+    "georgian": "პრობლემა კვლავ არსებობს",
+    "level": "B2",
+    "category": "Problems & Solutions"
+  },
+  "545": {
+    "english": "We need further investigation",
+    "georgian": "დამატებითი კვლევა გვჭირდება",
+    "level": "B2",
+    "category": "Resources & Budget"
+  },
+  "546": {
+    "english": "Let’s consult an expert",
+    "georgian": "ექსპერტს მივმართოთ",
+    "level": "B2",
+    "category": "General"
+  },
+  "547": {
+    "english": "External support may be required",
+    "georgian": "შესაძლოა გარე მხარდაჭერა იყოს საჭირო",
+    "level": "B2",
+    "category": "Teamwork"
+  },
+  "548": {
+    "english": "Let’s involve stakeholders",
+    "georgian": "დაინტერესებული მხარეები ჩავრთოთ",
+    "level": "B2",
+    "category": "General"
+  },
+  "549": {
+    "english": "Stakeholder feedback is positive",
+    "georgian": "დაინტერესებული მხარეების უკუკავშირი დადებითია",
+    "level": "B2",
+    "category": "Feedback & Opinions"
+  },
+  "550": {
+    "english": "Stakeholder feedback is negative",
+    "georgian": "უკუკავშირი უარყოფითია",
+    "level": "B2",
+    "category": "Feedback & Opinions"
+  },
+  "551": {
+    "english": "We need stakeholder approval",
+    "georgian": "დაინტერესებული მხარეების თანხმობა გვჭირდება",
+    "level": "B2",
+    "category": "Decisions"
+  },
+  "552": {
+    "english": "This satisfies stakeholder expectations",
+    "georgian": "ეს მოლოდინებს აკმაყოფილებს",
+    "level": "B2",
+    "category": "Greetings"
+  },
+  "553": {
+    "english": "Let’s manage expectations",
+    "georgian": "მოლოდინები ვმართოთ",
+    "level": "B2",
+    "category": "Leadership"
+  },
+  "554": {
+    "english": "We need to set clear expectations",
+    "georgian": "მკაფიო მოლოდინები უნდა დავსახოთ",
+    "level": "B2",
+    "category": "Basic Responses"
+  },
+  "555": {
+    "english": "Expectations were unclear",
+    "georgian": "მოლოდინები არ იყო მკაფიო",
+    "level": "B2",
+    "category": "Basic Responses"
+  },
+  "556": {
+    "english": "Let’s align expectations",
+    "georgian": "მოლოდინები შევათანხმოთ",
+    "level": "B2",
+    "category": "Teamwork"
+  },
+  "557": {
+    "english": "We need to communicate changes",
+    "georgian": "ცვლილებები უნდა გავაცნოთ",
+    "level": "B2",
+    "category": "Communication"
+  },
+  "558": {
+    "english": "Changes have been communicated",
+    "georgian": "ცვლილებები უკვე გაცნობილია",
+    "level": "B2",
+    "category": "Communication"
+  },
+  "559": {
+    "english": "This change affects the scope",
+    "georgian": "ეს ცვლილება მასშტაბზე აისახება",
+    "level": "B2",
+    "category": "Greetings"
+  },
+  "560": {
+    "english": "The scope has expanded",
+    "georgian": "მასშტაბი გაიზარდა",
+    "level": "B2",
+    "category": "General"
+  },
+  "561": {
+    "english": "The scope remains the same",
+    "georgian": "მასშტაბი უცვლელია",
+    "level": "B2",
+    "category": "General"
+  },
+  "562": {
+    "english": "Let’s redefine the scope",
+    "georgian": "მასშტაბი ხელახლა განვსაზღვროთ",
+    "level": "B2",
+    "category": "General"
+  },
+  "563": {
+    "english": "Scope creep is an issue",
+    "georgian": "მასშტაბის უკონტროლო ზრდა პრობლემაა",
+    "level": "B2",
+    "category": "Problems & Solutions"
+  },
+  "564": {
+    "english": "We need to control scope",
+    "georgian": "მასშტაბი უნდა ვაკონტროლოთ",
+    "level": "B2",
+    "category": "General"
+  },
+  "565": {
+    "english": "Let’s track progress",
+    "georgian": "პროგრესი გავაკონტროლოთ",
+    "level": "B2",
+    "category": "Tasks & Projects"
+  },
+  "566": {
+    "english": "Progress is being tracked",
+    "georgian": "პროგრესი კონტროლდება",
+    "level": "B2",
+    "category": "Tasks & Projects"
+  },
+  "567": {
+    "english": "Progress is slower than expected",
+    "georgian": "პროგრესი მოსალოდნელზე ნელია",
+    "level": "B2",
+    "category": "Tasks & Projects"
+  },
+  "568": {
+    "english": "Progress is satisfactory",
+    "georgian": "პროგრესი დამაკმაყოფილებელია",
+    "level": "B2",
+    "category": "Tasks & Projects"
+  },
+  "569": {
+    "english": "Let’s review milestones",
+    "georgian": "საკვანძო ეტაპებს გადავხედოთ",
+    "level": "B2",
+    "category": "Tasks & Projects"
+  },
+  "570": {
+    "english": "We’ve reached a milestone",
+    "georgian": "საკვანძო ეტაპს მივაღწიეთ",
+    "level": "B2",
+    "category": "Tasks & Projects"
+  },
+  "571": {
+    "english": "The milestone was missed",
+    "georgian": "ეტაპი გამოტოვებულია",
+    "level": "B2",
+    "category": "Tasks & Projects"
+  },
+  "572": {
+    "english": "Let’s reassess the timeline",
+    "georgian": "დროის გრაფიკი ხელახლა შევაფასოთ",
+    "level": "B2",
+    "category": "Time & Deadlines"
+  },
+  "573": {
+    "english": "We need to adjust the timeline",
+    "georgian": "გრაფიკის კორექტირება გვჭირდება",
+    "level": "B2",
+    "category": "Time & Deadlines"
+  },
+  "574": {
+    "english": "Let’s focus on deliverables",
+    "georgian": "შედეგებზე გავამახვილოთ ყურადღება",
+    "level": "B2",
+    "category": "Tasks & Projects"
+  },
+  "575": {
+    "english": "Deliverables are clearly defined",
+    "georgian": "შედეგები მკაფიოდ არის განსაზღვრული",
+    "level": "B2",
+    "category": "Tasks & Projects"
+  },
+  "576": {
+    "english": "Deliverables are pending",
+    "georgian": "შედეგები ჯერ არ არის მიწოდებული",
+    "level": "B2",
+    "category": "Tasks & Projects"
+  },
+  "577": {
+    "english": "We need to meet the deadline",
+    "georgian": "ვადა უნდა დავიცვათ",
+    "level": "B2",
+    "category": "Time & Deadlines"
+  },
+  "578": {
+    "english": "Let’s ensure timely delivery",
+    "georgian": "დროული მიწოდება უზრუნველვყოთ",
+    "level": "B2",
+    "category": "Time & Deadlines"
+  },
+  "579": {
+    "english": "Delivery has been delayed",
+    "georgian": "მიწოდება დაგვიანდა",
+    "level": "B2",
+    "category": "Time & Deadlines"
+  },
+  "580": {
+    "english": "The delivery was successful",
+    "georgian": "მიწოდება წარმატებული იყო",
+    "level": "B2",
+    "category": "Performance"
+  },
+  "581": {
+    "english": "Let’s close this task",
+    "georgian": "ეს დავალება დავხუროთ",
+    "level": "B2",
+    "category": "Greetings"
+  },
+  "582": {
+    "english": "This task is officially closed",
+    "georgian": "დავალება ოფიციალურად დახურულია",
+    "level": "B2",
+    "category": "Greetings"
+  },
+  "583": {
+    "english": "Let’s document lessons learned",
+    "georgian": "მიღებული გამოცდილება დავაფიქსიროთ",
+    "level": "B2",
+    "category": "General"
+  },
+  "584": {
+    "english": "We learned a lot from this",
+    "georgian": "ამ პროექტისგან ბევრი ვისწავლეთ",
+    "level": "B2",
+    "category": "Greetings"
+  },
+  "585": {
+    "english": "This improved our process",
+    "georgian": "ამან ჩვენი პროცესი გააუმჯობესა",
+    "level": "B2",
+    "category": "Greetings"
+  },
+  "586": {
+    "english": "Let’s apply these insights",
+    "georgian": "ეს მიღებული ცოდნა გამოვიყენოთ",
+    "level": "B2",
+    "category": "General"
+  },
+  "587": {
+    "english": "This will help in the future",
+    "georgian": "ეს მომავალში დაგვეხმარება",
+    "level": "B2",
+    "category": "Greetings"
+  },
+  "588": {
+    "english": "We need continuous improvement",
+    "georgian": "მუდმივი გაუმჯობესება გვჭირდება",
+    "level": "B2",
+    "category": "Performance"
+  },
+  "589": {
+    "english": "Let’s review overall performance",
+    "georgian": "საერთო შედეგიანობა შევაფასოთ",
+    "level": "B2",
+    "category": "Feedback & Opinions"
+  },
+  "590": {
+    "english": "Performance has improved",
+    "georgian": "შედეგიანობა გაუმჯობესდა",
+    "level": "B2",
+    "category": "Performance"
+  },
+  "591": {
+    "english": "Performance needs improvement",
+    "georgian": "შედეგიანობა გაუმჯობესებას საჭიროებს",
+    "level": "B2",
+    "category": "Performance"
+  },
+  "592": {
+    "english": "Let’s set new goals",
+    "georgian": "ახალი მიზნები დავსახოთ",
+    "level": "B2",
+    "category": "Strategy & Planning"
+  },
+  "593": {
+    "english": "Goals have been achieved",
+    "georgian": "მიზნები მიღწეულია",
+    "level": "B2",
+    "category": "Greetings"
+  },
+  "594": {
+    "english": "Goals were not achieved",
+    "georgian": "მიზნები ვერ იქნა მიღწეული",
+    "level": "B2",
+    "category": "Greetings"
+  },
+  "595": {
+    "english": "We need to redefine goals",
+    "georgian": "მიზნების გადახედვა გვჭირდება",
+    "level": "B2",
+    "category": "Strategy & Planning"
+  },
+  "596": {
+    "english": "Let’s align goals with strategy",
+    "georgian": "მიზნები სტრატეგიას შევუსაბამოთ",
+    "level": "B2",
+    "category": "Teamwork"
+  },
+  "597": {
+    "english": "Strategy needs adjustment",
+    "georgian": "სტრატეგიას კორექტირება სჭირდება",
+    "level": "B2",
+    "category": "Strategy & Planning"
+  },
+  "598": {
+    "english": "Intuition should be supported by data",
+    "georgian": "ინტუიცია მონაცემებით უნდა გამყარდეს",
+    "level": "B2",
+    "category": "Teamwork"
+  },
+  "599": {
+    "english": "Let’s avoid cognitive bias",
+    "georgian": "მოდი, კოგნიტურ მიკერძოებას ავარიდოთ თავი",
+    "level": "B2",
+    "category": "General"
+  },
+  "600": {
+    "english": "We need objective evaluation",
+    "georgian": "ობიექტური შეფასებაა საჭირო",
+    "level": "B2",
+    "category": "Strategy & Planning"
+  },
+  "601": {
+    "english": "This requires independent validation",
+    "georgian": "ამას დამოუკიდებელი ვალიდაცია სჭირდება",
+    "level": "C1",
+    "category": "Greetings"
+  },
+  "602": {
+    "english": "External perspectives may add value",
+    "georgian": "გარე ხედვებმა შესაძლოა დამატებითი ღირებულება შექმნას",
+    "level": "C1",
+    "category": "General"
+  },
+  "603": {
+    "english": "Let’s challenge conventional thinking",
+    "georgian": "მოდი, ტრადიციულ აზროვნებას დავუპირისპირდეთ",
+    "level": "C1",
+    "category": "Greetings"
+  },
+  "604": {
+    "english": "This challenges the status quo",
+    "georgian": "ეს არსებულ მდგომარეობას ეწინააღმდეგება",
+    "level": "C1",
+    "category": "Greetings"
+  },
+  "605": {
+    "english": "We must be willing to rethink assumptions",
+    "georgian": "წინასწარ დაშვებებს თავიდან უნდა გადავხედოთ",
+    "level": "C1",
+    "category": "Greetings"
+  },
+  "606": {
+    "english": "Strategic courage is required",
+    "georgian": "სტრატეგიული სიმამაცეა საჭირო",
+    "level": "C1",
+    "category": "General"
+  },
+  "607": {
+    "english": "Leadership must set the tone",
+    "georgian": "ტონი ლიდერობამ უნდა განსაზღვროს",
+    "level": "C1",
+    "category": "Greetings"
+  },
+  "608": {
+    "english": "Tone from the top matters",
+    "georgian": "ზემოდან მომავალი ტონი მნიშვნელოვანია",
+    "level": "C1",
+    "category": "General"
+  },
+  "609": {
+    "english": "Let’s lead by example",
+    "georgian": "მოდი, მაგალითით ვიხელმძღვანელოთ",
+    "level": "C1",
+    "category": "General"
+  },
+  "610": {
+    "english": "Credibility is built through action",
+    "georgian": "სანდოობა მოქმედებითი გაგებითაა",
+    "level": "C1",
+    "category": "Leadership"
+  },
+  "611": {
+    "english": "Trust is earned over time",
+    "georgian": "ნდობა დროთა განმავლობაში მოიპოვება",
+    "level": "C1",
+    "category": "Time & Deadlines"
+  },
+  "612": {
+    "english": "We must maintain credibility",
+    "georgian": "სანდოობა უნდა შევინარჩუნოთ",
+    "level": "C1",
+    "category": "Leadership"
+  },
+  "613": {
+    "english": "Consistency will reinforce trust",
+    "georgian": "თანმიმდევრულობა ნდობას გაამყარებს",
+    "level": "C1",
+    "category": "Leadership"
+  },
+  "614": {
+    "english": "Let’s remain authentic",
+    "georgian": "მოდი, ავთენტურები დავრჩეთ",
+    "level": "C1",
+    "category": "General"
+  },
+  "615": {
+    "english": "Authentic leadership builds loyalty",
+    "georgian": "ავთენტური ლიდერობა ერთგულებას ქმნის",
+    "level": "C1",
+    "category": "Greetings"
+  },
+  "616": {
+    "english": "We need to inspire confidence",
+    "georgian": "ნდობის შთაგონებაა საჭიროა",
+    "level": "C1",
+    "category": "General"
+  },
+  "617": {
+    "english": "Confidence must be grounded in reality",
+    "georgian": "თავდაჯერებულობა რეალობას უნდა ეფუძნებოდეს",
+    "level": "C1",
+    "category": "General"
+  },
+  "618": {
+    "english": "Let’s communicate with conviction",
+    "georgian": "მოდი, დარწმუნებით ვიურთიერთოთ",
+    "level": "C1",
+    "category": "Communication"
+  },
+  "619": {
+    "english": "Conviction must be matched by competence",
+    "georgian": "დარწმუნება კომპეტენციით უნდა გამყარდეს",
+    "level": "C1",
+    "category": "General"
+  },
+  "620": {
+    "english": "We must deliver on our commitments",
+    "georgian": "ვალდებულებები უნდა შევასრულოთ",
+    "level": "C1",
+    "category": "General"
+  },
+  "621": {
+    "english": "Commitments must be honored",
+    "georgian": "ვალდებულებები პატივისცემით უნდა შესრულდეს",
+    "level": "C1",
+    "category": "Basic Responses"
+  },
+  "622": {
+    "english": "Let’s hold ourselves accountable",
+    "georgian": "მოდი, საკუთარ თავზე ავიღოთ პასუხისმგებლობა",
+    "level": "C1",
+    "category": "Leadership"
+  },
+  "623": {
+    "english": "Accountability drives performance",
+    "georgian": "პასუხისმგებლობა უზრუნველყოფს დროულობას",
+    "level": "C1",
+    "category": "Leadership"
+  },
+  "624": {
+    "english": "Performance must be sustained",
+    "georgian": "შესრულება მდგრადი უნდა იყოს",
+    "level": "C1",
+    "category": "Performance"
+  },
+  "625": {
+    "english": "Let’s avoid complacency",
+    "georgian": "მოდი, თვითკმაყოფილებას ავარიდოთ თავი",
+    "level": "C1",
+    "category": "General"
+  },
+  "626": {
+    "english": "Continuous improvement is non-negotiable",
+    "georgian": "უწყვეტი გაუმჯობესება უპირობოა",
+    "level": "C1",
+    "category": "Performance"
+  },
+  "627": {
+    "english": "Excellence is a journey, not a destination",
+    "georgian": "სრულყოფილება გზაა და არა დანიშნულება",
+    "level": "C1",
+    "category": "Basic Responses"
+  },
+  "628": {
+    "english": "Let’s strive for mastery",
+    "georgian": "მოდი, ოსტატობისკენ ვისწრაფოთ",
+    "level": "C1",
+    "category": "General"
+  },
+  "629": {
+    "english": "Mastery requires discipline",
+    "georgian": "ოსტატობა დისციპლინას მოითხოვს",
+    "level": "C1",
+    "category": "General"
+  },
+  "630": {
+    "english": "Discipline underpins success",
+    "georgian": "დისციპლინა წარმატების საფუძველია",
+    "level": "C1",
+    "category": "Performance"
+  },
+  "631": {
+    "english": "Let’s institutionalize discipline",
+    "georgian": "მოდი, დისციპლინა ინსტიტუციონალურ დონეზე დავნერგოთ",
+    "level": "C1",
+    "category": "General"
+  },
+  "632": {
+    "english": "This will strengthen execution capability",
+    "georgian": "ეს შესრულების შესაძლებლობას გააძლიერებს",
+    "level": "C1",
+    "category": "Greetings"
+  },
+  "633": {
+    "english": "We need organizational maturity",
+    "georgian": "ორგანიზაციული სიმწიფეა საჭირო",
+    "level": "C1",
+    "category": "General"
+  },
+  "634": {
+    "english": "Maturity enables scalability",
+    "georgian": "სიმწიფე მასშტაბურობას უზრუნველყოფს",
+    "level": "C1",
+    "category": "General"
+  },
+  "635": {
+    "english": "Let’s build scalable systems",
+    "georgian": "მოდი, მასშტაბირებადი სისტემები შევქმნათ",
+    "level": "C1",
+    "category": "General"
+  },
+  "636": {
+    "english": "Systems must support strategy",
+    "georgian": "სისტემებმა სტრატეგიას უნდა დაუჭირონ მხარი",
+    "level": "C1",
+    "category": "Teamwork"
+  },
+  "637": {
+    "english": "Process discipline is essential",
+    "georgian": "პროცესის დისციპლინა აუცილებელია",
+    "level": "C1",
+    "category": "General"
+  },
+  "638": {
+    "english": "Let’s simplify where possible",
+    "georgian": "მოდი, სადაც შესაძლებელია, გავამარტივოთ",
+    "level": "C1",
+    "category": "General"
+  },
+  "639": {
+    "english": "Simplicity drives clarity",
+    "georgian": "სიმარტივე სიცხადეს ქმნის",
+    "level": "C1",
+    "category": "General"
+  },
+  "640": {
+    "english": "Clarity enables speed",
+    "georgian": "სიცხადე სიჩქარეს უზრუნველყოფს",
+    "level": "C1",
+    "category": "General"
+  },
+  "641": {
+    "english": "Speed must not compromise quality",
+    "georgian": "სიჩქარემ ხარისხი არ უნდა დააზიანოს",
+    "level": "C1",
+    "category": "Quality & Standards"
+  },
+  "642": {
+    "english": "Quality must remain uncompromised",
+    "georgian": "ხარისხი კომპრომისის არ ქვეშ უნდა დადგეს",
+    "level": "C1",
+    "category": "Quality & Standards"
+  },
+  "643": {
+    "english": "Thank you for your contribution",
+    "georgian": "მადლობა თქვენი წვლილისთვის",
+    "level": "C1",
+    "category": "Politeness"
+  },
+  "644": {
+    "english": "I’d like to draw your attention to a critical point",
+    "georgian": "მსურს თქვენი ყურადღება ერთ კრიტიკულ საკითხზე გავამახვილო",
+    "level": "C1",
+    "category": "General"
+  },
+  "645": {
+    "english": "This matter requires strategic consideration",
+    "georgian": "ეს საკითხი სტრატეგიულ გააზრებას მოითხოვს",
+    "level": "C1",
+    "category": "Greetings"
+  },
+  "646": {
+    "english": "The implications of this decision are significant",
+    "georgian": "ამ გადაწყვეტილების შედეგები მნიშვნელოვანი იქნება",
+    "level": "C1",
+    "category": "Greetings"
+  },
+  "647": {
+    "english": "We must evaluate this from a long-term perspective",
+    "georgian": "ეს უნდა შევაფასოთ გრძელვადიანი პერსპექტივიდან",
+    "level": "C1",
+    "category": "Greetings"
+  },
+  "648": {
+    "english": "This warrants a comprehensive review",
+    "georgian": "ეს საკითხი სრულყოფილ განხილვას საჭიროებს",
+    "level": "C1",
+    "category": "Greetings"
+  },
+  "649": {
+    "english": "Let’s approach this systematically",
+    "georgian": "მოდი, სისტემატურად მივუდგეთ",
+    "level": "C1",
+    "category": "Greetings"
+  },
+  "650": {
+    "english": "The underlying issue needs to be addressed",
+    "georgian": "ძირითადი პრობლემა უნდა მოგვარდეს",
+    "level": "C1",
+    "category": "Problems & Solutions"
+  },
+  "651": {
+    "english": "We should question the assumptions behind this",
+    "georgian": "არსებული მოსაზრებები კითხვის ნიშნის ქვეშ უნდა დავაყენოთ",
+    "level": "C1",
+    "category": "Greetings"
+  },
+  "652": {
+    "english": "This approach lacks sufficient justification",
+    "georgian": "ამ მიდგომას საკმარისი დასაბუთება არ აქვს",
+    "level": "C1",
+    "category": "Greetings"
+  },
+  "653": {
+    "english": "The rationale behind this decision is unclear",
+    "georgian": "ამ გადაწყვეტილების ლოგიკა გაურკვეველია",
+    "level": "C1",
+    "category": "Greetings"
+  },
+  "654": {
+    "english": "We need a more data-driven approach",
+    "georgian": "მონაცემებზე დაფუძნებული მიდგომა გვჭირდება",
+    "level": "C1",
+    "category": "General"
+  },
+  "655": {
+    "english": "The evidence supports our position",
+    "georgian": "მტკიცებულებები ჩვენს პოზიციას ამყარებს",
+    "level": "C1",
+    "category": "Teamwork"
+  },
+  "656": {
+    "english": "The data is open to interpretation",
+    "georgian": "მონაცემები ინტერპრეტაციის საგანია",
+    "level": "C1",
+    "category": "General"
+  },
+  "657": {
+    "english": "This conclusion may be premature",
+    "georgian": "ეს დასკვნა შესაძლოა ნაჩქარევი იყოს",
+    "level": "C1",
+    "category": "Greetings"
+  },
+  "658": {
+    "english": "We should avoid hasty conclusions",
+    "georgian": "ნაჩქარევი დასკვნები უნდა ავიცილოთ",
+    "level": "C1",
+    "category": "General"
+  },
+  "659": {
+    "english": "Let’s examine this more closely",
+    "georgian": "მოდი, უფრო დეტალურად განვიხილოთ",
+    "level": "C1",
+    "category": "Greetings"
+  },
+  "660": {
+    "english": "This requires nuanced analysis",
+    "georgian": "ეს ნიუანსურ/დეტალურ ანალიზს მოითხოვს",
+    "level": "C1",
+    "category": "Greetings"
+  },
+  "661": {
+    "english": "The situation is more complex than it appears",
+    "georgian": "ვითარება იმაზე რთულია, ვიდრე ერთი შეხედვით ჩანს",
+    "level": "C1",
+    "category": "General"
+  },
+  "662": {
+    "english": "We need to consider broader implications",
+    "georgian": "უფრო ფართო შედეგების გათვალისწინებაა საჭირო",
+    "level": "C1",
+    "category": "General"
+  },
+  "663": {
+    "english": "This has far-reaching consequences",
+    "georgian": "ამას შორსმიმავალი შედეგები აქვს",
+    "level": "C1",
+    "category": "Greetings"
+  },
+  "664": {
+    "english": "Let’s assess the potential impact",
+    "georgian": "მოდი, შესაძლო გავლენა შევაფასოთ",
+    "level": "C1",
+    "category": "General"
+  },
+  "665": {
+    "english": "This could set an important precedent",
+    "georgian": "ეს შეიძლება მნიშვნელოვან პრეცედენტად იქცეს",
+    "level": "C1",
+    "category": "Greetings"
+  },
+  "666": {
+    "english": "We must be mindful of reputational risk",
+    "georgian": "უნდა გავითვალისწინოთ რეპუტაციული რისკი",
+    "level": "C1",
+    "category": "Risk & Compliance"
+  },
+  "667": {
+    "english": "Risk mitigation should be a priority",
+    "georgian": "რისკების შემცირება პრიორიტეტი უნდა იყოს",
+    "level": "C1",
+    "category": "Time & Deadlines"
+  },
+  "668": {
+    "english": "This decision carries inherent risk",
+    "georgian": "ამ გადაწყვეტილებას თან ახლავს შიდა რისკები",
+    "level": "C1",
+    "category": "Greetings"
+  },
+  "669": {
+    "english": "The risk profile is acceptable",
+    "georgian": "რისკის დონე მისაღებია",
+    "level": "C1",
+    "category": "Risk & Compliance"
+  },
+  "670": {
+    "english": "We need to balance risk and reward",
+    "georgian": "რისკსა და სარგებელს შორის ბალანსია საჭირო",
+    "level": "C1",
+    "category": "Risk & Compliance"
+  },
+  "671": {
+    "english": "Let's adopt a measured approach",
+    "georgian": "მოდი, ფრთხილად მივუდგეთ",
+    "level": "C1",
+    "category": "Basic Responses"
+  },
+  "672": {
+    "english": "This requires executive judgment",
+    "georgian": "ეს უფლებას/აღმასრულებელ დონეზე გადაწყვეტას მოითხოვს",
+    "level": "C1",
+    "category": "Greetings"
+  },
+  "673": {
+    "english": "Leadership alignment is essential here",
+    "georgian": "ხელმძღვანელობის ერთიაიი პოზიცია აუცილებელია",
+    "level": "C1",
+    "category": "Greetings"
+  },
+  "674": {
+    "english": "We need buy-in from senior stakeholders",
+    "georgian": "უფროსი დაინტერესებული მხარეების მხარდაჭერაა საჭირო",
+    "level": "C1",
+    "category": "General"
+  },
+  "675": {
+    "english": "Stakeholder engagement is critical",
+    "georgian": "დაინტერესებულ მხარეებთან ჩართულობა კრიტიკულია",
+    "level": "C1",
+    "category": "General"
+  },
+  "676": {
+    "english": "Let's manage stakeholder expectations carefully",
+    "georgian": "მათი მოლოდინები ფრთხილად უნდა ვმართოთ",
+    "level": "C1",
+    "category": "Leadership"
+  },
+  "677": {
+    "english": "This initiative needs strong sponsorship",
+    "georgian": "ამ ინიციატივას ძლიერი სპონსორობა სჭირდება",
+    "level": "C1",
+    "category": "Greetings"
+  },
+  "678": {
+    "english": "Governance must be clearly defined",
+    "georgian": "მმართველობის ჩარჩო მკაფიოდ უნდა განისაზღვროს",
+    "level": "C1",
+    "category": "Basic Responses"
+  },
+  "679": {
+    "english": "Accountability structures should be reinforced",
+    "georgian": "ანგარიშვალდებულების სტრუქტურები უნდა გაძლიერდეს",
+    "level": "C1",
+    "category": "Leadership"
+  },
+  "680": {
+    "english": "Decision-making authority must be clarified",
+    "georgian": "გადაწყვეტილების მიღების უფლებამოსილება უნდა დაზუსტდეს",
+    "level": "C1",
+    "category": "Decisions"
+  },
+  "681": {
+    "english": "We need a clear escalation path",
+    "georgian": "საჭიროა მკაფიო ესკალაციის გზა",
+    "level": "C1",
+    "category": "Basic Responses"
+  },
+  "682": {
+    "english": "This issue should be escalated appropriately",
+    "georgian": "საკითხი შესაბამის დონეზე უნდა აიწიოს",
+    "level": "C1",
+    "category": "Greetings"
+  },
+  "683": {
+    "english": "Let's ensure decision transparency",
+    "georgian": "მოდი, გადაწყვეტილებების გამჭვირვალობა უზრუნველვყოთ",
+    "level": "C1",
+    "category": "Decisions"
+  },
+  "684": {
+    "english": "Transparency will foster trust",
+    "georgian": "გამჭვირვალობა ნდობას აძლიერებს",
+    "level": "C1",
+    "category": "Leadership"
+  },
+  "685": {
+    "english": "We need to maintain organizational integrity",
+    "georgian": "ორგანიზაციული მთლიანობა უნდა შევინარჩუნოთ",
+    "level": "C1",
+    "category": "General"
+  },
+  "686": {
+    "english": "This raises ethical concerns",
+    "georgian": "ეს ეთიკურ საკითხებს აჩენს",
+    "level": "C1",
+    "category": "Greetings"
+  },
+  "687": {
+    "english": "We must act in good faith",
+    "georgian": "კეთილსინდისიერად უნდა ვიმოქმედოთ",
+    "level": "C1",
+    "category": "General"
+  },
+  "688": {
+    "english": "Compliance is non-negotiable",
+    "georgian": "შესაბამისობა კომპრომისის არ ექვემდებარება",
+    "level": "C1",
+    "category": "Quality & Standards"
+  },
+  "689": {
+    "english": "Regulatory implications must be considered",
+    "georgian": "რეგულაციური შედეგები უნდა იქნას გათვალისწინებული",
+    "level": "C1",
+    "category": "General"
+  },
+  "690": {
+    "english": "This may attract regulatory scrutiny",
+    "georgian": "ამან შესაძლოა რეგულატორის ყურადღება მიიქციოს",
+    "level": "C1",
+    "category": "Greetings"
+  },
+  "691": {
+    "english": "We need to ensure full compliance",
+    "georgian": "სრული შესაბამისობა უნდა უზრუნველვყოთ",
+    "level": "C1",
+    "category": "Quality & Standards"
+  },
+  "692": {
+    "english": "Let's conduct a compliance review",
+    "georgian": "მოდი, შესაბამისობა შევამოწმოთ",
+    "level": "C1",
+    "category": "Feedback & Opinions"
+  },
+  "693": {
+    "english": "This aligns with regulatory requirements",
+    "georgian": "ეს რეგულაციურ მოთხოვნებს შეესაბამება",
+    "level": "C1",
+    "category": "Greetings"
+  },
+  "694": {
+    "english": "This falls within our legal framework",
+    "georgian": "ეს ჩვენს სამართლებრივ ჩარჩოში ჯდება",
+    "level": "C1",
+    "category": "Greetings"
+  },
+  "695": {
+    "english": "Legal counsel should be consulted",
+    "georgian": "საჭიროა იურიდიული კონსულტაციის მიღება",
+    "level": "C1",
+    "category": "Risk & Compliance"
+  },
+  "696": {
+    "english": "This may expose us to liability",
+    "georgian": "ეს შესაძლოა სამართლებრივ პასუხისმგებლობას გვიქმნიდეს",
+    "level": "C1",
+    "category": "Greetings"
+  },
+  "697": {
+    "english": "We need to safeguard the organization",
+    "georgian": "ორგანიზაციის დაცვა აუცილებელია",
+    "level": "C1",
+    "category": "General"
+  },
+  "698": {
+    "english": "Risk exposure must be minimized",
+    "georgian": "რისკის ზემოქმედება მინიმუმამდე უნდა დავიყვანოთ",
+    "level": "C1",
+    "category": "Risk & Compliance"
+  },
+  "699": {
+    "english": "Let's strengthen internal controls",
+    "georgian": "მოდი, შიდა კონტროლი გავაძლიეროთ",
+    "level": "C1",
+    "category": "General"
+  },
+  "700": {
+    "english": "Controls need to be reinforced",
+    "georgian": "კონტროლები გასაძლიერებელია",
+    "level": "C1",
+    "category": "General"
+  },
+  "701": {
+    "english": "We must ensure operational resilience",
+    "georgian": "ოპერაციული მდგრადობა უნდა უზრუნველვყოთ",
+    "level": "C1",
+    "category": "Basic Responses"
+  },
+  "702": {
+    "english": "Business continuity planning is essential",
+    "georgian": "ბიზნესის უწყვეტობის დაგეგმვა აუცილებელია",
+    "level": "C1",
+    "category": "Strategy & Planning"
+  },
+  "703": {
+    "english": "Let's stress-test this strategy",
+    "georgian": "მოდი, ამ სტრატეგიას სტრეს-ტესტირება ჩავუტაროთ",
+    "level": "C1",
+    "category": "Greetings"
+  },
+  "704": {
+    "english": "This scenario was not anticipated",
+    "georgian": "ეს სცენარი გათვალისწინებული არ იყო",
+    "level": "C1",
+    "category": "Greetings"
+  },
+  "705": {
+    "english": "We need contingency planning",
+    "georgian": "საჭიროა სარეზერვო დაგეგმვა",
+    "level": "C1",
+    "category": "Strategy & Planning"
+  },
+  "706": {
+    "english": "Let's prepare for worst-case scenarios",
+    "georgian": "მოდი, უარესი სცენარებისთვის მოვემზადოთ",
+    "level": "C1",
+    "category": "General"
+  },
+  "707": {
+    "english": "We must remain adaptable",
+    "georgian": "ადაპტაციის უნარი უნდა შევინარჩუნოთ",
+    "level": "C1",
+    "category": "Change & Innovation"
+  },
+  "708": {
+    "english": "Strategic agility is key",
+    "georgian": "სტრატეგიული მოქნილობა გადამწყვეტია",
+    "level": "C1",
+    "category": "General"
+  },
+  "709": {
+    "english": "We need robust performance tracking",
+    "georgian": "მტკიცეობის ძლიერი მონიტორინგი/კონტროლი საჭირო",
+    "level": "C1",
+    "category": "Performance"
+  },
+  "710": {
+    "english": "Let's monitor outcomes closely",
+    "georgian": "მოდი, შედეგებს ყურადღებით დავაკვირდეთ",
+    "level": "C1",
+    "category": "General"
+  },
+  "711": {
+    "english": "Continuous monitoring is required",
+    "georgian": "მუდმივი მონიტორინგია საჭირო",
+    "level": "C1",
+    "category": "General"
+  },
+  "712": {
+    "english": "Let's course-correct where necessary",
+    "georgian": "საჭიროების შემთხვევაში, კურსი/მიმართულება შევასწოროთ",
+    "level": "C1",
+    "category": "Feedback & Opinions"
+  },
+  "713": {
+    "english": "This strategy requires ongoing refinement",
+    "georgian": "ეს სტრატეგია მუდმივ დახვეწას მოითხოვს",
+    "level": "C1",
+    "category": "Greetings"
+  },
+  "714": {
+    "english": "Strategic review should be periodic",
+    "georgian": "სტრატეგიული მიმოხილვა პერიოდული უნდა იყოს",
+    "level": "C1",
+    "category": "Feedback & Opinions"
+  },
+  "715": {
+    "english": "Let's institutionalize learning",
+    "georgian": "მოდი, სწავლა ინსტიტუციონალიზებული გავხადოთ",
+    "level": "C1",
+    "category": "General"
+  },
+  "716": {
+    "english": "Organizational learning is a competitive advantage",
+    "georgian": "ორგანიზაციული სწავლა კონკურენტული უპირატესობაა",
+    "level": "C1",
+    "category": "General"
+  },
+  "717": {
+    "english": "We should capture lessons learned",
+    "georgian": "მიღებული გაკვეთილები უნდა დავაფიქსიროთ",
+    "level": "C1",
+    "category": "General"
+  },
+  "718": {
+    "english": "Knowledge sharing must be encouraged",
+    "georgian": "ცოდნის გაზიარება უნდა წახალისდეს",
+    "level": "C1",
+    "category": "Time & Deadlines"
+  },
+  "719": {
+    "english": "Let's embed best practices",
+    "georgian": "მოდი, საუკეთესო პრაქტიკები დავნერგოთ",
+    "level": "C1",
+    "category": "General"
+  },
+  "720": {
+    "english": "This should become standard practice",
+    "georgian": "ეს სტანდარტულ პრაქტიკად უნდა იქცეს",
+    "level": "C1",
+    "category": "Greetings"
+  },
+  "721": {
+    "english": "We need to elevate our standards",
+    "georgian": "ჩვენი სტანდარტები უნდა ავამაღლოთ",
+    "level": "C1",
+    "category": "Quality & Standards"
+  },
+  "722": {
+    "english": "Excellence must be the benchmark",
+    "georgian": "სრულყოფილება უნდა იყოს საზომი",
+    "level": "C1",
+    "category": "General"
+  },
+  "723": {
+    "english": "This sets a new standard",
+    "georgian": "ეს ახალ სტანდარტს ადგენს",
+    "level": "C1",
+    "category": "Greetings"
+  },
+  "724": {
+    "english": "Let's benchmark against industry leaders",
+    "georgian": "მოდი, ინდუსტრიის ლიდერებს შევადაროთ",
+    "level": "C1",
+    "category": "Leadership"
+  },
+  "725": {
+    "english": "We need to remain competitive",
+    "georgian": "კონკურენტუნარიანობა უნდა შევინარჩუნოთ",
+    "level": "C1",
+    "category": "General"
+  },
+  "726": {
+    "english": "Competitive pressure is intensifying",
+    "georgian": "კონკურენტული ზეწოლა იზრდება",
+    "level": "C1",
+    "category": "Basic Responses"
+  },
+  "727": {
+    "english": "Market dynamics are shifting",
+    "georgian": "ბაზრის დინამიკა იცვლება",
+    "level": "C1",
+    "category": "Greetings"
+  },
+  "728": {
+    "english": "We must anticipate market changes",
+    "georgian": "ბაზრის ცვლილებები წინასწარ უნდა ვივარაუდოთ",
+    "level": "C1",
+    "category": "Change & Innovation"
+  },
+  "729": {
+    "english": "Foresight will be critical",
+    "georgian": "წინასწარი ხედვა კრიტიკული იქნება",
+    "level": "C1",
+    "category": "General"
+  },
+  "730": {
+    "english": "Let's adopt a forward-looking mindset",
+    "georgian": "მოდი, მომავალზე ორიენტირებული აზროვნება შევითვისოთ",
+    "level": "C1",
+    "category": "General"
+  },
+  "731": {
+    "english": "Innovation should be intentional",
+    "georgian": "ინოვაცია მიზანმიმართული უნდა იყოს",
+    "level": "C1",
+    "category": "Change & Innovation"
+  },
+  "732": {
+    "english": "Innovation must be aligned with strategy",
+    "georgian": "ინოვაცია სტრატეგიას უნდა ემთხვეოდეს",
+    "level": "C1",
+    "category": "Teamwork"
+  },
+  "733": {
+    "english": "Let's foster a culture of innovation",
+    "georgian": "მოდი, ინოვაციის კულტურა განვავითაროთ",
+    "level": "C1",
+    "category": "Change & Innovation"
+  },
+  "734": {
+    "english": "Calculated experimentation is necessary",
+    "georgian": "გააზრებული ექსპერიმენტი აუცილებელია",
+    "level": "C1",
+    "category": "General"
+  },
+  "735": {
+    "english": "We need to embrace intelligent risk-taking",
+    "georgian": "გონივრული რისკი უნდა ვიკისროთ",
+    "level": "C1",
+    "category": "Risk & Compliance"
+  },
+  "736": {
+    "english": "Failure should be treated as learning",
+    "georgian": "მარცხი სწავლად პროცესად უნდა ჩაითვალოს",
+    "level": "C1",
+    "category": "General"
+  },
+  "737": {
+    "english": "Let's de-risk innovation efforts",
+    "georgian": "მოდი, ინოვაციის რისკები შევამციროთ",
+    "level": "C1",
+    "category": "Risk & Compliance"
+  },
+  "738": {
+    "english": "This idea has disruptive potential",
+    "georgian": "ამ იდეას დისრუფციული პოტენციალი აქვს",
+    "level": "C1",
+    "category": "Greetings"
+  },
+  "739": {
+    "english": "Disruption must be managed carefully",
+    "georgian": "დისრუფცია ფრთხილად უნდა ვმართოთ",
+    "level": "C1",
+    "category": "Leadership"
+  },
+  "740": {
+    "english": "We need to future-proof the organization",
+    "georgian": "სამომავლოდ ორგანიზაცია უნდა დავაზღვიოთ",
+    "level": "C1",
+    "category": "General"
+  },
+  "741": {
+    "english": "Future readiness is essential",
+    "georgian": "მომავლისთვის მზადყოფნა აუცილებელია",
+    "level": "C1",
+    "category": "General"
+  },
+  "742": {
+    "english": "Let's invest with a long-term horizon",
+    "georgian": "მოდი, ინვესტიცია გრძელვადიანი ხედვით ჩავდოთ",
+    "level": "C1",
+    "category": "Strategy & Planning"
+  },
+  "743": {
+    "english": "Capital allocation must be strategic",
+    "georgian": "კაპიტალის განაწილება სტრატეგიული უნდა იყოს",
+    "level": "C1",
+    "category": "Resources & Budget"
+  },
+  "744": {
+    "english": "Resource prioritization is critical",
+    "georgian": "რესურსების პრიორიტეტიზაცია კრიტიკულია",
+    "level": "C1",
+    "category": "Resources & Budget"
+  },
+  "745": {
+    "english": "Trade-offs will be unavoidable",
+    "georgian": "კომპრომისები გარდაუვალია",
+    "level": "C1",
+    "category": "General"
+  },
+  "746": {
+    "english": "We must make informed trade-offs",
+    "georgian": "გააზრებული კომპრომისები უნდა მივიღოთ",
+    "level": "C1",
+    "category": "Communication"
+  },
+  "747": {
+    "english": "Let's ensure disciplined decision-making",
+    "georgian": "მოდი, დისციპლინირებული გადაწყვეტილებები მივიღოთ",
+    "level": "C1",
+    "category": "Decisions"
+  },
+  "748": {
+    "english": "Decisions must be evidence-based",
+    "georgian": "გადაწყვეტილებები მტკიცებულებებზე უნდა დაფუძნდეს",
+    "level": "C1",
+    "category": "Decisions"
+  },
+  "749": {
+    "english": "Let's build enduring advantage",
+    "georgian": "მოდი, მდგრადი უპირატესობა შევქმნათ",
+    "level": "C1",
+    "category": "General"
+  },
+  "750": {
+    "english": "Advantage must be defensible",
+    "georgian": "უპირატესობა დაცული უნდა იყოს",
+    "level": "C1",
+    "category": "General"
+  },
+  "751": {
+    "english": "Defensibility requires differentiation",
+    "georgian": "დაცვა დიფერენციაციას მოითხოვს",
+    "level": "C2",
+    "category": "General"
+  },
+  "752": {
+    "english": "Let's sharpen our differentiation",
+    "georgian": "მოდი, ჩვენი განსხვავებულობა გავამკვეთოთ",
+    "level": "C2",
+    "category": "General"
+  },
+  "753": {
+    "english": "This differentiates us in the market",
+    "georgian": "ეს ბაზარზე გამოგვარჩევს",
+    "level": "C2",
+    "category": "Greetings"
+  },
+  "754": {
+    "english": "Let's reinforce our unique value",
+    "georgian": "მოდი, ჩვენი უნიკალური ღირებულება გავაძლიეროთ",
+    "level": "C2",
+    "category": "General"
+  },
+  "755": {
+    "english": "Value proposition must be clear",
+    "georgian": "ღირებულების შეთავაზება მკაფიო უნდა იყოს",
+    "level": "C2",
+    "category": "Basic Responses"
+  },
+  "756": {
+    "english": "Clarity strengthens positioning",
+    "georgian": "სიცხადე პოზიციონირებას აძლიერებს",
+    "level": "C2",
+    "category": "General"
+  },
+  "757": {
+    "english": "Positioning must be intentional",
+    "georgian": "პოზიციონირება გააზრებული უნდა იყოს",
+    "level": "C2",
+    "category": "General"
+  },
+  "758": {
+    "english": "Let's own our positioning",
+    "georgian": "მოდი, ჩვენს პოზიციონირებას დავეუფლოთ",
+    "level": "C2",
+    "category": "General"
+  },
+  "759": {
+    "english": "Consistent positioning builds recognition",
+    "georgian": "თანმიმდევრული პოზიციონირება ცნობადობას ქმნის",
+    "level": "C2",
+    "category": "General"
+  },
+  "760": {
+    "english": "Recognition strengthens credibility",
+    "georgian": "ცნობადობა სანდოობას აძლიერებს",
+    "level": "C2",
+    "category": "Leadership"
+  },
+  "761": {
+    "english": "Credibility enhances influence",
+    "georgian": "სანდოობა გავლენას ზრდის",
+    "level": "C2",
+    "category": "Leadership"
+  },
+  "762": {
+    "english": "Influence must be used responsibly",
+    "georgian": "გავლენა პასუხისმგებლობით უნდა გამოვიყენოთ",
+    "level": "C2",
+    "category": "General"
+  },
+  "763": {
+    "english": "Let's lead with responsibility",
+    "georgian": "მოდი, პასუხისმგებლობით ვიხელმძღვანელოთ",
+    "level": "C2",
+    "category": "Leadership"
+  },
+  "764": {
+    "english": "Leadership carries obligation",
+    "georgian": "ლიდერობას ვალდებულება ახლავს",
+    "level": "C2",
+    "category": "Greetings"
+  },
+  "765": {
+    "english": "Obligation extends to stakeholders",
+    "georgian": "ვალდებულება დაინტერესებულ მხარეებზეც მოიცავს",
+    "level": "C2",
+    "category": "General"
+  },
+  "766": {
+    "english": "Stakeholders include society at large",
+    "georgian": "დაინტერესებულ მხარეებში საზოგადოებაც შედის",
+    "level": "C2",
+    "category": "General"
+  },
+  "767": {
+    "english": "Let's consider societal impact",
+    "georgian": "მოდი, საზოგადოებრივი გავლენა გავითვალისწინოთ",
+    "level": "C2",
+    "category": "General"
+  },
+  "768": {
+    "english": "Responsible business creates shared value",
+    "georgian": "პასუხისმგებლიანი ბიზნესი საერთო ღირებულებას ქმნის",
+    "level": "C2",
+    "category": "General"
+  },
+  "769": {
+    "english": "Shared value drives sustainability",
+    "georgian": "საერთო ღირებულება მდგრადობას უზრუნველყოფს",
+    "level": "C2",
+    "category": "General"
+  },
+  "770": {
+    "english": "Sustainability is a strategic imperative",
+    "georgian": "მდგრადობა სტრატეგიული აუცილებლობაა",
+    "level": "C2",
+    "category": "General"
+  },
+  "771": {
+    "english": "Let's embed sustainability into strategy",
+    "georgian": "მოდი, მდგრადობა სტრატეგიაში ჩავაშენოთ",
+    "level": "C2",
+    "category": "Strategy & Planning"
+  },
+  "772": {
+    "english": "This ensures long-term relevance",
+    "georgian": "ეს უზრუნველყოფს გრძელვადიან აქტუალურობას",
+    "level": "C2",
+    "category": "Greetings"
+  },
+  "773": {
+    "english": "Relevance must be continuously earned",
+    "georgian": "აქტუალობა მუდმივად უნდა დაიმსახურო",
+    "level": "C2",
+    "category": "General"
+  },
+  "774": {
+    "english": "Let's remain curious",
+    "georgian": "მოდი, ცნობისმოყვარეობა შევინარჩუნოთ",
+    "level": "C2",
+    "category": "General"
+  },
+  "775": {
+    "english": "Curiosity fuels learning",
+    "georgian": "ცნობისმოყვარეობა სწავლას უწყობს ხელს",
+    "level": "C2",
+    "category": "General"
+  },
+  "776": {
+    "english": "Learning fuels adaptation",
+    "georgian": "სწავლა ადაპტაციას უზრუნველყოფს",
+    "level": "C2",
+    "category": "Change & Innovation"
+  },
+  "777": {
+    "english": "Adaptation ensures survival",
+    "georgian": "ადაპტაცია გადარჩენას უზრუნველყოფს",
+    "level": "C2",
+    "category": "Change & Innovation"
+  },
+  "778": {
+    "english": "Let's institutionalize adaptability",
+    "georgian": "მოდი, ადაპტაცია ინსტიტუციონალიზებული გავხადოთ",
+    "level": "C2",
+    "category": "Change & Innovation"
+  },
+  "779": {
+    "english": "This prepares us for uncertainty",
+    "georgian": "ეს გაურკვევლობისთვის გვამზადებს",
+    "level": "C2",
+    "category": "Greetings"
+  },
+  "780": {
+    "english": "Uncertainty is inevitable",
+    "georgian": "გაურკვევლობა გარდაუვალია",
+    "level": "C2",
+    "category": "General"
+  },
+  "781": {
+    "english": "Preparedness reduces vulnerability",
+    "georgian": "მზადყოფნა მოწყვლადობას ამცირებს",
+    "level": "C2",
+    "category": "General"
+  },
+  "782": {
+    "english": "Let's strengthen resilience",
+    "georgian": "მოდი, მდგრადობა გავაძლიეროთ",
+    "level": "C2",
+    "category": "General"
+  },
+  "783": {
+    "english": "Resilience enables recovery",
+    "georgian": "მდგრადობა აღდგენას უზრუნველყოფს",
+    "level": "C2",
+    "category": "General"
+  },
+  "784": {
+    "english": "Recovery must be swift",
+    "georgian": "აღდგენა სწრაფი უნდა იყოს",
+    "level": "C2",
+    "category": "General"
+  },
+  "785": {
+    "english": "Let's design for resilience",
+    "georgian": "მოდი, მდგრადობაზე ორიენტირებულად დავგეგმოთ",
+    "level": "C2",
+    "category": "General"
+  },
+  "786": {
+    "english": "This strengthens organizational robustness",
+    "georgian": "ეს ორგანიზაციულ სიმტკიცეს აძლიერებს",
+    "level": "C2",
+    "category": "Greetings"
+  },
+  "787": {
+    "english": "Robustness supports continuity",
+    "georgian": "სიმტკიცე უწყვეტობას უზრუნველყოფს",
+    "level": "C2",
+    "category": "Teamwork"
+  },
+  "788": {
+    "english": "Continuity protects value",
+    "georgian": "უწყვეტობა ღირებულებას იცავს",
+    "level": "C2",
+    "category": "General"
+  },
+  "789": {
+    "english": "Let's safeguard long-term interests",
+    "georgian": "მოდი, გრძელვადიანი ინტერესები დავიცვათ",
+    "level": "C2",
+    "category": "Strategy & Planning"
+  },
+  "790": {
+    "english": "Stewardship demands foresight",
+    "georgian": "მეურვეობა წინასწარ ხედვას მოითხოვს",
+    "level": "C2",
+    "category": "Greetings"
+  },
+  "791": {
+    "english": "Foresight differentiates leaders",
+    "georgian": "წინასწარი ხედვა ლიდერებს გამოარჩევს",
+    "level": "C2",
+    "category": "Leadership"
+  },
+  "792": {
+    "english": "Let's cultivate foresight",
+    "georgian": "მოდი, წინასწარი ხედვა განვავითაროთ",
+    "level": "C2",
+    "category": "General"
+  },
+  "793": {
+    "english": "This will guide better decisions",
+    "georgian": "ეს უკეთეს გადაწყვეტილებებამდე მიგვიყვანს",
+    "level": "C2",
+    "category": "Greetings"
+  },
+  "794": {
+    "english": "Decisions shape destiny",
+    "georgian": "გადაწყვეტილებები ბედს განსაზღვრავს",
+    "level": "C2",
+    "category": "Decisions"
+  },
+  "795": {
+    "english": "Let's choose wisely",
+    "georgian": "მოდი, გონივრულად ავირჩიოთ",
+    "level": "C2",
+    "category": "Decisions"
+  },
+  "796": {
+    "english": "Wisdom comes from reflection",
+    "georgian": "სიბრძნე გააზრებიდან მოდის",
+    "level": "C2",
+    "category": "General"
+  },
+  "797": {
+    "english": "Reflection deepens judgment",
+    "georgian": "გააზრება/რეფლექსია განსჯას აღრმავებს",
+    "level": "C2",
+    "category": "General"
+  },
+  "798": {
+    "english": "Judgment defines leadership quality",
+    "georgian": "განსჯა ლიდერობის ხარისხს განსაზღვრავს",
+    "level": "C2",
+    "category": "Greetings"
+  },
+  "799": {
+    "english": "Let's elevate our judgment",
+    "georgian": "მოდი, ჩვენი განსჯა ავამაღლოთ",
+    "level": "C2",
+    "category": "General"
+  },
+  "800": {
+    "english": "This will strengthen leadership credibility",
+    "georgian": "ეს ლიდერობის სანდოობას გააძლიერებს",
+    "level": "C2",
+    "category": "Greetings"
+  },
+  "801": {
+    "english": "Credibility sustains authority",
+    "georgian": "სანდოობა ავტორიტეტს ინარჩუნებს",
+    "level": "C2",
+    "category": "Leadership"
+  },
+  "802": {
+    "english": "Authority must be exercised responsibly",
+    "georgian": "ავტორიტეტი პასუხისმგებლობით უნდა გამოვიყენოთ",
+    "level": "C2",
+    "category": "Leadership"
+  },
+  "803": {
+    "english": "Let's lead with humility",
+    "georgian": "მოდი, თავმდაბლობით ვიხელმძღვანელოთ",
+    "level": "C2",
+    "category": "General"
+  },
+  "804": {
+    "english": "Humility strengthens leadership",
+    "georgian": "თავმდაბლობა ლიდერობას აძლიერებს",
+    "level": "C2",
+    "category": "Greetings"
+  },
+  "805": {
+    "english": "Confidence and humility must coexist",
+    "georgian": "თავდაჯერება და თავმდაბლობა ერთად უნდა არსებობდეს",
+    "level": "C2",
+    "category": "General"
+  },
+  "806": {
+    "english": "Let's remain grounded",
+    "georgian": "მოდი, მიწაზე მყარად დავრჩეთ",
+    "level": "C2",
+    "category": "General"
+  },
+  "807": {
+    "english": "Grounded leaders inspire trust",
+    "georgian": "მიწაზე მდგომი ლიდერები ნდობას შთააგონებენ",
+    "level": "C2",
+    "category": "Leadership"
+  },
+  "808": {
+    "english": "Trust is our greatest asset",
+    "georgian": "ნდობა ჩვენი უდიდესი აქტივია",
+    "level": "C2",
+    "category": "Quality & Standards"
+  },
+  "809": {
+    "english": "Let's protect that trust",
+    "georgian": "მოდი, ეს ნდობა დავიცვათ",
+    "level": "C2",
+    "category": "Leadership"
+  },
+  "810": {
+    "english": "Everything we do should reinforce trust",
+    "georgian": "ყველაფერი, რასაც ვაკეთებთ, ნდობას უნდა ამყარებდეს",
+    "level": "C2",
+    "category": "Greetings"
+  },
+  "811": {
+    "english": "This is the foundation of success",
+    "georgian": "ეს წარმატების საფუძველია",
+    "level": "C2",
+    "category": "Greetings"
+  },
+  "812": {
+    "english": "Let's honor that responsibility",
+    "georgian": "მოდი, ამ პასუხისმგებლობას პატივი ვცეთ",
+    "level": "C2",
+    "category": "Leadership"
+  },
+  "813": {
+    "english": "Thank you for your continued commitment",
+    "georgian": "მადლობა მოცემული ერთგულებისთვის",
+    "level": "C2",
+    "category": "Politeness"
+  },
+  "814": {
+    "english": "This environment demands flexibility",
+    "georgian": "ეს გარემო მოქნილობას მოითხოვს",
+    "level": "C2",
+    "category": "Greetings"
+  },
+  "815": {
+    "english": "We need to pivot if necessary",
+    "georgian": "საჭიროების შემთხვევაში, კურსი უნდა შევცვალოთ",
+    "level": "C2",
+    "category": "Change & Innovation"
+  },
+  "816": {
+    "english": "Let's remain responsive to change",
+    "georgian": "მოდი, ცვლილებებს სწრაფად ვუპასუხოთ",
+    "level": "C2",
+    "category": "Change & Innovation"
+  },
+  "817": {
+    "english": "Change management will be critical",
+    "georgian": "ცვლილებების მართვა კრიტიკული იქნება",
+    "level": "C2",
+    "category": "Leadership"
+  },
+  "818": {
+    "english": "This will require cultural alignment",
+    "georgian": "ამას კულტურული თანხვედრა დასჭირდება",
+    "level": "C2",
+    "category": "Greetings"
+  },
+  "819": {
+    "english": "Organizational readiness must be assessed",
+    "georgian": "ორგანიზაციული მზადყოფნა უნდა შეფასდეს",
+    "level": "C2",
+    "category": "General"
+  },
+  "820": {
+    "english": "Let's align this with company culture",
+    "georgian": "მოდი, ეს კომპანიის კულტურას შევუსაბამოთ",
+    "level": "C2",
+    "category": "Greetings"
+  },
+  "821": {
+    "english": "Cultural resistance may arise",
+    "georgian": "შესაძლოა კულტურული წინააღმდეგობა წარმოიშვას",
+    "level": "C2",
+    "category": "General"
+  },
+  "822": {
+    "english": "We need to manage resistance proactively",
+    "georgian": "წინააღმდეგობა პროაქტიულად უნდა ვმართოთ",
+    "level": "C2",
+    "category": "Leadership"
+  },
+  "823": {
+    "english": "Communication will be central to success",
+    "georgian": "კომუნიკაცია წარმატების ცენტრალური ნაწილი იქნება",
+    "level": "C2",
+    "category": "Performance"
+  },
+  "824": {
+    "english": "Messaging must be consistent and clear",
+    "georgian": "მესიჯები თანმიმდევრული და მკაფიო უნდა იყოს",
+    "level": "C2",
+    "category": "Basic Responses"
+  },
+  "825": {
+    "english": "We need a unified narrative",
+    "georgian": "საჭიროა ერთიანი ნარატივი",
+    "level": "C2",
+    "category": "General"
+  },
+  "826": {
+    "english": "Let's control the narrative carefully",
+    "georgian": "მოდი, ნარატივი ფრთხილად ვმართოთ",
+    "level": "C2",
+    "category": "General"
+  },
+  "827": {
+    "english": "This message needs careful framing",
+    "georgian": "ეს მესიჯი ფრთხილად ფორმირებას მოითხოვს",
+    "level": "C2",
+    "category": "Greetings"
+  },
+  "828": {
+    "english": "Timing will be crucial",
+    "georgian": "დროის შერჩევა გადამწყვეტი იქნება",
+    "level": "C2",
+    "category": "General"
+  },
+  "829": {
+    "english": "Let's coordinate the rollout",
+    "georgian": "მოდი, დანერგვა კოორდინირებულად მოვახდინოთ",
+    "level": "C2",
+    "category": "Teamwork"
+  },
+  "830": {
+    "english": "Execution will determine success",
+    "georgian": "წარმატებას შესრულება განუსაზღვრავს",
+    "level": "C2",
+    "category": "Performance"
+  },
+  "831": {
+    "english": "Strategy without execution is meaningless",
+    "georgian": "შესრულების გარეშე სტრატეგია უაზროა",
+    "level": "C2",
+    "category": "Strategy & Planning"
+  },
+  "832": {
+    "english": "We need disciplined execution",
+    "georgian": "დისციპლინირებული შესრულებაა საჭირო",
+    "level": "C2",
+    "category": "General"
+  },
+  "833": {
+    "english": "Let's ensure flawless execution",
+    "georgian": "მოდი, უნაკლო შესრულება უზრუნველვყოთ",
+    "level": "C2",
+    "category": "Basic Responses"
+  },
+  "834": {
+    "english": "This requires cross-functional leadership",
+    "georgian": "ამას მრავალფუნქციური ლიდერობა სჭირდება",
+    "level": "C2",
+    "category": "Greetings"
+  },
+  "835": {
+    "english": "Collaboration at senior levels is essential",
+    "georgian": "მაღალი დონის თანამშრომლობა აუცილებელია",
+    "level": "C2",
+    "category": "Teamwork"
+  },
+  "836": {
+    "english": "Silos must be dismantled",
+    "georgian": "ცალკეული გაერთიანებები უნდა დაიშალოს",
+    "level": "C2",
+    "category": "General"
+  },
+  "837": {
+    "english": "We need enterprise-wide alignment",
+    "georgian": "ორგანიზაციის მასშტაბით, სრული თანხვედრაა საჭირო",
+    "level": "C2",
+    "category": "Teamwork"
+  },
+  "838": {
+    "english": "Let's ensure coherence across initiatives",
+    "georgian": "მოდი, ინიციატივებს შორის თანმიმდევრობა უზრუნველვყოთ",
+    "level": "C2",
+    "category": "Basic Responses"
+  },
+  "839": {
+    "english": "This initiative should not operate in isolation",
+    "georgian": "ამ ინიციატივამ იზოლირებულად არ უნდა იმოქმედოს",
+    "level": "C2",
+    "category": "Greetings"
+  },
+  "840": {
+    "english": "We need to avoid duplication of effort",
+    "georgian": "ძალისხმევის დუბლირება უნდა ავიცილოთ",
+    "level": "C2",
+    "category": "General"
+  },
+  "841": {
+    "english": "Let's leverage existing capabilities",
+    "georgian": "მოდი, არსებული შესაძლებლობები გამოვიყენოთ",
+    "level": "C2",
+    "category": "General"
+  },
+  "842": {
+    "english": "Capability gaps must be addressed",
+    "georgian": "შესაძლებლობების ხარვეზები უნდა აღმოიფხვრას",
+    "level": "C2",
+    "category": "General"
+  },
+  "843": {
+    "english": "We need targeted capability building",
+    "georgian": "მიზნობრივი უნარების განვითარებაა საჭირო",
+    "level": "C2",
+    "category": "General"
+  },
+  "844": {
+    "english": "Talent strategy is a key factor",
+    "georgian": "ტალანტის სტრატეგია გადამწყვეტი ფაქტორია",
+    "level": "C2",
+    "category": "Strategy & Planning"
+  },
+  "845": {
+    "english": "We must invest in leadership development",
+    "georgian": "ლიდერობის განვითარებაში ინვესტირება აუცილებელია",
+    "level": "C2",
+    "category": "Greetings"
+  },
+  "846": {
+    "english": "Succession planning should be considered",
+    "georgian": "მემკვიდრეობითი დაგეგმვა უნდა განვიხილოთ",
+    "level": "C2",
+    "category": "Strategy & Planning"
+  },
+  "847": {
+    "english": "This will strengthen organizational capacity",
+    "georgian": "ეს ორგანიზაციულ შესაძლებლობებს გააძლიერებს",
+    "level": "C2",
+    "category": "Greetings"
+  },
+  "848": {
+    "english": "Let's focus on sustainable value creation",
+    "georgian": "მოდი, მდგრადი ღირებულების შექმნაზე გავამახვილოთ ყურადღება",
+    "level": "C2",
+    "category": "Strategy & Planning"
+  },
+  "849": {
+    "english": "Short-term wins should not undermine long-term value",
+    "georgian": "მოკლევადიანმა მოგებამ გრძელვადიანი ღირებულება არ უნდა დააზიანოს",
+    "level": "C2",
+    "category": "Strategy & Planning"
+  },
+  "850": {
+    "english": "Value creation must be measurable",
+    "georgian": "ღირებულების შექმნა გაზომვადი უნდა იყოს",
+    "level": "C2",
+    "category": "General"
+  },
+  "851": {
+    "english": "Let's define clear success metrics",
+    "georgian": "მოდი, წარმატების მკაფიო მაჩვენებლები განვსაზღვროთ",
+    "level": "C2",
+    "category": "Performance"
+  },
+  "852": {
+    "english": "Performance indicators must be aligned",
+    "georgian": "შესრულების ინდიკატორები თანხვედრაში უნდა იყოს",
+    "level": "C2",
+    "category": "Teamwork"
+  },
+  "853": {
+    "english": "Let's uphold our reputation",
+    "georgian": "მოდი, ჩვენი რეპუტაცია დავიცვათ",
+    "level": "C2",
+    "category": "General"
+  },
+  "854": {
+    "english": "Reputation is a strategic asset",
+    "georgian": "რეპუტაცია სტრატეგიული აქტივია",
+    "level": "C2",
+    "category": "General"
+  },
+  "855": {
+    "english": "We must protect our brand",
+    "georgian": "ჩვენი ბრენდი უნდა დავიცვათ",
+    "level": "C2",
+    "category": "General"
+  },
+  "856": {
+    "english": "Brand trust is critical",
+    "georgian": "ბრენდის მიმართ ნდობა კრიტიკულია",
+    "level": "C2",
+    "category": "Leadership"
+  },
+  "857": {
+    "english": "Let's act in the organization's best interest",
+    "georgian": "მოდი, ორგანიზაციის საუკეთესო ინტერესებით ვიმოქმედოთ",
+    "level": "C2",
+    "category": "General"
+  },
+  "858": {
+    "english": "Long-term stewardship is our responsibility",
+    "georgian": "გრძელვადიანი მმართველობა ჩვენი პასუხისმგებლობაა",
+    "level": "C2",
+    "category": "Greetings"
+  },
+  "859": {
+    "english": "We are custodians of this organization",
+    "georgian": "ჩვენ ამ ორგანიზაციის მფარველები ვართ",
+    "level": "C2",
+    "category": "Greetings"
+  },
+  "860": {
+    "english": "Let's think beyond individual roles",
+    "georgian": "მოდი, ინდივიდუალურ როლებს გავცდეთ",
+    "level": "C2",
+    "category": "Greetings"
+  },
+  "861": {
+    "english": "Collective success matters most",
+    "georgian": "კოლექტიური წარმატება ყველაზე მნიშვნელოვანია",
+    "level": "C2",
+    "category": "Performance"
+  },
+  "862": {
+    "english": "This is bigger than any one person",
+    "georgian": "ეს ნებისმიერ ერთ ადამიანზე მეტია",
+    "level": "C2",
+    "category": "Greetings"
+  },
+  "863": {
+    "english": "Let's maintain a holistic perspective",
+    "georgian": "მოდი, ჰოლისტიკური ხედვა შევინარჩუნოთ",
+    "level": "C2",
+    "category": "General"
+  },
+  "864": {
+    "english": "Systems thinking is required",
+    "georgian": "სისტემური აზროვნება აუცილებელია",
+    "level": "C2",
+    "category": "Greetings"
+  },
+  "865": {
+    "english": "Interdependencies must be understood",
+    "georgian": "ურთიერთდამოკიდებულებები უნდა გავიგოთ",
+    "level": "C2",
+    "category": "General"
+  },
+  "866": {
+    "english": "Let's anticipate unintended consequences",
+    "georgian": "მოდი, გავითვალისწინოთი შემდგომი წინასწარ გაუთვალისწინებელი",
+    "level": "C2",
+    "category": "General"
+  },
+  "867": {
+    "english": "This decision must be future-conscious",
+    "georgian": "ეს გადაწყვეტილება მომავალითი ორიენტირებული უნდა იყოს",
+    "level": "C2",
+    "category": "Greetings"
+  },
+  "868": {
+    "english": "We need responsible leadership",
+    "georgian": "პასუხისმგებლიანი ლიდრობაა საჭირო",
+    "level": "C2",
+    "category": "Greetings"
+  },
+  "869": {
+    "english": "Responsibility extends beyond profit",
+    "georgian": "პასუხისმგებლობა მოგებას სცდება",
+    "level": "C2",
+    "category": "Leadership"
+  },
+  "870": {
+    "english": "Purpose should guide strategy",
+    "georgian": "მიზანმა სტრატეგია უნდა წარმართოს",
+    "level": "C2",
+    "category": "Strategy & Planning"
+  },
+  "871": {
+    "english": "Let's align purpose and performance",
+    "georgian": "მოდი, მიზანი და შესრულება შევათანხმოთ",
+    "level": "C2",
+    "category": "Teamwork"
+  },
+  "872": {
+    "english": "This strengthens organizational legitimacy",
+    "georgian": "ეს ორგანიზაციულ ლეგიტიმურობას აძლიერებს",
+    "level": "C2",
+    "category": "Greetings"
+  },
+  "873": {
+    "english": "Legitimacy builds public trust",
+    "georgian": "ლეგიტიმურობა საზოგადოებრივ ნდობას ქმნის",
+    "level": "C2",
+    "category": "Leadership"
+  },
+  "874": {
+    "english": "Trust underpins long-term success",
+    "georgian": "ნდობა გრძელვადიანი წარმატების საფუძველია",
+    "level": "C2",
+    "category": "Strategy & Planning"
+  },
+  "875": {
+    "english": "Let's operate with integrity",
+    "georgian": "მოდი, კეთილსინდისიერად ვიმოქმედოთ",
+    "level": "C2",
+    "category": "General"
+  },
+  "876": {
+    "english": "Integrity must never be compromised",
+    "georgian": "კეთილსინდისიერება არასდროს უნდა დაირღვეს",
+    "level": "C2",
+    "category": "General"
+  },
+  "877": {
+    "english": "Values must guide behavior",
+    "georgian": "ღირებულებებმა ქცევა უნდა წარმართოს",
+    "level": "C2",
+    "category": "General"
+  },
+  "878": {
+    "english": "Let's live our values",
+    "georgian": "მოდი, ჩვენი ღირებულებებით ვიცხოვროთ",
+    "level": "C2",
+    "category": "General"
+  },
+  "879": {
+    "english": "This reflects who we are",
+    "georgian": "ეს ასახავს ჩვენს ვინ ვართ",
+    "level": "C2",
+    "category": "Greetings"
+  },
+  "880": {
+    "english": "Identity shapes behavior",
+    "georgian": "იდენტობა ქცევას აყალიბებს",
+    "level": "C2",
+    "category": "General"
+  },
+  "881": {
+    "english": "Culture is our invisible hand",
+    "georgian": "კულტურა ჩვენი უხილავი ხელია",
+    "level": "C2",
+    "category": "General"
+  },
+  "882": {
+    "english": "Let's consciously shape culture",
+    "georgian": "მოდი, კულტურა გააზრებულად ჩამოვაყალიბოთ",
+    "level": "C2",
+    "category": "General"
+  },
+  "883": {
+    "english": "Culture eats strategy if ignored",
+    "georgian": "კულტურა სტრატეგიას ჭამს თუ უგულებელყოფილია",
+    "level": "C2",
+    "category": "Strategy & Planning"
+  },
+  "884": {
+    "english": "We must align culture and strategy",
+    "georgian": "კულტურა და სტრატეგია უნდა დავაკავშიროთ",
+    "level": "C2",
+    "category": "Teamwork"
+  },
+  "885": {
+    "english": "Alignment drives execution excellence",
+    "georgian": "თანხვედრა სრულყოფილ შესრულებას უზრუნველყოფს",
+    "level": "C2",
+    "category": "Teamwork"
+  },
+  "886": {
+    "english": "Let's reinforce desired behaviors",
+    "georgian": "მოდი, სასურველი ქცევები გავაძლიეროთ",
+    "level": "C2",
+    "category": "General"
+  },
+  "887": {
+    "english": "Behavior change requires consistency",
+    "georgian": "ქცევის ცვლილება თანმიმდევრულობას მოითხოვს",
+    "level": "C2",
+    "category": "Change & Innovation"
+  },
+  "888": {
+    "english": "Let's sustain momentum",
+    "georgian": "მოდი, იმპულსი შევინარჩუნოთ",
+    "level": "C2",
+    "category": "General"
+  },
+  "889": {
+    "english": "Momentum must be protected",
+    "georgian": "იმპულსი დაცული უნდა იყოს",
+    "level": "C2",
+    "category": "General"
+  },
+  "890": {
+    "english": "We need vigilance",
+    "georgian": "სიფრთხილეა საჭირო",
+    "level": "C2",
+    "category": "General"
+  },
+  "891": {
+    "english": "Let's remain alert to signals",
+    "georgian": "მოდი, სიგნალებთან ფხიზლად ვიყოთ",
+    "level": "C2",
+    "category": "General"
+  },
+  "892": {
+    "english": "Early signals should not be ignored",
+    "georgian": "ადრეული სიგნალები უგულებელყოფილი არ უნდა იყოს",
+    "level": "C2",
+    "category": "Basic Responses"
+  },
+  "893": {
+    "english": "Let's act before issues escalate",
+    "georgian": "მოდი, პრობლემების გამწვავებამდე ვიმოქმედოთ",
+    "level": "C2",
+    "category": "Problems & Solutions"
+  },
+  "894": {
+    "english": "Proactive leadership is essential",
+    "georgian": "პროაქტიული ლიდერობა აუცილებელია",
+    "level": "C2",
+    "category": "Greetings"
+  },
+  "895": {
+    "english": "Prevention is better than correction",
+    "georgian": "პრევენცია კორექციაზე უკეთესია",
+    "level": "C2",
+    "category": "Feedback & Opinions"
+  },
+  "896": {
+    "english": "Let's stay ahead of the curve",
+    "georgian": "მოდი, მოვლენებს წინ გავუსწროთ",
+    "level": "C2",
+    "category": "General"
+  },
+  "897": {
+    "english": "This positions us for future success",
+    "georgian": "ეს მომავალ წარმატებას გვიმზადებს",
+    "level": "C2",
+    "category": "Greetings"
+  }
+}
