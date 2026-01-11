@@ -6,6 +6,12 @@ import prisma from '@/lib/prisma'
 import { ArrowLeft, Layers } from 'lucide-react'
 import OrderingContainer from '@/components/learn/ordering/OrderingContainer'
 
+type Phrase = {
+  id: number
+  english: string
+  georgian: string
+}
+
 const levelNames: Record<string, string> = {
   A1: 'A1', A2: 'A2', B1: 'B1', B2: 'B2', C1: 'C1', C2: 'C2',
 }
@@ -43,7 +49,7 @@ export default async function OrderingPage({ params, searchParams }: PageProps) 
   })
 
   // Filter to phrases with 3-8 words (not too short, not too long for ordering)
-  const validPhrases = allPhrases.filter(p => {
+  const validPhrases = allPhrases.filter((p: Phrase) => {
     const wordCount = p.english.split(' ').length
     return wordCount >= 3 && wordCount <= 8
   })
