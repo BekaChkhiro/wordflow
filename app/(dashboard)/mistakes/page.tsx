@@ -72,9 +72,11 @@ export default async function MistakesPage() {
 
   // Convert to array and sort by count
   const groupedMistakes = Object.values(mistakesByPhrase)
-    .map((m) => ({
-      ...m,
+    .map((m: MistakeAccumulator[number]) => ({
+      phrase: m.phrase,
+      count: m.count,
       types: Array.from(m.types),
+      lastMistake: m.lastMistake,
     }))
     .sort((a, b) => b.count - a.count)
 
