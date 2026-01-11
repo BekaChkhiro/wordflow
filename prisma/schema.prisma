@@ -29,6 +29,7 @@ model User {
   // პარამეტრები
   theme         String    @default("light") // light, dark
   emailNotifications Boolean @default(true)
+  isAdmin       Boolean   @default(false)
 
   // რელაციები
   progress      UserProgress[]
