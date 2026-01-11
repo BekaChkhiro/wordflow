@@ -30,7 +30,7 @@ export default async function AchievementsPage() {
     }),
   ])
 
-  const earnedIds = new Set(user?.achievements.map((a) => a.achievementId))
+  const earnedIds = new Set(user?.achievements.map((a: { achievementId: string }) => a.achievementId))
 
   // Group achievements by type
   const achievementsByType: Record<string, typeof allAchievements> = {}
