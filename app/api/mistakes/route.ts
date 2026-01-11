@@ -38,7 +38,14 @@ export async function GET() {
     })
 
     // Group mistakes by phrase
-    const mistakesByPhrase = mistakes.reduce((acc, mistake) => {
+    type MistakeAccumulator = Record<number, {
+      phrase: typeof mistakes[0]['phrase']
+      count: number
+      types: Set<string>
+      lastMistake: Date
+    }>
+
+    const mistakesByPhrase = mistakes.reduce((acc: MistakeAccumulator, mistake: typeof mistakes[0]) => {
       const phraseId = mistake.phraseId
       if (!acc[phraseId]) {
         acc[phraseId] = {
@@ -51,13 +58,16 @@ export async function GET() {
       acc[phraseId].count++
       acc[phraseId].types.add(mistake.mistakeType)
       return acc
-    }, {} as Record<number, { phrase: typeof mistakes[0]['phrase']; count: number; types: Set<string>; lastMistake: Date }>)
+    }, {} as MistakeAccumulator)
 
     // Convert to array and sort by count
-    const groupedMistakes = Object.values(mistakesByPhrase)
+    const mistakeValues = Object.values(mistakesByPhrase) as Array<MistakeAccumulator[number]>
+    const groupedMistakes = mistakeValues
       .map((m) => ({
-        ...m,
+        phrase: m.phrase,
+        count: m.count,
         types: Array.from(m.types),
+        lastMistake: m.lastMistake,
       }))
       .sort((a, b) => b.count - a.count)
 
