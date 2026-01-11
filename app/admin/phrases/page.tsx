@@ -38,7 +38,7 @@ export default async function AdminPhrasesPage({ searchParams }: PageProps) {
   ])
 
   const totalPages = Math.ceil(totalCount / perPage)
-  const allCategories = categories.map((c) => c.category)
+  const allCategories = categories.map((c: { category: string }) => c.category)
 
   return (
     <div className="space-y-6">
