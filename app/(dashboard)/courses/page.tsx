@@ -39,7 +39,7 @@ export default async function CoursesPage() {
 
   // Count learned phrases per level
   const progressByLevel: Record<string, number> = {}
-  user?.progress.forEach((p) => {
+  user?.progress.forEach((p: { phrase: { level: string } }) => {
     const level = p.phrase.level
     progressByLevel[level] = (progressByLevel[level] || 0) + 1
   })
