@@ -63,8 +63,8 @@ export default async function CategoryPage({ params }: PageProps) {
     },
   })
 
-  const progressMap = new Map(user?.progress.map((p) => [p.phraseId, p.learned]))
-  const learnedCount = user?.progress.filter((p) => p.learned).length || 0
+  const progressMap = new Map(user?.progress.map((p: { phraseId: number; learned: boolean }) => [p.phraseId, p.learned]))
+  const learnedCount = user?.progress.filter((p: { learned: boolean }) => p.learned).length || 0
   const percentage = Math.round((learnedCount / phrases.length) * 100)
 
   return (
