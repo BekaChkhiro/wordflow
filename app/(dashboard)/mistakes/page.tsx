@@ -48,7 +48,14 @@ export default async function MistakesPage() {
   })
 
   // Group mistakes by phrase
-  const mistakesByPhrase = mistakes.reduce((acc, mistake) => {
+  type MistakeAccumulator = Record<number, {
+    phrase: typeof mistakes[0]['phrase']
+    count: number
+    types: Set<string>
+    lastMistake: Date
+  }>
+
+  const mistakesByPhrase = mistakes.reduce<MistakeAccumulator>((acc, mistake) => {
     const phraseId = mistake.phraseId
     if (!acc[phraseId]) {
       acc[phraseId] = {
@@ -61,7 +68,7 @@ export default async function MistakesPage() {
     acc[phraseId].count++
     acc[phraseId].types.add(mistake.mistakeType)
     return acc
-  }, {} as Record<number, { phrase: typeof mistakes[0]['phrase']; count: number; types: Set<string>; lastMistake: Date }>)
+  }, {})
 
   // Convert to array and sort by count
   const groupedMistakes = Object.values(mistakesByPhrase)
