@@ -36,7 +36,7 @@ export async function POST(request: NextRequest) {
     // Validate file type
     if (!isValidFileType(file.type)) {
       return NextResponse.json(
-        { error: 'Invalid file type. Supported: DOCX, TXT' },
+        { error: 'Invalid file type. Supported: DOCX, DOC, PDF, RTF, ODT, TXT' },
         { status: 400 }
       )
     }

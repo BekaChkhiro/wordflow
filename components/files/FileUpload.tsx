@@ -18,11 +18,16 @@ interface FileUploadProps {
 }
 
 const ACCEPTED_TYPES = [
-  'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
-  'text/plain',
+  'application/vnd.openxmlformats-officedocument.wordprocessingml.document', // .docx
+  'application/msword', // .doc
+  'application/pdf', // .pdf
+  'application/rtf', // .rtf
+  'text/rtf', // .rtf
+  'application/vnd.oasis.opendocument.text', // .odt
+  'text/plain', // .txt
 ]
 
-const ACCEPTED_EXTENSIONS = '.docx,.txt'
+const ACCEPTED_EXTENSIONS = '.docx,.doc,.pdf,.rtf,.odt,.txt'
 
 export default function FileUpload({ onSuccess, onCancel }: FileUploadProps) {
   const [dragActive, setDragActive] = useState(false)
@@ -43,7 +48,7 @@ export default function FileUpload({ onSuccess, onCancel }: FileUploadProps) {
 
   const validateFile = (file: File): string | null => {
     if (!ACCEPTED_TYPES.includes(file.type)) {
-      return 'არასწორი ფაილის ტიპი. მხარდაჭერილია: DOCX, TXT'
+      return 'არასწორი ფაილის ტიპი. მხარდაჭერილია: DOCX, DOC, PDF, RTF, ODT, TXT'
     }
     if (file.size > 10 * 1024 * 1024) {
       return 'ფაილი ძალიან დიდია. მაქსიმუმ 10MB'
@@ -145,7 +150,7 @@ export default function FileUpload({ onSuccess, onCancel }: FileUploadProps) {
             </button>
           </p>
           <p className="text-sm text-gray-500">
-            DOCX, TXT (მაქს. 10MB)
+            DOCX, DOC, PDF, RTF, ODT, TXT (მაქს. 10MB)
           </p>
           <input
             ref={inputRef}
