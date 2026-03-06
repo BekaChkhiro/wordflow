@@ -29,7 +29,12 @@ export const r2Client = isR2Configured
   : null
 
 const BUCKET_NAME = process.env.R2_BUCKET_NAME!
-const LOCAL_STORAGE_DIR = path.join(process.cwd(), 'uploads')
+
+// Use /tmp in serverless environments (Vercel), otherwise use project directory
+const isServerless = process.env.VERCEL || process.env.AWS_LAMBDA_FUNCTION_NAME
+const LOCAL_STORAGE_DIR = isServerless
+  ? '/tmp/uploads'
+  : path.join(process.cwd(), 'uploads')
 
 /**
  * Ensure local storage directory exists
