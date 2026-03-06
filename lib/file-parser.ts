@@ -34,8 +34,35 @@ export async function parseFileContent(
 async function parseDocx(buffer: Buffer): Promise<string> {
   // eslint-disable-next-line @typescript-eslint/no-require-imports
   const mammoth = require('mammoth')
-  const result = await mammoth.extractRawText({ buffer })
-  return result.value.trim()
+
+  // Use convertToHtml to preserve paragraph structure
+  const result = await mammoth.convertToHtml({ buffer })
+  const html = result.value
+
+  // Convert HTML to plain text with proper spacing
+  let text = html
+    // Replace paragraph and heading tags with double newlines
+    .replace(/<\/p>/gi, '\n\n')
+    .replace(/<\/h[1-6]>/gi, '\n\n')
+    // Replace line breaks with single newline
+    .replace(/<br\s*\/?>/gi, '\n')
+    // Replace list items with newline and bullet
+    .replace(/<li>/gi, '\n• ')
+    .replace(/<\/li>/gi, '')
+    // Remove all other HTML tags
+    .replace(/<[^>]+>/g, '')
+    // Decode HTML entities
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    // Clean up excessive newlines (more than 2)
+    .replace(/\n{3,}/g, '\n\n')
+    .trim()
+
+  return text
 }
 
 /**
