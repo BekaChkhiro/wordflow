@@ -55,11 +55,14 @@ export async function POST(request: NextRequest) {
     // Parse text content from file
     let textContent: string
     try {
+      console.log('Parsing file:', file.name, 'Type:', file.type, 'Size:', file.size)
       textContent = await parseFileContent(buffer, file.type)
+      console.log('Parse successful, text length:', textContent.length)
     } catch (parseError) {
       console.error('File parsing error:', parseError)
+      const errorMessage = parseError instanceof Error ? parseError.message : 'Unknown error'
       return NextResponse.json(
-        { error: 'Failed to parse file content' },
+        { error: `Failed to parse file: ${errorMessage}` },
         { status: 400 }
       )
     }

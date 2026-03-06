@@ -87,16 +87,46 @@ async function parseDoc(buffer: Buffer): Promise<string> {
  */
 async function parsePdf(buffer: Buffer): Promise<string> {
   // eslint-disable-next-line @typescript-eslint/no-require-imports
-  const pdfParse = require('pdf-parse')
+  const PDFParser = require('pdf2json')
 
-  const data = await pdfParse(buffer)
-  const text = data.text || ''
+  return new Promise((resolve, reject) => {
+    const pdfParser = new PDFParser()
 
-  // Clean up PDF text
-  return text
-    .replace(/\r\n/g, '\n')
-    .replace(/\n{3,}/g, '\n\n')
-    .trim()
+    pdfParser.on('pdfParser_dataError', (errData: { parserError: Error }) => {
+      reject(errData.parserError)
+    })
+
+    pdfParser.on('pdfParser_dataReady', (pdfData: { Pages?: Array<{ Texts?: Array<{ R?: Array<{ T?: string }> }> }> }) => {
+      let text = ''
+
+      if (pdfData.Pages) {
+        for (const page of pdfData.Pages) {
+          if (page.Texts) {
+            for (const textItem of page.Texts) {
+              if (textItem.R) {
+                for (const r of textItem.R) {
+                  if (r.T) {
+                    text += decodeURIComponent(r.T) + ' '
+                  }
+                }
+              }
+            }
+          }
+          text += '\n\n'
+        }
+      }
+
+      // Clean up PDF text
+      resolve(
+        text
+          .replace(/\r\n/g, '\n')
+          .replace(/\n{3,}/g, '\n\n')
+          .trim()
+      )
+    })
+
+    pdfParser.parseBuffer(buffer)
+  })
 }
 
 /**
