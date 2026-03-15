@@ -165,6 +165,13 @@ model FileWord {
   wrongCount    Int       @default(0)
   lastPracticed DateTime?
 
+  // ახალი ველები Expression Builder და Context Mode-სთვის
+  expressionPattern String?   @db.Text   // "blow one's ___", "keep an ___ on"
+  exampleSentence   String?   @db.Text   // სრული წინადადება მაგალითით
+  definition        String?   @db.Text   // ინგლისური განმარტება
+  synonyms          String?              // სინონიმები (comma-separated)
+  category          String?              // კატეგორია: mind_expression, eye_expression, phrasal_verb
+
   file          UserFile  @relation(fields: [fileId], references: [id], onDelete: Cascade)
   mistakes      FileWordMistake[]
 

@@ -11,6 +11,8 @@ import {
   Link2,
   Keyboard,
   ArrowLeft,
+  Puzzle,
+  MessageSquareText,
 } from 'lucide-react'
 
 interface LearnPageProps {
@@ -59,6 +61,20 @@ const learningModes = [
     description: 'დაწერე სიტყვა კლავიატურით',
     icon: Keyboard,
     color: 'bg-teal-500',
+  },
+  {
+    id: 'expression-builder',
+    name: 'გამოთქმები',
+    description: 'შეავსე იდიომები და ფრაზები',
+    icon: Puzzle,
+    color: 'bg-indigo-500',
+  },
+  {
+    id: 'context-mode',
+    name: 'კონტექსტი',
+    description: 'გამოიცანი სიტყვა წინადადებიდან',
+    icon: MessageSquareText,
+    color: 'bg-amber-500',
   },
 ]
 

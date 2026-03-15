@@ -1,11 +1,13 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useCallback } from 'react'
+import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import { ArrowLeft, BookOpen } from 'lucide-react'
 import TextContent from './TextContent'
 import WordsSidebar from './WordsSidebar'
 import AddWordModal from './AddWordModal'
+import { ExtractVocabularyButton } from './ExtractVocabularyButton'
 
 interface Word {
   id: string
@@ -28,6 +30,7 @@ interface FileViewerProps {
 }
 
 export default function FileViewer({ file }: FileViewerProps) {
+  const router = useRouter()
   const [words, setWords] = useState<Word[]>(file.words)
   const [selectedText, setSelectedText] = useState<{
     text: string
@@ -47,6 +50,21 @@ export default function FileViewer({ file }: FileViewerProps) {
     setWords((prev) => prev.filter((w) => w.id !== wordId))
   }
 
+  // Fetch and update words when bulk extraction is done
+  const handleWordsExtracted = useCallback(async () => {
+    try {
+      const response = await fetch(`/api/files/${file.id}`)
+      if (response.ok) {
+        const data = await response.json()
+        setWords(data.file?.words || [])
+      }
+    } catch (error) {
+      console.error('Failed to refresh words:', error)
+      // Fallback to page refresh
+      router.refresh()
+    }
+  }, [file.id, router])
+
   const learnedWords = words.filter((w) => w.learned).map((w) => w.english)
   const savedWords = words.filter((w) => !w.learned).map((w) => w.english)
 
@@ -65,15 +83,24 @@ export default function FileViewer({ file }: FileViewerProps) {
             {file.name}
           </h1>
         </div>
-        {words.length > 0 && (
-          <Link
-            href={`/files/${file.id}/learn`}
-            className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
-          >
-            <BookOpen size={18} />
-            სწავლა ({words.length} სიტყვა)
-          </Link>
-        )}
+        <div className="flex items-center gap-3">
+          {/* Extract Vocabulary Button */}
+          <ExtractVocabularyButton
+            fileId={file.id}
+            onWordsAdded={handleWordsExtracted}
+          />
+
+          {/* Learn Button */}
+          {words.length > 0 && (
+            <Link
+              href={`/files/${file.id}/learn`}
+              className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+            >
+              <BookOpen size={18} />
+              სწავლა ({words.length} სიტყვა)
+            </Link>
+          )}
+        </div>
       </div>
 
       {/* Content */}
