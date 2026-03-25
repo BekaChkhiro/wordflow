@@ -35,6 +35,8 @@ export default async function FileTypingPage({ params }: TypingPageProps) {
           id: true,
           english: true,
           georgian: true,
+          learned: true,
+          correctCount: true,
         },
       },
     },

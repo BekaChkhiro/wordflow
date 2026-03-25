@@ -11,6 +11,8 @@ interface FileWord {
   id: string
   english: string
   georgian: string
+  learned: boolean
+  correctCount: number
 }
 
 interface FileFillBlankContainerProps {
@@ -27,6 +29,12 @@ function shuffleArray<T>(array: T[]): T[] {
   return shuffled
 }
 
+function prioritizeWords<T extends { learned: boolean }>(words: T[], limit: number): T[] {
+  const unlearned = shuffleArray(words.filter((w) => !w.learned))
+  const learned = shuffleArray(words.filter((w) => w.learned))
+  return [...unlearned, ...learned].slice(0, Math.min(limit, words.length))
+}
+
 interface Question {
   word: FileWord
   sentence: string
@@ -37,6 +45,7 @@ interface Question {
 export default function FileFillBlankContainer({ words, fileId }: FileFillBlankContainerProps) {
   const router = useRouter()
   const { speak } = useSpeech()
+  const [restartKey, setRestartKey] = useState(0)
 
   // Filter words with multiple words in english for fill-blank
   const eligibleWords = useMemo(() => {
@@ -47,8 +56,7 @@ export default function FileFillBlankContainer({ words, fileId }: FileFillBlankC
     const questionsData: Question[] = []
     const wordsToUse = eligibleWords.length >= 3 ? eligibleWords : words
 
-    shuffleArray(wordsToUse)
-      .slice(0, Math.min(10, wordsToUse.length))
+    prioritizeWords(wordsToUse, 10)
       .forEach((word) => {
         const wordParts = word.english.split(' ')
         if (wordParts.length >= 2) {
@@ -85,7 +93,8 @@ export default function FileFillBlankContainer({ words, fileId }: FileFillBlankC
       })
 
     return questionsData
-  }, [words, eligibleWords])
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [words, eligibleWords, restartKey])
 
   const [currentIndex, setCurrentIndex] = useState(0)
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null)
@@ -150,6 +159,7 @@ export default function FileFillBlankContainer({ words, fileId }: FileFillBlankC
     setWrongCount(0)
     setXpEarned(0)
     setIsComplete(false)
+    setRestartKey((prev) => prev + 1)
   }
 
   if (questions.length === 0) {

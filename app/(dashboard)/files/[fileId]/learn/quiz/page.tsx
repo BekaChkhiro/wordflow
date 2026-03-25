@@ -35,6 +35,8 @@ export default async function FileQuizPage({ params }: QuizPageProps) {
           id: true,
           english: true,
           georgian: true,
+          learned: true,
+          correctCount: true,
         },
       },
     },

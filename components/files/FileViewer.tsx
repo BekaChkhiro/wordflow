@@ -1,9 +1,9 @@
 'use client'
 
-import { useState, useCallback } from 'react'
+import { useState, useCallback, useEffect, useRef } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
-import { ArrowLeft, BookOpen, PenLine, Save, X, Loader2 } from 'lucide-react'
+import { ArrowLeft, BookOpen, PenLine, Save, X, Loader2, Check, Cloud } from 'lucide-react'
 import TextContent from './TextContent'
 import WordsSidebar from './WordsSidebar'
 import AddWordModal from './AddWordModal'
@@ -46,47 +46,85 @@ export default function FileViewer({ file }: FileViewerProps) {
   const [saving, setSaving] = useState(false)
   const [saveError, setSaveError] = useState<string | null>(null)
 
-  const handleTextSelect = (text: string, context: string) => {
-    setSelectedText({ text, context })
-  }
+  // Auto-save state
+  const [lastSaved, setLastSaved] = useState<Date | null>(null)
+  const [hasUnsavedChanges, setHasUnsavedChanges] = useState(false)
+  const autoSaveTimer = useRef<NodeJS.Timeout | null>(null)
+  const textareaRef = useRef<HTMLTextAreaElement>(null)
 
-  const handleWordAdded = (newWord: Word) => {
-    setWords((prev) => [...prev, newWord])
-    setSelectedText(null)
-  }
-
-  const handleWordDeleted = (wordId: string) => {
-    setWords((prev) => prev.filter((w) => w.id !== wordId))
-  }
-
-  // Fetch and update words when bulk extraction is done
-  const handleWordsExtracted = useCallback(async () => {
-    try {
-      const response = await fetch(`/api/files/${file.id}`)
-      if (response.ok) {
-        const data = await response.json()
-        setWords(data.file?.words || [])
-      }
-    } catch (error) {
-      console.error('Failed to refresh words:', error)
-      router.refresh()
+  // Track unsaved changes
+  useEffect(() => {
+    if (isEditing) {
+      const nameChanged = editName !== currentName
+      const contentChanged = editContent !== currentContent
+      setHasUnsavedChanges(nameChanged || contentChanged)
     }
-  }, [file.id, router])
+  }, [editName, editContent, currentName, currentContent, isEditing])
 
-  const handleStartEdit = () => {
-    setEditName(currentName)
-    setEditContent(currentContent)
-    setIsEditing(true)
-    setSaveError(null)
-  }
-
-  const handleCancelEdit = () => {
-    setIsEditing(false)
-    setSaveError(null)
-  }
-
-  const handleSaveEdit = async () => {
+  // Auto-save with debounce (2 seconds after last change)
+  useEffect(() => {
+    if (!isEditing || !hasUnsavedChanges) return
     if (!editName.trim() || !editContent.trim()) return
+
+    if (autoSaveTimer.current) {
+      clearTimeout(autoSaveTimer.current)
+    }
+
+    autoSaveTimer.current = setTimeout(() => {
+      saveContent(false)
+    }, 2000)
+
+    return () => {
+      if (autoSaveTimer.current) {
+        clearTimeout(autoSaveTimer.current)
+      }
+    }
+  }, [editName, editContent, isEditing, hasUnsavedChanges])
+
+  // Keyboard shortcut: Cmd/Ctrl+S to save
+  useEffect(() => {
+    if (!isEditing) return
+
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if ((e.metaKey || e.ctrlKey) && e.key === 's') {
+        e.preventDefault()
+        if (editName.trim() && editContent.trim()) {
+          saveContent(false)
+        }
+      }
+    }
+
+    window.addEventListener('keydown', handleKeyDown)
+    return () => window.removeEventListener('keydown', handleKeyDown)
+  }, [isEditing, editName, editContent])
+
+  // Warn before leaving with unsaved changes
+  useEffect(() => {
+    if (!isEditing || !hasUnsavedChanges) return
+
+    const handleBeforeUnload = (e: BeforeUnloadEvent) => {
+      e.preventDefault()
+    }
+
+    window.addEventListener('beforeunload', handleBeforeUnload)
+    return () => window.removeEventListener('beforeunload', handleBeforeUnload)
+  }, [isEditing, hasUnsavedChanges])
+
+  // Auto-resize textarea
+  useEffect(() => {
+    const textarea = textareaRef.current
+    if (!textarea || !isEditing) return
+
+    const adjustHeight = () => {
+      textarea.style.height = 'auto'
+      textarea.style.height = `${Math.max(500, textarea.scrollHeight)}px`
+    }
+
+    adjustHeight()
+  }, [editContent, isEditing])
+
+  const saveContent = async (exitEditMode: boolean) => {
+    if (!editName.trim() || !editContent.trim() || saving) return
 
     setSaving(true)
     setSaveError(null)
@@ -109,12 +147,81 @@ export default function FileViewer({ file }: FileViewerProps) {
 
       setCurrentName(data.file.name)
       setCurrentContent(data.file.textContent)
-      setIsEditing(false)
+      setHasUnsavedChanges(false)
+      setLastSaved(new Date())
+
+      if (exitEditMode) {
+        setIsEditing(false)
+      }
     } catch (err) {
       setSaveError(err instanceof Error ? err.message : 'შეცდომა მოხდა')
     } finally {
       setSaving(false)
     }
+  }
+
+  const handleTextSelect = (text: string, context: string) => {
+    setSelectedText({ text, context })
+  }
+
+  const handleWordAdded = (newWord: Word) => {
+    setWords((prev) => [...prev, newWord])
+    setSelectedText(null)
+  }
+
+  const handleWordDeleted = (wordId: string) => {
+    setWords((prev) => prev.filter((w) => w.id !== wordId))
+  }
+
+  const handleWordsExtracted = useCallback(async () => {
+    try {
+      const response = await fetch(`/api/files/${file.id}`)
+      if (response.ok) {
+        const data = await response.json()
+        setWords(data.file?.words || [])
+      }
+    } catch (error) {
+      console.error('Failed to refresh words:', error)
+      router.refresh()
+    }
+  }, [file.id, router])
+
+  const handleStartEdit = () => {
+    setEditName(currentName)
+    setEditContent(currentContent)
+    setIsEditing(true)
+    setHasUnsavedChanges(false)
+    setLastSaved(null)
+    setSaveError(null)
+  }
+
+  const handleCancelEdit = () => {
+    if (hasUnsavedChanges) {
+      if (!confirm('შეუნახავი ცვლილებები დაიკარგება. გინდა გაგრძელება?')) return
+    }
+    if (autoSaveTimer.current) {
+      clearTimeout(autoSaveTimer.current)
+    }
+    setIsEditing(false)
+    setSaveError(null)
+    setHasUnsavedChanges(false)
+  }
+
+  const handleFinishEdit = () => {
+    if (hasUnsavedChanges) {
+      saveContent(true)
+    } else {
+      setIsEditing(false)
+    }
+  }
+
+  const formatLastSaved = () => {
+    if (!lastSaved) return null
+    const seconds = Math.floor((Date.now() - lastSaved.getTime()) / 1000)
+    if (seconds < 5) return 'ახლახანს შეინახა'
+    if (seconds < 60) return `${seconds} წამის წინ`
+    const minutes = Math.floor(seconds / 60)
+    return `${minutes} წუთის წინ`
   }
 
   const learnedWords = words.filter((w) => w.learned).map((w) => w.english)
@@ -127,6 +234,13 @@ export default function FileViewer({ file }: FileViewerProps) {
         <div className="flex items-center gap-4">
           <Link
             href="/files"
+            onClick={(e) => {
+              if (isEditing && hasUnsavedChanges) {
+                if (!confirm('შეუნახავი ცვლილებები დაიკარგება. გინდა გაგრძელება?')) {
+                  e.preventDefault()
+                }
+              }
+            }}
             className="p-2 text-gray-600 hover:bg-gray-100 rounded-lg transition-colors"
           >
             <ArrowLeft size={20} />
@@ -143,6 +257,28 @@ export default function FileViewer({ file }: FileViewerProps) {
               {currentName}
             </h1>
           )}
+
+          {/* Save status indicator */}
+          {isEditing && (
+            <div className="flex items-center gap-1.5 text-sm">
+              {saving ? (
+                <span className="flex items-center gap-1.5 text-blue-500">
+                  <Loader2 size={14} className="animate-spin" />
+                  ინახება...
+                </span>
+              ) : hasUnsavedChanges ? (
+                <span className="flex items-center gap-1.5 text-amber-500">
+                  <span className="w-2 h-2 rounded-full bg-amber-500" />
+                  შეუნახავი
+                </span>
+              ) : lastSaved ? (
+                <span className="flex items-center gap-1.5 text-green-500">
+                  <Check size={14} />
+                  {formatLastSaved()}
+                </span>
+              ) : null}
+            </div>
+          )}
         </div>
         <div className="flex items-center gap-3">
           {isEditing ? (
@@ -150,6 +286,9 @@ export default function FileViewer({ file }: FileViewerProps) {
               {saveError && (
                 <span className="text-sm text-red-500">{saveError}</span>
               )}
+              <span className="text-xs text-gray-400 hidden sm:block">
+                Ctrl+S შენახვა
+              </span>
               <button
                 onClick={handleCancelEdit}
                 disabled={saving}
@@ -159,17 +298,16 @@ export default function FileViewer({ file }: FileViewerProps) {
                 გაუქმება
               </button>
               <button
-                onClick={handleSaveEdit}
+                onClick={handleFinishEdit}
                 disabled={saving || !editName.trim() || !editContent.trim()}
                 className="flex items-center gap-2 px-4 py-2 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700 transition-colors disabled:opacity-50"
               >
-                {saving ? <Loader2 size={18} className="animate-spin" /> : <Save size={18} />}
-                {saving ? 'ინახება...' : 'შენახვა'}
+                {saving ? <Loader2 size={18} className="animate-spin" /> : <Check size={18} />}
+                {saving ? 'ინახება...' : 'დასრულება'}
               </button>
             </>
           ) : (
             <>
-              {/* Edit Button */}
               <button
                 onClick={handleStartEdit}
                 className="flex items-center gap-2 px-4 py-2 text-gray-700 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors"
@@ -178,13 +316,11 @@ export default function FileViewer({ file }: FileViewerProps) {
                 რედაქტირება
               </button>
 
-              {/* Extract Vocabulary Button */}
               <ExtractVocabularyButton
                 fileId={file.id}
                 onWordsAdded={handleWordsExtracted}
               />
 
-              {/* Learn Button */}
               {words.length > 0 && (
                 <Link
                   href={`/files/${file.id}/learn`}
@@ -207,14 +343,34 @@ export default function FileViewer({ file }: FileViewerProps) {
             <div className="max-w-3xl mx-auto">
               <div className="bg-white rounded-lg shadow-sm p-6">
                 <textarea
+                  ref={textareaRef}
                   value={editContent}
                   onChange={(e) => setEditContent(e.target.value)}
-                  className="w-full min-h-[500px] border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 resize-y text-gray-900 leading-relaxed"
+                  onKeyDown={(e) => {
+                    // Tab support
+                    if (e.key === 'Tab') {
+                      e.preventDefault()
+                      const start = e.currentTarget.selectionStart
+                      const end = e.currentTarget.selectionEnd
+                      const newValue = editContent.substring(0, start) + '  ' + editContent.substring(end)
+                      setEditContent(newValue)
+                      requestAnimationFrame(() => {
+                        e.currentTarget.selectionStart = e.currentTarget.selectionEnd = start + 2
+                      })
+                    }
+                  }}
+                  className="w-full min-h-[500px] border-0 focus:outline-none focus:ring-0 resize-none text-gray-900 leading-relaxed text-base"
                   placeholder="ჩაწერე ტექსტი..."
+                  style={{ overflow: 'hidden' }}
                 />
-                <p className="text-sm text-gray-500 mt-2">
-                  {editContent.trim().split(/\s+/).filter(Boolean).length} სიტყვა
-                </p>
+                <div className="flex items-center justify-between pt-3 border-t border-gray-100 mt-3">
+                  <p className="text-sm text-gray-400">
+                    {editContent.trim().split(/\s+/).filter(Boolean).length} სიტყვა
+                  </p>
+                  <p className="text-xs text-gray-400">
+                    ავტომატურად ინახება ცვლილებისას
+                  </p>
+                </div>
               </div>
             </div>
           ) : (

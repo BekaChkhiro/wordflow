@@ -11,6 +11,8 @@ interface FileWord {
   id: string
   english: string
   georgian: string
+  learned: boolean
+  correctCount: number
 }
 
 interface FileOrderingContainerProps {
@@ -27,6 +29,12 @@ function shuffleArray<T>(array: T[]): T[] {
   return shuffled
 }
 
+function prioritizeWords<T extends { learned: boolean }>(words: T[], limit: number): T[] {
+  const unlearned = shuffleArray(words.filter((w) => !w.learned))
+  const learned = shuffleArray(words.filter((w) => w.learned))
+  return [...unlearned, ...learned].slice(0, Math.min(limit, words.length))
+}
+
 interface Question {
   word: FileWord
   correctOrder: string[]
@@ -36,6 +44,7 @@ interface Question {
 export default function FileOrderingContainer({ words, fileId }: FileOrderingContainerProps) {
   const router = useRouter()
   const { speak } = useSpeech()
+  const [restartKey, setRestartKey] = useState(0)
 
   // Filter words with multiple words
   const eligibleWords = useMemo(() => {
@@ -46,8 +55,7 @@ export default function FileOrderingContainer({ words, fileId }: FileOrderingCon
   }, [words])
 
   const questions = useMemo(() => {
-    return shuffleArray(eligibleWords)
-      .slice(0, Math.min(10, eligibleWords.length))
+    return prioritizeWords(eligibleWords, 10)
       .map((word) => {
         const correctOrder = word.english.split(' ')
         return {
@@ -56,7 +64,8 @@ export default function FileOrderingContainer({ words, fileId }: FileOrderingCon
           shuffledWords: shuffleArray([...correctOrder]),
         } as Question
       })
-  }, [eligibleWords])
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [eligibleWords, restartKey])
 
   const [currentIndex, setCurrentIndex] = useState(0)
   const [selectedWords, setSelectedWords] = useState<string[]>([])
@@ -138,6 +147,7 @@ export default function FileOrderingContainer({ words, fileId }: FileOrderingCon
     setWrongCount(0)
     setXpEarned(0)
     setIsComplete(false)
+    setRestartKey((prev) => prev + 1)
   }
 
   if (questions.length === 0) {

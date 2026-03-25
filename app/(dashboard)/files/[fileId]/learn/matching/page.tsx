@@ -35,6 +35,8 @@ export default async function FileMatchingPage({ params }: MatchingPageProps) {
           id: true,
           english: true,
           georgian: true,
+          learned: true,
+          correctCount: true,
         },
       },
     },

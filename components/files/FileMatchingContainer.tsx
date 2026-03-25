@@ -11,6 +11,8 @@ interface FileWord {
   id: string
   english: string
   georgian: string
+  learned: boolean
+  correctCount: number
 }
 
 interface FileMatchingContainerProps {
@@ -27,13 +29,21 @@ function shuffleArray<T>(array: T[]): T[] {
   return shuffled
 }
 
+function prioritizeWords<T extends { learned: boolean }>(words: T[], limit: number): T[] {
+  const unlearned = shuffleArray(words.filter((w) => !w.learned))
+  const learned = shuffleArray(words.filter((w) => w.learned))
+  return [...unlearned, ...learned].slice(0, Math.min(limit, words.length))
+}
+
 export default function FileMatchingContainer({ words, fileId }: FileMatchingContainerProps) {
   const router = useRouter()
   const { speak } = useSpeech()
+  const [restartKey, setRestartKey] = useState(0)
 
   const gameWords = useMemo(() => {
-    return shuffleArray(words).slice(0, Math.min(6, words.length))
-  }, [words])
+    return prioritizeWords(words, 6)
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [words, restartKey])
 
   const [selectedEnglish, setSelectedEnglish] = useState<string | null>(null)
   const [matchedPairs, setMatchedPairs] = useState<string[]>([])
@@ -118,6 +128,7 @@ export default function FileMatchingContainer({ words, fileId }: FileMatchingCon
     setWrongCount(0)
     setXpEarned(0)
     setIsComplete(false)
+    setRestartKey((prev) => prev + 1)
   }
 
   if (isComplete) {

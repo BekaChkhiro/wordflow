@@ -12,12 +12,29 @@ interface FileWord {
   id: string
   english: string
   georgian: string
+  learned: boolean
+  correctCount: number
 }
 
 interface FileFlashcardDeckProps {
   words: FileWord[]
   fileId: string
   fileName: string
+}
+
+function shuffleArray<T>(array: T[]): T[] {
+  const shuffled = [...array]
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
+  }
+  return shuffled
+}
+
+function prioritizeDeck(words: FileWord[]): FileWord[] {
+  const unlearned = shuffleArray(words.filter((w) => !w.learned))
+  const learned = shuffleArray(words.filter((w) => w.learned))
+  return [...unlearned, ...learned]
 }
 
 export default function FileFlashcardDeck({
@@ -28,7 +45,7 @@ export default function FileFlashcardDeck({
   const router = useRouter()
   const { speak } = useSpeech()
 
-  const [deck, setDeck] = useState<FileWord[]>([...initialWords])
+  const [deck, setDeck] = useState<FileWord[]>(() => prioritizeDeck(initialWords))
   const [currentIndex, setCurrentIndex] = useState(0)
 
   const [knownOnFirstTry, setKnownOnFirstTry] = useState<string[]>([])
@@ -116,7 +133,7 @@ export default function FileFlashcardDeck({
   }
 
   const restart = () => {
-    setDeck([...initialWords])
+    setDeck(prioritizeDeck(initialWords))
     setCurrentIndex(0)
     setKnownOnFirstTry([])
     setTotalKnown(0)

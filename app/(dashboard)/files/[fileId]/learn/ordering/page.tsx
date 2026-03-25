@@ -35,6 +35,8 @@ export default async function FileOrderingPage({ params }: OrderingPageProps) {
           id: true,
           english: true,
           georgian: true,
+          learned: true,
+          correctCount: true,
         },
       },
     },

@@ -11,6 +11,8 @@ interface FileWord {
   id: string
   english: string
   georgian: string
+  learned: boolean
+  correctCount: number
 }
 
 interface FileQuizContainerProps {
@@ -33,12 +35,19 @@ function shuffleArray<T>(array: T[]): T[] {
   return shuffled
 }
 
+function prioritizeWords<T extends { learned: boolean }>(words: T[], limit: number): T[] {
+  const unlearned = shuffleArray(words.filter((w) => !w.learned))
+  const learned = shuffleArray(words.filter((w) => w.learned))
+  return [...unlearned, ...learned].slice(0, Math.min(limit, words.length))
+}
+
 export default function FileQuizContainer({ words, fileId }: FileQuizContainerProps) {
   const router = useRouter()
   const { speak } = useSpeech()
+  const [restartKey, setRestartKey] = useState(0)
 
   const questions = useMemo(() => {
-    return shuffleArray(words).slice(0, Math.min(10, words.length)).map((word) => {
+    return prioritizeWords(words, 10).map((word) => {
       const wrongAnswers = shuffleArray(
         words.filter((w) => w.id !== word.id).map((w) => w.english)
       ).slice(0, 3)
@@ -51,7 +60,8 @@ export default function FileQuizContainer({ words, fileId }: FileQuizContainerPr
         correctAnswer: word.english,
       } as QuizQuestion
     })
-  }, [words])
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [words, restartKey])
 
   const [currentIndex, setCurrentIndex] = useState(0)
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null)
@@ -116,6 +126,7 @@ export default function FileQuizContainer({ words, fileId }: FileQuizContainerPr
     setWrongCount(0)
     setXpEarned(0)
     setIsComplete(false)
+    setRestartKey((prev) => prev + 1)
   }
 
   if (isComplete) {

@@ -11,6 +11,8 @@ interface FileWord {
   id: string
   english: string
   georgian: string
+  learned: boolean
+  correctCount: number
 }
 
 interface FileTypingContainerProps {
@@ -27,13 +29,21 @@ function shuffleArray<T>(array: T[]): T[] {
   return shuffled
 }
 
+function prioritizeWords<T extends { learned: boolean }>(words: T[], limit: number): T[] {
+  const unlearned = shuffleArray(words.filter((w) => !w.learned))
+  const learned = shuffleArray(words.filter((w) => w.learned))
+  return [...unlearned, ...learned].slice(0, Math.min(limit, words.length))
+}
+
 export default function FileTypingContainer({ words, fileId }: FileTypingContainerProps) {
   const router = useRouter()
   const { speak } = useSpeech()
+  const [restartKey, setRestartKey] = useState(0)
 
   const questions = useMemo(() => {
-    return shuffleArray(words).slice(0, Math.min(10, words.length))
-  }, [words])
+    return prioritizeWords(words, 10)
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [words, restartKey])
 
   const [currentIndex, setCurrentIndex] = useState(0)
   const [userInput, setUserInput] = useState('')
@@ -97,6 +107,7 @@ export default function FileTypingContainer({ words, fileId }: FileTypingContain
     setWrongCount(0)
     setXpEarned(0)
     setIsComplete(false)
+    setRestartKey((prev) => prev + 1)
   }
 
   if (isComplete) {
