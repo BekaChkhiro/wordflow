@@ -3,7 +3,7 @@
 import { useState, useCallback } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
-import { ArrowLeft, BookOpen } from 'lucide-react'
+import { ArrowLeft, BookOpen, PenLine, Save, X, Loader2 } from 'lucide-react'
 import TextContent from './TextContent'
 import WordsSidebar from './WordsSidebar'
 import AddWordModal from './AddWordModal'
@@ -37,6 +37,15 @@ export default function FileViewer({ file }: FileViewerProps) {
     context: string
   } | null>(null)
 
+  // Edit mode state
+  const [isEditing, setIsEditing] = useState(false)
+  const [editName, setEditName] = useState(file.name)
+  const [editContent, setEditContent] = useState(file.textContent)
+  const [currentName, setCurrentName] = useState(file.name)
+  const [currentContent, setCurrentContent] = useState(file.textContent)
+  const [saving, setSaving] = useState(false)
+  const [saveError, setSaveError] = useState<string | null>(null)
+
   const handleTextSelect = (text: string, context: string) => {
     setSelectedText({ text, context })
   }
@@ -60,10 +69,53 @@ export default function FileViewer({ file }: FileViewerProps) {
       }
     } catch (error) {
       console.error('Failed to refresh words:', error)
-      // Fallback to page refresh
       router.refresh()
     }
   }, [file.id, router])
+
+  const handleStartEdit = () => {
+    setEditName(currentName)
+    setEditContent(currentContent)
+    setIsEditing(true)
+    setSaveError(null)
+  }
+
+  const handleCancelEdit = () => {
+    setIsEditing(false)
+    setSaveError(null)
+  }
+
+  const handleSaveEdit = async () => {
+    if (!editName.trim() || !editContent.trim()) return
+
+    setSaving(true)
+    setSaveError(null)
+
+    try {
+      const res = await fetch(`/api/files/${file.id}`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: editName.trim(),
+          textContent: editContent.trim(),
+        }),
+      })
+
+      const data = await res.json()
+
+      if (!res.ok) {
+        throw new Error(data.error || 'შენახვა ვერ მოხერხდა')
+      }
+
+      setCurrentName(data.file.name)
+      setCurrentContent(data.file.textContent)
+      setIsEditing(false)
+    } catch (err) {
+      setSaveError(err instanceof Error ? err.message : 'შეცდომა მოხდა')
+    } finally {
+      setSaving(false)
+    }
+  }
 
   const learnedWords = words.filter((w) => w.learned).map((w) => w.english)
   const savedWords = words.filter((w) => !w.learned).map((w) => w.english)
@@ -79,26 +131,70 @@ export default function FileViewer({ file }: FileViewerProps) {
           >
             <ArrowLeft size={20} />
           </Link>
-          <h1 className="text-lg font-semibold text-gray-900 truncate max-w-md">
-            {file.name}
-          </h1>
+          {isEditing ? (
+            <input
+              type="text"
+              value={editName}
+              onChange={(e) => setEditName(e.target.value)}
+              className="text-lg font-semibold text-gray-900 border border-gray-300 rounded-lg px-3 py-1 focus:outline-none focus:ring-2 focus:ring-blue-500 max-w-md"
+            />
+          ) : (
+            <h1 className="text-lg font-semibold text-gray-900 truncate max-w-md">
+              {currentName}
+            </h1>
+          )}
         </div>
         <div className="flex items-center gap-3">
-          {/* Extract Vocabulary Button */}
-          <ExtractVocabularyButton
-            fileId={file.id}
-            onWordsAdded={handleWordsExtracted}
-          />
+          {isEditing ? (
+            <>
+              {saveError && (
+                <span className="text-sm text-red-500">{saveError}</span>
+              )}
+              <button
+                onClick={handleCancelEdit}
+                disabled={saving}
+                className="flex items-center gap-2 px-4 py-2 text-gray-600 hover:bg-gray-100 rounded-lg transition-colors disabled:opacity-50"
+              >
+                <X size={18} />
+                გაუქმება
+              </button>
+              <button
+                onClick={handleSaveEdit}
+                disabled={saving || !editName.trim() || !editContent.trim()}
+                className="flex items-center gap-2 px-4 py-2 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700 transition-colors disabled:opacity-50"
+              >
+                {saving ? <Loader2 size={18} className="animate-spin" /> : <Save size={18} />}
+                {saving ? 'ინახება...' : 'შენახვა'}
+              </button>
+            </>
+          ) : (
+            <>
+              {/* Edit Button */}
+              <button
+                onClick={handleStartEdit}
+                className="flex items-center gap-2 px-4 py-2 text-gray-700 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors"
+              >
+                <PenLine size={18} />
+                რედაქტირება
+              </button>
 
-          {/* Learn Button */}
-          {words.length > 0 && (
-            <Link
-              href={`/files/${file.id}/learn`}
-              className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
-            >
-              <BookOpen size={18} />
-              სწავლა ({words.length} სიტყვა)
-            </Link>
+              {/* Extract Vocabulary Button */}
+              <ExtractVocabularyButton
+                fileId={file.id}
+                onWordsAdded={handleWordsExtracted}
+              />
+
+              {/* Learn Button */}
+              {words.length > 0 && (
+                <Link
+                  href={`/files/${file.id}/learn`}
+                  className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+                >
+                  <BookOpen size={18} />
+                  სწავლა ({words.length} სიტყვა)
+                </Link>
+              )}
+            </>
           )}
         </div>
       </div>
@@ -107,12 +203,28 @@ export default function FileViewer({ file }: FileViewerProps) {
       <div className="flex-1 flex overflow-hidden">
         {/* Text Content - Left Side */}
         <div className="flex-1 overflow-auto p-6 bg-gray-50">
-          <TextContent
-            text={file.textContent}
-            learnedWords={learnedWords}
-            savedWords={savedWords}
-            onTextSelect={handleTextSelect}
-          />
+          {isEditing ? (
+            <div className="max-w-3xl mx-auto">
+              <div className="bg-white rounded-lg shadow-sm p-6">
+                <textarea
+                  value={editContent}
+                  onChange={(e) => setEditContent(e.target.value)}
+                  className="w-full min-h-[500px] border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 resize-y text-gray-900 leading-relaxed"
+                  placeholder="ჩაწერე ტექსტი..."
+                />
+                <p className="text-sm text-gray-500 mt-2">
+                  {editContent.trim().split(/\s+/).filter(Boolean).length} სიტყვა
+                </p>
+              </div>
+            </div>
+          ) : (
+            <TextContent
+              text={currentContent}
+              learnedWords={learnedWords}
+              savedWords={savedWords}
+              onTextSelect={handleTextSelect}
+            />
+          )}
         </div>
 
         {/* Words Sidebar - Right Side */}

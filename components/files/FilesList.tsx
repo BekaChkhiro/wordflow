@@ -2,8 +2,9 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-import { FileText, Trash2, BookOpen, Upload, File } from 'lucide-react'
+import { FileText, Trash2, BookOpen, Upload, File, PenLine } from 'lucide-react'
 import FileUpload from './FileUpload'
+import TextEditor from './TextEditor'
 
 interface FileItem {
   id: string
@@ -23,11 +24,17 @@ interface FilesListProps {
 export default function FilesList({ initialFiles }: FilesListProps) {
   const [files, setFiles] = useState<FileItem[]>(initialFiles)
   const [showUpload, setShowUpload] = useState(false)
+  const [showEditor, setShowEditor] = useState(false)
   const [deleting, setDeleting] = useState<string | null>(null)
 
   const handleUploadSuccess = (newFile: FileItem) => {
     setFiles((prev) => [newFile, ...prev])
     setShowUpload(false)
+  }
+
+  const handleEditorSuccess = (newFile: FileItem) => {
+    setFiles((prev) => [newFile, ...prev])
+    setShowEditor(false)
   }
 
   const handleDelete = async (fileId: string) => {
@@ -60,19 +67,27 @@ export default function FilesList({ initialFiles }: FilesListProps) {
   const getFileIcon = (mimeType: string) => {
     if (mimeType === 'application/pdf') return '📄'
     if (mimeType.includes('wordprocessingml')) return '📝'
+    if (mimeType === 'text/plain') return '✏️'
     return '📃'
   }
 
   return (
     <div>
-      {/* Upload Button */}
-      <div className="mb-6">
+      {/* Action Buttons */}
+      <div className="mb-6 flex gap-3">
         <button
-          onClick={() => setShowUpload(!showUpload)}
+          onClick={() => { setShowUpload(!showUpload); setShowEditor(false) }}
           className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
         >
           <Upload size={20} />
           ფაილის ატვირთვა
+        </button>
+        <button
+          onClick={() => { setShowEditor(!showEditor); setShowUpload(false) }}
+          className="flex items-center gap-2 px-4 py-2 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700 transition-colors"
+        >
+          <PenLine size={20} />
+          ახალი დოკუმენტი
         </button>
       </div>
 
@@ -86,6 +101,16 @@ export default function FilesList({ initialFiles }: FilesListProps) {
         </div>
       )}
 
+      {/* Text Editor Component */}
+      {showEditor && (
+        <div className="mb-6">
+          <TextEditor
+            onSuccess={handleEditorSuccess}
+            onCancel={() => setShowEditor(false)}
+          />
+        </div>
+      )}
+
       {/* Files Grid */}
       {files.length === 0 ? (
         <div className="text-center py-12 bg-gray-50 rounded-lg">
@@ -94,14 +119,22 @@ export default function FilesList({ initialFiles }: FilesListProps) {
             ჯერ არ გაქვს ატვირთული ფაილი
           </h3>
           <p className="text-gray-600 mb-4">
-            ატვირთე PDF, Word ან TXT ფაილი სწავლის დასაწყებად
+            ატვირთე ფაილი ან შექმენი ახალი დოკუმენტი სწავლის დასაწყებად
           </p>
-          <button
-            onClick={() => setShowUpload(true)}
-            className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
-          >
-            ფაილის ატვირთვა
-          </button>
+          <div className="flex gap-3 justify-center">
+            <button
+              onClick={() => setShowUpload(true)}
+              className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+            >
+              ფაილის ატვირთვა
+            </button>
+            <button
+              onClick={() => setShowEditor(true)}
+              className="px-4 py-2 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700"
+            >
+              ახალი დოკუმენტი
+            </button>
+          </div>
         </div>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
